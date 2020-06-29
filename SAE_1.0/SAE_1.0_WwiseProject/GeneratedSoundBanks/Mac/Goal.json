@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Francis Steffens\\SAE_1.0\\SAE_1.0_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Francis Steffens\\SAE_1.0\\SAE_1.0_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\Francis Steffens\\SAE_1.0\\SAE_1.0_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Francis Steffens\\SAE_1.0\\SAE_1.0_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "567967104",
+    "GUID": "{A63A66B7-5980-444A-970B-4BFD0307903F}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Goal",
+    "ShortName": "Goal",
+    "Path": "Goal.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1492940047",
+      "Name": "Play_Beispiel_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Beispiel_1",
+      "GUID": "{2CBDFE90-F144-4348-BD31-9A919EF8AA18}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.207687",
+      "DurationMax": "9.207687",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "311357397",
+        "Language": "SFX",
+        "ShortName": "Beispiel 1.wav",
+        "Path": "SFX\\Beispiel 1_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

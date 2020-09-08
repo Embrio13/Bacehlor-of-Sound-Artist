@@ -1,3 +1,0 @@
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	311357397	Beispiel 1	D:\Francis Steffens\SAE_1.0\SAE_1.0_WwiseProject\.cache\Mac\SFX\Beispiel 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Beispiel 1		1624300
-

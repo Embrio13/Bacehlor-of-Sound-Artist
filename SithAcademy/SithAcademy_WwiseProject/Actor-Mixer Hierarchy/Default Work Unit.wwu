@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7BC6641D-860F-4F61-BB5C-5D4E28EF652B}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{7BC6641D-860F-4F61-BB5C-5D4E28EF652B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7BC6641D-860F-4F61-BB5C-5D4E28EF652B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SONAR" ID="{4F849AB7-4F74-4728-95FC-2A53C30C5110}" ShortID="22664395">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C548C30-4CA8-4C6F-8DFD-E9AF809384D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{041A6C6A-0CB4-4A4F-93CC-38603E3B8D22}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="2_Steel Drum" ID="{B2558241-30A7-4896-9CAB-3D471286CBBA}">
+							<Language>SFX</Language>
+							<AudioFile>2.Steel Drum.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="7969268"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="2_Steel Drum" ID="{B2558241-30A7-4896-9CAB-3D471286CBBA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

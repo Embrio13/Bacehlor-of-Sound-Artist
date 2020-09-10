@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5CCFC78B-0D1C-4EAB-80E6-2AD3B7D37C95}" SchemaVersion="97">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{5CCFC78B-0D1C-4EAB-80E6-2AD3B7D37C95}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5CCFC78B-0D1C-4EAB-80E6-2AD3B7D37C95}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_SONAR" ID="{80ECCE11-1D80-4D78-95D5-B7D280442558}">
+					<ChildrenList>
+						<Action Name="" ID="{1FDD3072-ED6B-44EE-AA26-630DD4B9233F}" ShortID="239020237">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SONAR" ID="{4F849AB7-4F74-4728-95FC-2A53C30C5110}" WorkUnitID="{7BC6641D-860F-4F61-BB5C-5D4E28EF652B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

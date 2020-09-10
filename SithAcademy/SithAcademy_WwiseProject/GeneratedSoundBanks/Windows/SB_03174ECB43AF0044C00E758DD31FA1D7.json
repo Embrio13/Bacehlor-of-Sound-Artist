@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1596515565",
+    "GUID": "{5F28E4ED-E4ED-14ED-EDED-EDEDEDEDEDED}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_03174ECB43AF0044C00E758DD31FA1D7",
+    "ShortName": "SB_03174ECB43AF0044C00E758DD31FA1D7",
+    "Path": "SB_03174ECB43AF0044C00E758DD31FA1D7.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3376092819",
+      "Name": "Play_SONAR",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SONAR",
+      "GUID": "{80ECCE11-1D80-4D78-95D5-B7D280442558}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.603333",
+      "DurationMax": "1.603333",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "7969268",
+        "Language": "SFX",
+        "ShortName": "2.Steel Drum.wav",
+        "Path": "SFX\\2.Steel Drum_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -9,6 +9,36 @@
 							<ObjectRef Name="System" ID="{4D52DEF0-823B-488F-AA4A-A6BC029F4D8F}" WorkUnitID="{1437B473-9CD3-4458-AF05-65E301642182}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Reflect" ID="{5BFD7D6F-BF78-434D-A676-23B9454D1BD9}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>16641</Value>
+									</ValueList>
+								</Property>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Ermiter" ID="{C661C18E-0C7C-4785-B0B9-286471FAD918}" WorkUnitID="{6F6480C2-8BDD-44E3-861B-0EDEBD8E81C0}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">
+									<ObjectRef Name="Wwise_Reflect" ID="{37779A87-4754-4420-8175-3236FA46AA12}" WorkUnitID="{923039AD-F8B4-46D4-BDA7-CB5A6EE595E0}"/>
+								</Reference>
+								<Reference Name="ReflectionsAuxSend">
+									<ObjectRef Name="Zusatzbus_Reflect" ID="{86AB27F7-04BD-4D2F-B9D4-1EDB676A3180}" WorkUnitID="{041A6C6A-0CB4-4A4F-93CC-38603E3B8D22}"/>
+								</Reference>
+							</ReferenceList>
+							<PositioningInfo>
+								<Panner Name="" ID="{82F0AAEE-A8BC-4321-8C4F-CFB146DCBC67}"/>
+							</PositioningInfo>
+						</AuxBus>
+						<AuxBus Name="Zusatzbus_Reflect" ID="{86AB27F7-04BD-4D2F-B9D4-1EDB676A3180}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

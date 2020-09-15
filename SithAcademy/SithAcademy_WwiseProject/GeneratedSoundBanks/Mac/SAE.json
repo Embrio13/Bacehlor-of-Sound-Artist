@@ -13,12 +13,30 @@
   },
   "SoundBanks": [
    {
-    "Id": "1355168291",
-    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Id": "443572634",
+    "GUID": "{9EB0D998-A260-4668-BF50-78F1EDA25E7A}",
     "Language": "SFX",
-    "ObjectPath": "Init",
-    "ShortName": "Init",
-    "Path": "Init.bnk"
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SAE",
+    "ShortName": "SAE",
+    "Path": "SAE.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1769415228",
+      "Name": "Hi",
+      "ObjectPath": "\\Events\\Default Work Unit\\Hi",
+      "GUID": "{BB342745-6959-40F9-B5D2-8C52D80E5CC8}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "480976712",
+        "Language": "SFX",
+        "ShortName": "1.Ep Facepla.wav",
+        "Path": "SFX\\1.Ep Facepla_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
    }
   ]
  }

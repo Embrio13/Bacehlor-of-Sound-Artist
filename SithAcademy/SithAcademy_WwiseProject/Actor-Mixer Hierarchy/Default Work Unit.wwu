@@ -1,59 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{7BC6641D-860F-4F61-BB5C-5D4E28EF652B}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{1D73B0B7-2F83-4B90-8C45-F916AF86767C}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{7BC6641D-860F-4F61-BB5C-5D4E28EF652B}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{1D73B0B7-2F83-4B90-8C45-F916AF86767C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="1_Ep Facepla" ID="{30A42303-68B3-4643-AD12-0D095B9B7BC2}" ShortID="735154535">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Ermiter" ID="{C661C18E-0C7C-4785-B0B9-286471FAD918}" WorkUnitID="{6F6480C2-8BDD-44E3-861B-0EDEBD8E81C0}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C548C30-4CA8-4C6F-8DFD-E9AF809384D5}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{041A6C6A-0CB4-4A4F-93CC-38603E3B8D22}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="1_Ep Facepla" ID="{794EB6CB-01A4-4171-B7FC-A5075C32FEAA}">
-							<Language>SFX</Language>
-							<AudioFile>1.Ep Facepla.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="480976712"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="1_Ep Facepla" ID="{794EB6CB-01A4-4171-B7FC-A5075C32FEAA}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="5_ House Bass" ID="{857F1D55-5EC0-4CF1-B67C-095579245869}" ShortID="142212201">
+				<Sound Name="Gnome Party 1- C3" ID="{3E2983C9-1A84-4A1C-9A18-D63E4FED2D60}" ShortID="687544366">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8C548C30-4CA8-4C6F-8DFD-E9AF809384D5}"/>
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{041A6C6A-0CB4-4A4F-93CC-38603E3B8D22}"/>
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="5_ House Bass" ID="{60906A62-5630-4867-A851-3D2B4393180F}">
+						<AudioFileSource Name="Gnome Party 1- C3" ID="{1241B5DA-7DD3-424F-8918-68B10385AD3C}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="17.7079931863584"/>
+								<Property Name="LoopBegin" Type="Real64" Value="15.0642646261416"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
-							<AudioFile>5. House Bass.wav</AudioFile>
+							<AudioFile>Gnome Party 1- C3.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="646767597"/>
+								<MediaID ID="536019323"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="5_ House Bass" ID="{60906A62-5630-4867-A851-3D2B4393180F}" Platform="Linked"/>
+						<ActiveSource Name="Gnome Party 1- C3" ID="{1241B5DA-7DD3-424F-8918-68B10385AD3C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

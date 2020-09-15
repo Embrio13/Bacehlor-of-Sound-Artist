@@ -33,6 +33,7 @@
 						<ActiveSource Name="Gnome Party 1- C3" ID="{1241B5DA-7DD3-424F-8918-68B10385AD3C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<WorkUnit Name="Enviroment" ID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

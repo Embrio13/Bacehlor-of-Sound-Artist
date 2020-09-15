@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}" SchemaVersion="97" RootDocumentID="{1D73B0B7-2F83-4B90-8C45-F916AF86767C}">
+	<AudioObjects>
+		<WorkUnit Name="Enviroment" ID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}" OwnerID="{1D73B0B7-2F83-4B90-8C45-F916AF86767C}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915" ID="{716737A3-DF31-4424-8579-864E4970C8EC}" ShortID="616008776">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-17</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ATT_Env_Miiddle" ID="{41BDA241-AD77-440F-8374-D51AF14E449D}" WorkUnitID="{C1B5EEE0-2D34-47DA-8190-5F70573C8787}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915" ID="{D4AAB2A4-2280-4EE4-BC0F-844B3D07B662}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="1.43561643835616"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.7227397260274"/>
+								<Property Name="LoopBegin" Type="Real64" Value="1.29205479452055"/>
+								<Property Name="LoopEnd" Type="Real64" Value="82.5479452054795"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="325209315"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{58B350A2-38B2-4253-8BE5-8BA0C8D3F1E1}"/>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915" ID="{D4AAB2A4-2280-4EE4-BC0F-844B3D07B662}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SCHOOL-STAIRWELL_6EXT8-11179" ID="{DA3A1940-1A63-4966-B4D8-20F3A8F36BD9}" ShortID="674594848">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>31</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-28</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ATT_Env_Miiddle" ID="{41BDA241-AD77-440F-8374-D51AF14E449D}" WorkUnitID="{C1B5EEE0-2D34-47DA-8190-5F70573C8787}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SCHOOL-STAIRWELL_6EXT8-11179" ID="{D9219D5A-08D5-4B81-ACE1-EB73822C62C9}">
+							<Language>SFX</Language>
+							<AudioFile>SCHOOL-STAIRWELL_6EXT8-11179.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="79291524"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SCHOOL-STAIRWELL_6EXT8-11179" ID="{D9219D5A-08D5-4B81-ACE1-EB73822C62C9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

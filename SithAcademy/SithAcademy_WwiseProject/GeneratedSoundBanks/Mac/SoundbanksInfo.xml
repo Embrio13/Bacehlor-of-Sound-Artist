@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank>
+		<File Id="536019323" Language="SFX">
+			<ShortName>Gnome Party 1- C3.wav</ShortName>
+			<Path>SFX\Gnome Party 1- C3_DEA84EA4.wem</Path>
+		</File>
+	</MediaFilesNotInAnyBank>
+	<SoundBanks>
+		<SoundBank Id="789280062" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Enviroment</ObjectPath>
+			<ShortName>SB_Enviroment</ShortName>
+			<Path>SB_Enviroment.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4192933464" Name="SFX_Env_Edit_Area_Play" ObjectPath="\Events\Default Work Unit\Enviroment\Edit Area\SFX_Env_Edit_Area_Play">
+					<IncludedMemoryFiles>
+						<File Id="325209315" Language="SFX">
+							<ShortName>GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915.wav</ShortName>
+							<Path>SFX\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915_8DE5D12C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3066262391" Name="SFX_Env_Edit_Area_Steps" ObjectPath="\Events\Default Work Unit\Enviroment\Edit Area\SFX_Env_Edit_Area_Steps">
+					<IncludedMemoryFiles>
+						<File Id="79291524" Language="SFX">
+							<ShortName>SCHOOL-STAIRWELL_6EXT8-11179.wav</ShortName>
+							<Path>SFX\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2270413482" Name="SFX_Env_Edit_Area_Stop" ObjectPath="\Events\Default Work Unit\Enviroment\Edit Area\SFX_Env_Edit_Area_Stop"/>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1303194618" Language="SFX">
+			<ObjectPath>SB_CC464CBB46CEBB1A07324B95CD742CF7</ObjectPath>
+			<ShortName>SB_CC464CBB46CEBB1A07324B95CD742CF7</ShortName>
+			<Path>SB_CC464CBB46CEBB1A07324B95CD742CF7.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4192933464" Name="SFX_Env_Edit_Area_Play" ObjectPath="\Events\Default Work Unit\Enviroment\Edit Area\SFX_Env_Edit_Area_Play">
+					<ExcludedMemoryFiles>
+						<File Id="325209315" Language="SFX">
+							<ShortName>GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915.wav</ShortName>
+							<Path>SFX\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915_8DE5D12C.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+				<Event Id="2270413482" Name="SFX_Env_Edit_Area_Stop" ObjectPath="\Events\Default Work Unit\Enviroment\Edit Area\SFX_Env_Edit_Area_Stop"/>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1724245995" Language="SFX">
+			<ObjectPath>SB_630BD29AB37048BD9689A8B9326A0906</ObjectPath>
+			<ShortName>SB_630BD29AB37048BD9689A8B9326A0906</ShortName>
+			<Path>SB_630BD29AB37048BD9689A8B9326A0906.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2270413482" Name="SFX_Env_Edit_Area_Stop" ObjectPath="\Events\Default Work Unit\Enviroment\Edit Area\SFX_Env_Edit_Area_Stop"/>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="2714999034" Language="SFX">
+			<ObjectPath>SB_D83D9E546D0F4826B97DC0BA4716EF75</ObjectPath>
+			<ShortName>SB_D83D9E546D0F4826B97DC0BA4716EF75</ShortName>
+			<Path>SB_D83D9E546D0F4826B97DC0BA4716EF75.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4192933464" Name="SFX_Env_Edit_Area_Play" ObjectPath="\Events\Default Work Unit\Enviroment\Edit Area\SFX_Env_Edit_Area_Play">
+					<ExcludedMemoryFiles>
+						<File Id="325209315" Language="SFX">
+							<ShortName>GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915.wav</ShortName>
+							<Path>SFX\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915_8DE5D12C.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="4023707541" Language="SFX">
+			<ObjectPath>SB_66EA7D8731EC48599D9A22971B835257</ObjectPath>
+			<ShortName>SB_66EA7D8731EC48599D9A22971B835257</ShortName>
+			<Path>SB_66EA7D8731EC48599D9A22971B835257.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1679025835" Name="Play_Gnome_Party_1__C3" ObjectPath="\Events\Default Work Unit\Play_Gnome_Party_1__C3">
+					<ExcludedMemoryFiles>
+						<File Id="536019323" Language="SFX">
+							<ShortName>Gnome Party 1- C3.wav</ShortName>
+							<Path>SFX\Gnome Party 1- C3_DEA84EA4.wem</Path>
+						</File>
+					</ExcludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

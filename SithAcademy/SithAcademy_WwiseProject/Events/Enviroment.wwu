@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" SchemaVersion="97" RootDocumentID="{BFE5B461-40D7-44E3-AA49-ACABE52FFC5C}">
+	<Events>
+		<WorkUnit Name="Enviroment" ID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" OwnerID="{BFE5B461-40D7-44E3-AA49-ACABE52FFC5C}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Edit Area" ID="{8A40CA36-CCFB-4353-8AEE-75ED91D966EE}" ShortID="400113414">
+					<ChildrenList>
+						<Event Name="SFX_Env_Edit_Area_Play" ID="{D83D9E54-6D0F-4826-B97D-C0BA4716EF75}">
+							<ChildrenList>
+								<Action Name="" ID="{4E828293-30F5-4C20-B54B-CD0372AD1EB1}" ShortID="392256053">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915" ID="{716737A3-DF31-4424-8579-864E4970C8EC}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Env_Edit_Area_Stop" ID="{630BD29A-B370-48BD-9689-A8B9326A0906}">
+							<ChildrenList>
+								<Action Name="" ID="{05A2E4DF-5B1B-4D37-A2A8-856BDA5FD3DC}" ShortID="272172123">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915" ID="{716737A3-DF31-4424-8579-864E4970C8EC}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Env_Edit_Area_Steps" ID="{52640B46-93F9-44B5-BA19-35CFDADE1AD5}">
+							<ChildrenList>
+								<Action Name="" ID="{D5D19E95-9D6B-4000-A5A7-C2EF9FA7E1E6}" ShortID="932419804">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SCHOOL-STAIRWELL_6EXT8-11179" ID="{DA3A1940-1A63-4966-B4D8-20F3A8F36BD9}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

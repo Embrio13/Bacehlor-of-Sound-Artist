@@ -25,7 +25,7 @@
       "Name": "SFX_Env_Edit_Area_Play",
       "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\SFX_Env_Edit_Area_Play",
       "GUID": "{D83D9E54-6D0F-4826-B97D-C0BA4716EF75}",
-      "MaxAttenuation": "1200.000000",
+      "MaxAttenuation": "1500.000000",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -51,6 +51,29 @@
       "DurationType": "OneShot",
       "DurationMin": "0.000000",
       "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3657717754",
+      "Name": "SFX_Env_Hole_AREA_Wind",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Complett\\SFX_Env_Hole_AREA_Wind",
+      "GUID": "{B57A45D8-8A4E-4B3B-8EB2-9A5535CDCF83}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "994237321",
+        "Language": "SFX",
+        "ShortName": "03 Wind C.wav",
+        "Path": "SFX\\03 Wind C_9816E0A4.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3671138082",
+      "Name": "New_Game_Parameter",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\New_Game_Parameter",
+      "GUID": "{A4860A94-51CA-452D-80D5-19C9F864F6D8}"
      }
     ]
    }

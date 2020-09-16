@@ -6,7 +6,7 @@
 				<SoundBank Name="SB_Enviroment" ID="{9118A443-DCAB-418C-9E9F-83F3D4C6EFC7}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Enviroment" ID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="SFX_Env_Edit_Area_Steps" ID="{52640B46-93F9-44B5-BA19-35CFDADE1AD5}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_Env_Edit_Area_Play" ID="{D83D9E54-6D0F-4826-B97D-C0BA4716EF75}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

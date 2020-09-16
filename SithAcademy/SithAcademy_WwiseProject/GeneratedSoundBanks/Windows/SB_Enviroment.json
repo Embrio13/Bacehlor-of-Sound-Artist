@@ -1,0 +1,59 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "789280062",
+    "GUID": "{9118A443-DCAB-418C-9E9F-83F3D4C6EFC7}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Enviroment",
+    "ShortName": "SB_Enviroment",
+    "Path": "SB_Enviroment.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4192933464",
+      "Name": "SFX_Env_Edit_Area_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\SFX_Env_Edit_Area_Play",
+      "GUID": "{D83D9E54-6D0F-4826-B97D-C0BA4716EF75}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "79291524",
+        "Language": "SFX",
+        "ShortName": "SCHOOL-STAIRWELL_6EXT8-11179.wav",
+        "Path": "SFX\\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem"
+       },
+       {
+        "Id": "325209315",
+        "Language": "SFX",
+        "ShortName": "GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915.wav",
+        "Path": "SFX\\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915_A8E94B62.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2270413482",
+      "Name": "SFX_Env_Edit_Area_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\SFX_Env_Edit_Area_Stop",
+      "GUID": "{630BD29A-B370-48BD-9689-A8B9326A0906}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

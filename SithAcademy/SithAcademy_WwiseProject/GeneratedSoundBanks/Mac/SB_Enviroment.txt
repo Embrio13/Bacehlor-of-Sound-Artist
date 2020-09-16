@@ -1,9 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2270413482	SFX_Env_Edit_Area_Stop			\Default Work Unit\Enviroment\Edit Area\SFX_Env_Edit_Area_Stop	
-	3066262391	SFX_Env_Edit_Area_Steps			\Default Work Unit\Enviroment\Edit Area\SFX_Env_Edit_Area_Steps	
 	4192933464	SFX_Env_Edit_Area_Play			\Default Work Unit\Enviroment\Edit Area\SFX_Env_Edit_Area_Play	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	79291524	SCHOOL-STAIRWELL_6EXT8-11179	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\SCHOOL-STAIRWELL_6EXT8-11179		13424704
-	325209315	GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915_8DE5D12C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915		16097408
+	325209315	GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915_A8E94B62.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915		16097408
 

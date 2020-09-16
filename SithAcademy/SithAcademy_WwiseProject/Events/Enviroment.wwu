@@ -17,6 +17,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{BD1113E3-F4ED-4240-B834-C0A7CE7FB8C2}" ShortID="78883655">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SCHOOL-STAIRWELL_6EXT8-11179" ID="{DA3A1940-1A63-4966-B4D8-20F3A8F36BD9}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="SFX_Env_Edit_Area_Stop" ID="{630BD29A-B370-48BD-9689-A8B9326A0906}">
@@ -29,20 +36,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915" ID="{716737A3-DF31-4424-8579-864E4970C8EC}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="SFX_Env_Edit_Area_Steps" ID="{52640B46-93F9-44B5-BA19-35CFDADE1AD5}">
-							<ChildrenList>
-								<Action Name="" ID="{D5D19E95-9D6B-4000-A5A7-C2EF9FA7E1E6}" ShortID="932419804">
-									<PropertyList>
-										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SCHOOL-STAIRWELL_6EXT8-11179" ID="{DA3A1940-1A63-4966-B4D8-20F3A8F36BD9}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

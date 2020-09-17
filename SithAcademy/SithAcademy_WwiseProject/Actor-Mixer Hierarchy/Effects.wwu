@@ -10,39 +10,17 @@
 				<Sound Name="Bass Follo-G3" ID="{AB7662B1-C731-4B77-A746-8A029BC91936}" ShortID="418178827">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32">
-							<RTPCList>
-								<RTPC Name="" ID="{B7A7CF63-796A-4359-91E9-ED94B286D5E0}" ShortID="557518622">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="Zielsound" ID="{4F5D46D1-53E2-4EF6-A77F-4A8302D3430A}" WorkUnitID="{40320E9D-4010-4BCC-AC1C-E23A32C3FE96}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{77620B30-9EB0-4360-9646-016E31EEACD6}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="65537"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>62</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>31.37254</XPos>
-												<YPos>59</YPos>
-												<Flags>0</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>8</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
+						<Property Name="ReflectionsVolume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-17</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -54,6 +32,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+						<Reference Name="ReflectionsAuxSend">
+							<ObjectRef Name="Reflect" ID="{D4E2DDAA-E905-4D58-B713-A15143AF7442}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -74,6 +55,63 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Bass Follo-G3" ID="{BBD06964-F292-4174-8E03-DFD56C22899A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Bass Follo-E4" ID="{C3637C0B-A8CE-4EE8-B597-C1A6DE34AF59}" ShortID="219661557">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-30</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{81C74666-704D-4AE1-B063-87F51EAE8AAF}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Zielsound Middle" ID="{C0DC03C7-75D6-432E-951B-A74163D56F7C}" WorkUnitID="{6816AF6B-0280-4AA0-8C64-D7719E2F5DAE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Bass Follo-E4" ID="{759E68E4-D18D-4D9A-B44F-F577B4C41F25}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.565068493150685"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.226027397260274"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.236301369863014"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.27397260273973"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Bass Follo-E4.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="398765256"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Bass Follo-E4" ID="{759E68E4-D18D-4D9A-B44F-F577B4C41F25}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

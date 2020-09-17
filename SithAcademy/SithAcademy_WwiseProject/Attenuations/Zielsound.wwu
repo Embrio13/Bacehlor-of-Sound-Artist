@@ -9,12 +9,9 @@
 			<ChildrenList>
 				<Attenuation Name="Zielsound Middle" ID="{C0DC03C7-75D6-432E-951B-A74163D56F7C}" ShortID="460172575">
 					<PropertyList>
-						<Property Name="ConeUse" Type="bool">
-							<ValueList>
-								<Value>True</Value>
-							</ValueList>
-						</Property>
-						<Property Name="RadiusMax" Type="Real64" Value="1200"/>
+						<Property Name="ConeInnerAngle" Type="int32" Value="50"/>
+						<Property Name="ConeOuterAngle" Type="int32" Value="360"/>
+						<Property Name="RadiusMax" Type="Real64" Value="1400"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -30,13 +27,13 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>161.75548</XPos>
+											<XPos>188.714726666667</XPos>
 											<YPos>-3.32816</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>1200</XPos>
-											<YPos>-6.45864</YPos>
+											<XPos>1400</XPos>
+											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -62,12 +59,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>389.3417</XPos>
+											<XPos>454.231983333333</XPos>
 											<YPos>18</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>1200</XPos>
+											<XPos>1400</XPos>
 											<YPos>63</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -79,7 +76,25 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 						</HighPassFilterUsage>
 						<SpreadUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="Spread" ID="{788DF2B8-5EAF-4D3C-8FDA-84540B1CABC2}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="1"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>100</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>1400</XPos>
+											<YPos>0</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</SpreadUsage>
 						<FocusUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>

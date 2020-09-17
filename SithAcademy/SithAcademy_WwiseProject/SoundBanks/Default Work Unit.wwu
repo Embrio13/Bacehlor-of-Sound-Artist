@@ -12,6 +12,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="SB_Effects" ID="{59FDA9B8-5C1E-4E27-8C8C-FF885830C6A9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Zielsound_Point_1" ID="{6945A9BE-A1DF-4F5C-9D67-4F195EE99C26}" WorkUnitID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

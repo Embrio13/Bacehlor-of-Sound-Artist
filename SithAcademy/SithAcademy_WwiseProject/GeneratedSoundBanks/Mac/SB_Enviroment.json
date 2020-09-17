@@ -57,13 +57,15 @@
       "Name": "SFX_Env_Hole_AREA_Wind",
       "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Complett\\SFX_Env_Hole_AREA_Wind",
       "GUID": "{B57A45D8-8A4E-4B3B-8EB2-9A5535CDCF83}",
-      "DurationType": "Infinite",
+      "DurationType": "OneShot",
+      "DurationMin": "14.860771",
+      "DurationMax": "14.860771",
       "IncludedMemoryFiles": [
        {
         "Id": "994237321",
         "Language": "SFX",
         "ShortName": "03 Wind C.wav",
-        "Path": "SFX\\03 Wind C_9816E0A4.wem"
+        "Path": "SFX\\03 Wind C_10C4C929.wem"
        }
       ]
      }

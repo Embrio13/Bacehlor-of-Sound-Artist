@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{438C70D5-12AF-4BB2-8CDC-5E77B14C627E}" SchemaVersion="97" RootDocumentID="{1D73B0B7-2F83-4B90-8C45-F916AF86767C}">
+	<AudioObjects>
+		<WorkUnit Name="Effects" ID="{438C70D5-12AF-4BB2-8CDC-5E77B14C627E}" OwnerID="{1D73B0B7-2F83-4B90-8C45-F916AF86767C}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Sound Name="Bass Follo-G3" ID="{AB7662B1-C731-4B77-A746-8A029BC91936}" ShortID="418178827">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32">
+							<RTPCList>
+								<RTPC Name="" ID="{B7A7CF63-796A-4359-91E9-ED94B286D5E0}" ShortID="557518622">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Zielsound" ID="{4F5D46D1-53E2-4EF6-A77F-4A8302D3430A}" WorkUnitID="{40320E9D-4010-4BCC-AC1C-E23A32C3FE96}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{77620B30-9EB0-4360-9646-016E31EEACD6}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>62</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>31.37254</XPos>
+												<YPos>59</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>8</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Zielsound Middle" ID="{C0DC03C7-75D6-432E-951B-A74163D56F7C}" WorkUnitID="{6816AF6B-0280-4AA0-8C64-D7719E2F5DAE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Bass Follo-G3" ID="{BBD06964-F292-4174-8E03-DFD56C22899A}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.575342465753425"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.904109589041097"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.205479452054794"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.46917808219178"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Bass Follo-G3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="360503914"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Bass Follo-G3" ID="{BBD06964-F292-4174-8E03-DFD56C22899A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -7,7 +7,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3671138082	New_Game_Parameter			\Default Work Unit\New_Game_Parameter	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	79291524	SCHOOL-STAIRWELL_6EXT8-11179	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\SCHOOL-STAIRWELL_6EXT8-11179		13424704
-	325209315	GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915_A8E94B62.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915		16097408
-	994237321	03 Wind C	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\03 Wind C_9816E0A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\ENV_Wind\ENV_Wind\03 Wind C		1589152
+	79291524	SCHOOL-STAIRWELL_6EXT8-11179	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\voice\SCHOOL-STAIRWELL_6EXT8-11179		13424704
+	325209315	GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915_A8E94B62.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\voice\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915		16097408
+	994237321	03 Wind C	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\03 Wind C_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Complete Building\ENV_Wind\03 Wind C		2621504
 

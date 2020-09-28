@@ -18,7 +18,15 @@
     "Language": "SFX",
     "ObjectPath": "Init",
     "ShortName": "Init",
-    "Path": "Init.bnk"
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "243379636",
+      "Name": "Reflect",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
+      "GUID": "{D4E2DDAA-E905-4D58-B713-A15143AF7442}"
+     }
+    ]
    }
   ]
  }

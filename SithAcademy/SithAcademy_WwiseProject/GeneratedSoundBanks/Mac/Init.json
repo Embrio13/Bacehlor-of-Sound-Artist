@@ -25,6 +25,12 @@
       "Name": "Reflect",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reflect",
       "GUID": "{D4E2DDAA-E905-4D58-B713-A15143AF7442}"
+     },
+     {
+      "Id": "2150263364",
+      "Name": "Flur_Room",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Flur_Room",
+      "GUID": "{779E82F8-E628-481D-B0BF-B704B73A92DD}"
      }
     ]
    }

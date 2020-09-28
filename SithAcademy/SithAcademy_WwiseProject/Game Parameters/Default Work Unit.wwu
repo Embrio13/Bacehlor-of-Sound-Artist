@@ -4,6 +4,11 @@
 		<WorkUnit Name="Default Work Unit" ID="{40320E9D-4010-4BCC-AC1C-E23A32C3FE96}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="New_Game_Parameter" ID="{A4860A94-51CA-452D-80D5-19C9F864F6D8}"/>
+				<GameParameter Name="Zielsound" ID="{4F5D46D1-53E2-4EF6-A77F-4A8302D3430A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

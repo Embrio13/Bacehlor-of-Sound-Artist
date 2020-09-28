@@ -3,37 +3,8 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{1D73B0B7-2F83-4B90-8C45-F916AF86767C}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="Gnome Party 1- C3" ID="{3E2983C9-1A84-4A1C-9A18-D63E4FED2D60}" ShortID="687544366">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Gnome Party 1- C3" ID="{1241B5DA-7DD3-424F-8918-68B10385AD3C}">
-							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="17.7079931863584"/>
-								<Property Name="LoopBegin" Type="Real64" Value="15.0642646261416"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>Gnome Party 1- C3.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="536019323"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Gnome Party 1- C3" ID="{1241B5DA-7DD3-424F-8918-68B10385AD3C}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<WorkUnit Name="Enviroment" ID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}" PersistMode="Reference"/>
+				<WorkUnit Name="Effects" ID="{438C70D5-12AF-4BB2-8CDC-5E77B14C627E}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -1,0 +1,59 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "752427969",
+    "GUID": "{59FDA9B8-5C1E-4E27-8C8C-FF885830C6A9}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Effects",
+    "ShortName": "SB_Effects",
+    "Path": "SB_Effects.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1078018052",
+      "Name": "Play_Zielsound_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_Zielsound_2",
+      "GUID": "{761FF259-D802-4377-A951-AA30B320C686}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "398765256",
+        "Language": "SFX",
+        "ShortName": "Bass Follo-E4.wav",
+        "Path": "SFX\\Bass Follo-E4_E36F13E7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "632995716",
+      "Name": "Play_Zielsound_Point_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_Zielsound_Point_1",
+      "GUID": "{6945A9BE-A1DF-4F5C-9D67-4F195EE99C26}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "360503914",
+        "Language": "SFX",
+        "ShortName": "Bass Follo-G3.wav",
+        "Path": "SFX\\Bass Follo-G3_90DC9546.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

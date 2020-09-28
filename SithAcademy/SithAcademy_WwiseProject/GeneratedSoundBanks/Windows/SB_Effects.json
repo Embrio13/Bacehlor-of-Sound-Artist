@@ -25,14 +25,14 @@
       "Name": "Play_Zielsound_2",
       "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_Zielsound_2",
       "GUID": "{761FF259-D802-4377-A951-AA30B320C686}",
-      "MaxAttenuation": "1200.000000",
+      "MaxAttenuation": "1400.000000",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
         "Id": "398765256",
         "Language": "SFX",
         "ShortName": "Bass Follo-E4.wav",
-        "Path": "SFX\\Bass Follo-E4_E36F13E7.wem"
+        "Path": "SFX\\Bass Follo-E4_4B6623F4.wem"
        }
       ]
      },
@@ -41,7 +41,7 @@
       "Name": "Play_Zielsound_Point_1",
       "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_Zielsound_Point_1",
       "GUID": "{6945A9BE-A1DF-4F5C-9D67-4F195EE99C26}",
-      "MaxAttenuation": "1200.000000",
+      "MaxAttenuation": "1400.000000",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {

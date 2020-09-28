@@ -5,6 +5,11 @@
   "BasePlatform": "Mac",
   "Plugins": [
    {
+    "Name": "Wwise Reflect",
+    "ID": "11206659",
+    "DLL": "AkReflect"
+   },
+   {
     "Name": "System",
     "ID": "11403271",
     "DLL": "DefaultSink"

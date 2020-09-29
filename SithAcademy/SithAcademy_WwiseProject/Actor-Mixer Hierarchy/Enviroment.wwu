@@ -12,6 +12,14 @@
 						<ActorMixer Name="voice" ID="{B9F1EBA7-E3F1-4245-8BAB-CEDC4B697644}" ShortID="301161239">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+								<Property Name="ReflectionsVolume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
@@ -26,7 +34,10 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Enviroment" ID="{372DBACC-F0A1-478F-8E1C-E4B9B7EF3210}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+								</Reference>
+								<Reference Name="ReflectionsAuxSend">
+									<ObjectRef Name="Edit_Room_Reverb" ID="{779E82F8-E628-481D-B0BF-B704B73A92DD}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -162,7 +173,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Enviroment" ID="{372DBACC-F0A1-478F-8E1C-E4B9B7EF3210}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

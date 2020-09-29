@@ -21,19 +21,25 @@
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac</Value>
 					</ValueList>
 				</Property>
 				<Property Name="GenerateMainSoundBank" Type="bool" Value="False"/>
 				<Property Name="GenerateMultipleBanks" Type="bool" Value="True"/>
 				<Property Name="GenerateSoundBankJSON" Type="bool" Value="True"/>
 				<Property Name="GenerateSoundBankXML" Type="bool" Value="False"/>
+				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
+					<ValueList>
+						<Value Platform="Windows">256</Value>
+						<Value Platform="Mac">256</Value>
+					</ValueList>
+				</Property>
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjkyOTYiIG1hc2s9IkVEQ1AyNTExIiBlbmM9IjAiPjxsaWNlbnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMsNCwxMCwxMywxNCIgZXhwaXJlcz0iMjAyMS0wNy0zMSIgIC8+PGxpY2Vuc2UgaWQ9IjIyIiBuYW1lPSJMZXZlbCBBIExpY2Vuc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjEtMDctMzEiICAvPjxsaWNlbnNlIGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQiIGV4cGlyZXM9IjIwMjEtMDctMzEiICAvPjxsaWNlbnNlIGlkPSIyNSIgbmFtZT0iQWxsIFd3aXNlIFBsdWctSW5zIiB0eXBlPSIzIiAgZXhwaXJlcz0iMjAyMS0wNy0zMSIgIC8+PC9wcm9qZWN0Pg==|VMouH3AcIAbE9PV4kvGbLswIzbk6Woblwd23pYoiPmHv7yr3jJv6CvMFZjFUCNxixyiN/QVOz23qNtc7GL8XGn1uMlaLSSilNeFnZeEcOoBWqzs7NBHLJ/75Q8DNCEpD32bkoK9b1XWLN4udDGiNB8PoLxzTDugkBWirrxh3bgxFy1U3y86JcRw/X9m1ss43pTYgCzHd0rBU93GTj/tC5z1ah6gAvXD/er9+daC3Lqpa8LT2nvLqTTV5UZxiLZ+NxbHM3NuyCzlkfbure5p7892jd3wiDJZIkYy8OiQiv7IDbVUiThnmq203qrUD29+d7vAhzTSWZzGORNX9sQsMBg=="/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
 				<Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
@@ -64,8 +70,18 @@
 						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="VolumeThreshold" Type="Real64">
+					<ValueList>
+						<Value Platform="Windows">-80</Value>
+						<Value Platform="Mac">-80</Value>
+					</ValueList>
+				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2019.2|Build=7275|VersionName=v2019.2.2|Config=Release"/>
 			</PropertyList>
+			<MiscSettings>
+				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
+				<MiscSettingEntry Name="Originals"><![CDATA[Originals]]></MiscSettingEntry>
+			</MiscSettings>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioSource" PluginType="0" CompanyID="1" PluginID="0">
 					<PropertyList>
@@ -10135,8 +10151,13 @@
 										<Flags>5</Flags>
 									</Point>
 									<Point>
+										<XPos>75.36846</XPos>
+										<YPos>-10.34693</YPos>
+										<Flags>0</Flags>
+									</Point>
+									<Point>
 										<XPos>100</XPos>
-										<YPos>-200</YPos>
+										<YPos>-11.033</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>

@@ -3,6 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1078018052	Play_Zielsound_2			\Default Work Unit\Effects\Play_Zielsound_2	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	360503914	Bass Follo-G3	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Bass Follo-G3_90DC9546.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effects\Bass Follo-G3		242696
+	360503914	SFX_Zielsound_Point_1	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Bass Follo-G3_90DC9546.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effects\SFX_Zielsound_Point_1		242696
 	398765256	Bass Follo-E4	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Bass Follo-E4_4B6623F4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effects\Bass Follo-E4		199300
 

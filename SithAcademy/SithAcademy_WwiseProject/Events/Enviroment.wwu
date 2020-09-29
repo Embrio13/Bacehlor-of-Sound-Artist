@@ -13,7 +13,7 @@
 							<ChildrenList>
 								<Action Name="" ID="{4E828293-30F5-4C20-B54B-CD0372AD1EB1}" ShortID="392256053">
 									<PropertyList>
-										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+										<Property Name="FadeTime" Type="Real64" Value="3.8"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">

@@ -7,7 +7,7 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Attenuation Name="ATT_Env_Miiddle" ID="{41BDA241-AD77-440F-8374-D51AF14E449D}" ShortID="853957792">
+				<Attenuation Name="ATT_Env_Edit Area" ID="{41BDA241-AD77-440F-8374-D51AF14E449D}" ShortID="853957792">
 					<PropertyList>
 						<Property Name="RadiusMax" Type="Real64" Value="1500"/>
 					</PropertyList>
@@ -25,16 +25,28 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>688.87148</XPos>
-											<YPos>0</YPos>
+											<XPos>54.07524</XPos>
+											<YPos>-0.28956</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1006.26959</XPos>
-											<YPos>-14.94004</YPos>
+											<XPos>898.11912</XPos>
+											<YPos>-6.64606</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>898.12012</XPos>
+											<YPos>-17.7292</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>1368.33856</XPos>
+											<YPos>-30.24199</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>1500</XPos>
@@ -52,7 +64,7 @@
 							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 						</VolumeWetUserUsage>
 						<LowPassFilterUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None">
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
 								<Curve Name="LowPassFilter" ID="{86C87278-566A-4D4F-9353-5715AA7FA376}">
 									<PropertyList>
 										<Property Name="Flags" Type="int32" Value="65537"/>
@@ -64,8 +76,13 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
+											<XPos>888</XPos>
+											<YPos>10</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
 											<XPos>1500</XPos>
-											<YPos>100</YPos>
+											<YPos>56</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -73,10 +90,51 @@
 							</CurveUsageInfo>
 						</LowPassFilterUsage>
 						<HighPassFilterUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None">
+								<Curve Name="HighPassFilter" ID="{C9F685DE-53FD-4472-BF35-DB79A9A38254}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>100</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>874.60815</XPos>
+											<YPos>33</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>1500</XPos>
+											<YPos>21</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</HighPassFilterUsage>
 						<SpreadUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="Spread" ID="{2E5F5CFA-2030-4BD8-9658-38D3CA13F718}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="1"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>100</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>1500</XPos>
+											<YPos>0</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</SpreadUsage>
 						<FocusUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>

@@ -10151,13 +10151,13 @@
 										<Flags>5</Flags>
 									</Point>
 									<Point>
-										<XPos>75.36846</XPos>
-										<YPos>-10.34693</YPos>
+										<XPos>68.71821</XPos>
+										<YPos>-1.98006</YPos>
 										<Flags>0</Flags>
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>-11.033</YPos>
+										<YPos>-16.47818</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -10173,8 +10173,13 @@
 								<PointList>
 									<Point>
 										<XPos>0</XPos>
-										<YPos>0</YPos>
+										<YPos>27.69231</YPos>
 										<Flags>5</Flags>
+									</Point>
+									<Point>
+										<XPos>67.48768</XPos>
+										<YPos>100</YPos>
+										<Flags>0</Flags>
 									</Point>
 									<Point>
 										<XPos>100</XPos>
@@ -10228,7 +10233,7 @@
 						</PlatformCurve>
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="LPF">
-						<PlatformCurve Platform="Linked" EnableCurve="true">
+						<PlatformCurve Platform="Linked" EnableCurve="false">
 							<Curve Name="" ID="{BBB6558E-04DB-45BE-8950-609946E0DD70}">
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1"/>

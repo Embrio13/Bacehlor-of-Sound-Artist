@@ -29,6 +29,8 @@
 						</AuxBus>
 						<AuxBus Name="Edit_Room_Reverb" ID="{779E82F8-E628-481D-B0BF-B704B73A92DD}">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -36,6 +38,10 @@
 									<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 								</Reference>
 							</ReferenceList>
+							<PositioningInfo>
+								<Panner Name="" ID="{E0FB1183-475F-4991-BA08-E2A336F07F47}"/>
+								<Position Name="" ID="{ED12FBC0-905C-447E-84B3-BD0F5FDE9415}"/>
+							</PositioningInfo>
 						</AuxBus>
 					</ChildrenList>
 				</Bus>

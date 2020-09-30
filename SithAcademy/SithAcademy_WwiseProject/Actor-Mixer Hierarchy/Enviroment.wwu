@@ -12,8 +12,11 @@
 						<ActorMixer Name="voice" ID="{B9F1EBA7-E3F1-4245-8BAB-CEDC4B697644}" ShortID="301161239">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+								<Property Name="GameAuxSendVolume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 								<Property Name="ReflectionsVolume" Type="Real64">
 									<ValueList>
 										<Value>-11</Value>
@@ -168,6 +171,20 @@
 				<Folder Name="Complete Building" ID="{D86B1D61-AA9A-4A20-BC87-D305A9BF4355}" ShortID="947872851">
 					<ChildrenList>
 						<ActorMixer Name="ENV_Wind" ID="{8392A3AF-B5AB-477D-B158-509D85AAE5E3}" ShortID="93857123">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CBF5F051-FDFA-4589-B8C4-DA563D0DBD03}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
@@ -178,6 +195,29 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="03 Wind C" ID="{2E0A99F1-CBD7-415B-87B7-82CE7F2823E7}" ShortID="140679200">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>82</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-880</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6554DA49-2BA3-4157-B844-D3A2512E9C0A}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
@@ -188,6 +228,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="03 Wind C" ID="{D703AE19-9E59-4FDE-B808-EAF430D8BFD7}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="899.468"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.01027552573541"/>
+												<Property Name="TrimEnd" Type="Real64" Value="10.051377628677"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>03 Wind C.wav</AudioFile>
 											<MediaIDList>

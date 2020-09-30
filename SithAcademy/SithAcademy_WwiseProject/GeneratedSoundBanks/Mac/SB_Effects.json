@@ -21,6 +21,21 @@
     "Path": "SB_Effects.bnk",
     "IncludedEvents": [
      {
+      "Id": "803151709",
+      "Name": "Play_darth_vader_breathing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_darth_vader_breathing",
+      "GUID": "{533A6796-CD3E-4829-9E2A-E07C5081B7E7}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "337837252",
+        "Language": "SFX",
+        "ShortName": "198162__18hiltc__darth-vader-breathing.wav",
+        "Path": "SFX\\198162__18hiltc__darth-vader-breathing_C5579977.wem"
+       }
+      ]
+     },
+     {
       "Id": "1078018052",
       "Name": "Play_Zielsound_2",
       "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_Zielsound_2",

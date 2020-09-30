@@ -10157,7 +10157,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>-16.47818</YPos>
+										<YPos>-200</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -10277,8 +10277,8 @@
 				</ObsOccCurves>
 			</EnvironmentalSettings>
 			<LogCentralIgnoreList>
-				<IgnoreItem MessageId="MediaNotFound"/>
 				<IgnoreItem MessageId="MediaDuplicated"/>
+				<IgnoreItem MessageId="MediaNotFound"/>
 			</LogCentralIgnoreList>
 			<DefaultConversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}"/>
 			<PhysicalFolderList>

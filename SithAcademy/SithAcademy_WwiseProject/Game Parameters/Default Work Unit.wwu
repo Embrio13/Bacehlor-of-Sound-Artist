@@ -16,6 +16,12 @@
 						<Property Name="Max" Type="Real64" Value="1500"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="asd" ID="{1AD7FEB7-2B82-4F3C-8E7C-57F0B41C5390}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

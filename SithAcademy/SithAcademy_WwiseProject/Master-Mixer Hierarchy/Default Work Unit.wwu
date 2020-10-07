@@ -10,16 +10,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="SFX" ID="{A4CB203E-6F8E-4430-B6AF-3291CBE341FE}">
-							<ChildrenList>
-								<Bus Name="Enviroment" ID="{372DBACC-F0A1-478F-8E1C-E4B9B7EF3210}">
-									<PropertyList>
-										<Property Name="Color" Type="int16" Value="10"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-									</PropertyList>
-								</Bus>
-							</ChildrenList>
-						</Bus>
 						<AuxBus Name="Reflect" ID="{D4E2DDAA-E905-4D58-B713-A15143AF7442}">
 							<PropertyList>
 								<Property Name="BusChannelConfig" Type="int32">
@@ -36,6 +26,56 @@
 									<ObjectRef Name="Wwise_Reflect" ID="{37779A87-4754-4420-8175-3236FA46AA12}" WorkUnitID="{923039AD-F8B4-46D4-BDA7-CB5A6EE595E0}"/>
 								</Reference>
 							</ReferenceList>
+						</AuxBus>
+						<AuxBus Name="Edit_Room_Reverb" ID="{779E82F8-E628-481D-B0BF-B704B73A92DD}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{79FE5E05-63C6-4390-BCDD-00DB4C3785C0}" ShortID="872501986">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="asd" ID="{1AD7FEB7-2B82-4F3C-8E7C-57F0B41C5390}" WorkUnitID="{40320E9D-4010-4BCC-AC1C-E23A32C3FE96}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{EF7E8114-D986-4777-AA4B-C963E2C09528}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>27.9738562091503</XPos>
+														<YPos>7.11764323190289</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-7.43852</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<PositioningInfo>
+								<Panner Name="" ID="{E0FB1183-475F-4991-BA08-E2A336F07F47}"/>
+								<Position Name="" ID="{ED12FBC0-905C-447E-84B3-BD0F5FDE9415}"/>
+							</PositioningInfo>
 						</AuxBus>
 					</ChildrenList>
 				</Bus>

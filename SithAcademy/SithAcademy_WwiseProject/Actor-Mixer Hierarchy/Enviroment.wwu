@@ -12,6 +12,17 @@
 						<ActorMixer Name="voice" ID="{B9F1EBA7-E3F1-4245-8BAB-CEDC4B697644}" ShortID="301161239">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="GameAuxSendVolume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+								<Property Name="ReflectionsVolume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
@@ -20,13 +31,16 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="Zielsound Middle" ID="{C0DC03C7-75D6-432E-951B-A74163D56F7C}" WorkUnitID="{6816AF6B-0280-4AA0-8C64-D7719E2F5DAE}"/>
+									<ObjectRef Name="ATT_Env_Edit Area" ID="{41BDA241-AD77-440F-8374-D51AF14E449D}" WorkUnitID="{C1B5EEE0-2D34-47DA-8190-5F70573C8787}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Enviroment" ID="{372DBACC-F0A1-478F-8E1C-E4B9B7EF3210}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+								</Reference>
+								<Reference Name="ReflectionsAuxSend">
+									<ObjectRef Name="Edit_Room_Reverb" ID="{779E82F8-E628-481D-B0BF-B704B73A92DD}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -80,7 +94,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
-											<ObjectRef Name="ATT_Env_Miiddle" ID="{41BDA241-AD77-440F-8374-D51AF14E449D}" WorkUnitID="{C1B5EEE0-2D34-47DA-8190-5F70573C8787}"/>
+											<ObjectRef Name="ATT_Env_Edit Area" ID="{41BDA241-AD77-440F-8374-D51AF14E449D}" WorkUnitID="{C1B5EEE0-2D34-47DA-8190-5F70573C8787}"/>
 										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
@@ -157,16 +171,53 @@
 				<Folder Name="Complete Building" ID="{D86B1D61-AA9A-4A20-BC87-D305A9BF4355}" ShortID="947872851">
 					<ChildrenList>
 						<ActorMixer Name="ENV_Wind" ID="{8392A3AF-B5AB-477D-B158-509D85AAE5E3}" ShortID="93857123">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CBF5F051-FDFA-4589-B8C4-DA563D0DBD03}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Enviroment" ID="{372DBACC-F0A1-478F-8E1C-E4B9B7EF3210}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="03 Wind C" ID="{2E0A99F1-CBD7-415B-87B7-82CE7F2823E7}" ShortID="140679200">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>82</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-880</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6554DA49-2BA3-4157-B844-D3A2512E9C0A}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
@@ -177,6 +228,12 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="03 Wind C" ID="{D703AE19-9E59-4FDE-B808-EAF430D8BFD7}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="899.468"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.01027552573541"/>
+												<Property Name="TrimEnd" Type="Real64" Value="10.051377628677"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>03 Wind C.wav</AudioFile>
 											<MediaIDList>

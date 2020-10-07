@@ -7,16 +7,21 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Sound Name="Bass Follo-G3" ID="{AB7662B1-C731-4B77-A746-8A029BC91936}" ShortID="418178827">
+				<Sound Name="SFX_Zielsound_Point_1" ID="{AB7662B1-C731-4B77-A746-8A029BC91936}" ShortID="418178827">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+						<Property Name="GameAuxSendVolume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="ReflectionsVolume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-11</Value>
 							</ValueList>
 						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-17</Value>
@@ -25,7 +30,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Zielsound Middle" ID="{C0DC03C7-75D6-432E-951B-A74163D56F7C}" WorkUnitID="{6816AF6B-0280-4AA0-8C64-D7719E2F5DAE}"/>
+							<ObjectRef Name="Zielsound Small" ID="{8B24398F-D90B-4CEA-97E1-029F47D2E960}" WorkUnitID="{6816AF6B-0280-4AA0-8C64-D7719E2F5DAE}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
@@ -77,6 +82,7 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-1</Value>
@@ -92,6 +98,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+						<Reference Name="ReflectionsAuxSend">
+							<ObjectRef Name="Reflect" ID="{D4E2DDAA-E905-4D58-B713-A15143AF7442}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -112,6 +121,56 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Bass Follo-E4" ID="{759E68E4-D18D-4D9A-B44F-F577B4C41F25}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="198162__18hiltc__darth-vader-breathing" ID="{67FACE87-AF49-4895-A1C0-8945A8A33FC4}" ShortID="360222789">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>34</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-100</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Zielsound Small" ID="{8B24398F-D90B-4CEA-97E1-029F47D2E960}" WorkUnitID="{6816AF6B-0280-4AA0-8C64-D7719E2F5DAE}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+						<Reference Name="ReflectionsAuxSend">
+							<ObjectRef Name="Reflect" ID="{D4E2DDAA-E905-4D58-B713-A15143AF7442}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="198162__18hiltc__darth-vader-breathing" ID="{6FB334FE-71E0-4F56-B144-F3BAAA269DD6}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>198162__18hiltc__darth-vader-breathing.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="337837252"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="198162__18hiltc__darth-vader-breathing" ID="{6FB334FE-71E0-4F56-B144-F3BAAA269DD6}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

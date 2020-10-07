@@ -6,10 +6,14 @@
 				<Folder Name="Edit Area" ID="{8A40CA36-CCFB-4353-8AEE-75ED91D966EE}" ShortID="400113414">
 					<ChildrenList>
 						<Event Name="SFX_Env_Edit_Area_Play" ID="{D83D9E54-6D0F-4826-B97D-C0BA4716EF75}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{4E828293-30F5-4C20-B54B-CD0372AD1EB1}" ShortID="392256053">
 									<PropertyList>
-										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+										<Property Name="FadeTime" Type="Real64" Value="3.8"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -46,6 +50,10 @@
 				<Folder Name="Complett" ID="{A24E33DE-8C97-4FE9-A379-152364C517E6}" ShortID="359856456">
 					<ChildrenList>
 						<Event Name="SFX_Env_Hole_AREA_Wind" ID="{B57A45D8-8A4E-4B3B-8EB2-9A5535CDCF83}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{72ACFD25-A598-4513-B1B7-0BD001AA166C}" ShortID="883781467">
 									<ReferenceList>

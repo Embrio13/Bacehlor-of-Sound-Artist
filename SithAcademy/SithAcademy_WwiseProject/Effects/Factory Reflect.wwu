@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Effect Name="Wwise_Reflect" ID="{37779A87-4754-4420-8175-3236FA46AA12}" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">
 					<PropertyList>
-						<Property Name="MaxDistance" Type="Real32" Value="5000"/>
+						<Property Name="MaxDistance" Type="Real32" Value="8000"/>
 						<Property Name="SpeedOfSound" Type="Real32" Value="34500"/>
 					</PropertyList>
 					<PluginData>
@@ -91,7 +91,7 @@
 							<Flags>5</Flags>
 						</Point>
 						<Point>
-							<XPos>5000</XPos>
+							<XPos>8000</XPos>
 							<YPos>0</YPos>
 							<Flags>37</Flags>
 						</Point>
@@ -110,22 +110,22 @@
 							<Flags>5</Flags>
 						</Point>
 						<Point>
-							<XPos>750</XPos>
+							<XPos>1200</XPos>
 							<YPos>-6</YPos>
 							<Flags>0</Flags>
 						</Point>
 						<Point>
-							<XPos>1500</XPos>
+							<XPos>2400</XPos>
 							<YPos>-12</YPos>
 							<Flags>0</Flags>
 						</Point>
 						<Point>
-							<XPos>3000</XPos>
+							<XPos>4800</XPos>
 							<YPos>-18</YPos>
 							<Flags>0</Flags>
 						</Point>
 						<Point>
-							<XPos>5000</XPos>
+							<XPos>8000</XPos>
 							<YPos>-200</YPos>
 							<Flags>37</Flags>
 						</Point>
@@ -144,7 +144,7 @@
 							<Flags>5</Flags>
 						</Point>
 						<Point>
-							<XPos>5000</XPos>
+							<XPos>8000</XPos>
 							<YPos>20</YPos>
 							<Flags>37</Flags>
 						</Point>
@@ -163,7 +163,7 @@
 							<Flags>5</Flags>
 						</Point>
 						<Point>
-							<XPos>5000</XPos>
+							<XPos>8000</XPos>
 							<YPos>20</YPos>
 							<Flags>37</Flags>
 						</Point>
@@ -182,7 +182,7 @@
 							<Flags>5</Flags>
 						</Point>
 						<Point>
-							<XPos>5000</XPos>
+							<XPos>8000</XPos>
 							<YPos>0</YPos>
 							<Flags>37</Flags>
 						</Point>

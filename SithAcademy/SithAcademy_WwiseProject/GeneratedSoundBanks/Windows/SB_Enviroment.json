@@ -21,10 +21,88 @@
     "Path": "SB_Enviroment.bnk",
     "IncludedEvents": [
      {
-      "Id": "4192933464",
-      "Name": "SFX_Env_Edit_Area_Play",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\SFX_Env_Edit_Area_Play",
-      "GUID": "{D83D9E54-6D0F-4826-B97D-C0BA4716EF75}",
+      "Id": "1453124757",
+      "Name": "ComputerKeys_Single",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\ComputerKeys_Single",
+      "GUID": "{6C1254BD-CE78-4530-9728-E1D8EA46E630}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "41.834671",
+      "DurationMax": "41.834671",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "5734421",
+        "Language": "SFX",
+        "ShortName": "ComputerKeyboard2 6028_39_2.wav",
+        "Path": "SFX\\ComputerKeyboard2 6028_39_2_10C4C929.wem"
+       },
+       {
+        "Id": "201592619",
+        "Language": "SFX",
+        "ShortName": "SciFiComputer 6039_27_2.wav",
+        "Path": "SFX\\SciFiComputer 6039_27_2_10C4C929.wem"
+       },
+       {
+        "Id": "225746224",
+        "Language": "SFX",
+        "ShortName": "ComputerMouse 6028_42_2.wav",
+        "Path": "SFX\\ComputerMouse 6028_42_2_10C4C929.wem"
+       },
+       {
+        "Id": "496948702",
+        "Language": "SFX",
+        "ShortName": "ComputerKeyboard2 6028_39_1.wav",
+        "Path": "SFX\\ComputerKeyboard2 6028_39_1_10C4C929.wem"
+       },
+       {
+        "Id": "503601271",
+        "Language": "SFX",
+        "ShortName": "ComputerKeyboard1 6028_38_2.wav",
+        "Path": "SFX\\ComputerKeyboard1 6028_38_2_10C4C929.wem"
+       },
+       {
+        "Id": "510177819",
+        "Language": "SFX",
+        "ShortName": "SciFiComputer 6039_28_1.wav",
+        "Path": "SFX\\SciFiComputer 6039_28_1_10C4C929.wem"
+       },
+       {
+        "Id": "586589159",
+        "Language": "SFX",
+        "ShortName": "ComputerKeyboard1 6028_37_6.wav",
+        "Path": "SFX\\ComputerKeyboard1 6028_37_6_10C4C929.wem"
+       },
+       {
+        "Id": "683090482",
+        "Language": "SFX",
+        "ShortName": "ComputerMouse 6028_42_3.wav",
+        "Path": "SFX\\ComputerMouse 6028_42_3_10C4C929.wem"
+       },
+       {
+        "Id": "755337426",
+        "Language": "SFX",
+        "ShortName": "ComputerKeyboard1 6028_38_4.wav",
+        "Path": "SFX\\ComputerKeyboard1 6028_38_4_10C4C929.wem"
+       },
+       {
+        "Id": "972962753",
+        "Language": "SFX",
+        "ShortName": "SciFiComputer 6039_27_4.wav",
+        "Path": "SFX\\SciFiComputer 6039_27_4_10C4C929.wem"
+       },
+       {
+        "Id": "1054974401",
+        "Language": "SFX",
+        "ShortName": "ComputerKeyboard1 6028_38_3.wav",
+        "Path": "SFX\\ComputerKeyboard1 6028_38_3_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "262157433",
+      "Name": "Env_Edit_Area_backround",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\Env_Edit_Area_backround",
+      "GUID": "{3D9ADEDA-164A-4BC1-9125-F11B40F787AB}",
       "MaxAttenuation": "1500.000000",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
@@ -35,22 +113,12 @@
         "Path": "SFX\\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem"
        },
        {
-        "Id": "325209315",
+        "Id": "192927855",
         "Language": "SFX",
-        "ShortName": "GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915.wav",
-        "Path": "SFX\\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915_A8E94B62.wem"
+        "ShortName": "CLS_90_G_Drone_Army.wav",
+        "Path": "SFX\\CLS_90_G_Drone_Army_10C4C929.wem"
        }
       ]
-     },
-     {
-      "Id": "2270413482",
-      "Name": "SFX_Env_Edit_Area_Stop",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\SFX_Env_Edit_Area_Stop",
-      "GUID": "{630BD29A-B370-48BD-9689-A8B9326A0906}",
-      "MaxAttenuation": "0.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
      },
      {
       "Id": "3657717754",
@@ -63,17 +131,47 @@
         "Id": "994237321",
         "Language": "SFX",
         "ShortName": "03 Wind C.wav",
-        "Path": "SFX\\03 Wind C_6BB0A68C.wem"
+        "Path": "SFX\\03 Wind C_B5420CCB.wem"
        }
       ]
-     }
-    ],
-    "GameParameters": [
+     },
      {
-      "Id": "3671138082",
-      "Name": "New_Game_Parameter",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\New_Game_Parameter",
-      "GUID": "{A4860A94-51CA-452D-80D5-19C9F864F6D8}"
+      "Id": "3157003241",
+      "Name": "TEST",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\TEST",
+      "GUID": "{1C49E7C2-F07D-4F58-947D-78074ED2C8A0}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "79291524",
+        "Language": "SFX",
+        "ShortName": "SCHOOL-STAIRWELL_6EXT8-11179.wav",
+        "Path": "SFX\\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem"
+       },
+       {
+        "Id": "192927855",
+        "Language": "SFX",
+        "ShortName": "CLS_90_G_Drone_Army.wav",
+        "Path": "SFX\\CLS_90_G_Drone_Army_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2727318990",
+      "Name": "Test_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\Test_2",
+      "GUID": "{DC5439F2-D5E7-4CDB-B9C6-E4E32A30EB91}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "79291524",
+        "Language": "SFX",
+        "ShortName": "SCHOOL-STAIRWELL_6EXT8-11179.wav",
+        "Path": "SFX\\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem"
+       }
+      ]
      }
     ]
    }

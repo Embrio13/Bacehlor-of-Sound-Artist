@@ -6,8 +6,9 @@
 				<SoundBank Name="SB_Enviroment" ID="{9118A443-DCAB-418C-9E9F-83F3D4C6EFC7}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Enviroment" ID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="SFX_Env_Edit_Area_Play" ID="{D83D9E54-6D0F-4826-B97D-C0BA4716EF75}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ComputerKeys_Single" ID="{6C1254BD-CE78-4530-9728-E1D8EA46E630}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_Env_Hole_AREA_Wind" ID="{B57A45D8-8A4E-4B3B-8EB2-9A5535CDCF83}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Env_Edit_Area_backround" ID="{3D9ADEDA-164A-4BC1-9125-F11B40F787AB}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -15,8 +16,14 @@
 				<SoundBank Name="SB_Effects" ID="{59FDA9B8-5C1E-4E27-8C8C-FF885830C6A9}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Zielsound_2" ID="{761FF259-D802-4377-A951-AA30B320C686}" WorkUnitID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_darth_vader_breathing" ID="{533A6796-CD3E-4829-9E2A-E07C5081B7E7}" WorkUnitID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Zielsound_Point_1" ID="{6945A9BE-A1DF-4F5C-9D67-4F195EE99C26}" WorkUnitID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SB_Voice" ID="{6B518147-0B61-4ABE-9444-C76C72EF9DAE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Voice_Lord_vader_breath" ID="{AF3549DE-964A-4CD3-A9D5-9EDE06FE03DE}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -33,17 +33,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_darth_vader_breathing" ID="{533A6796-CD3E-4829-9E2A-E07C5081B7E7}">
-					<ChildrenList>
-						<Action Name="" ID="{18C5B4C9-2735-42C1-917F-709E925A6881}" ShortID="629121506">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="198162__18hiltc__darth-vader-breathing" ID="{67FACE87-AF49-4895-A1C0-8945A8A33FC4}" WorkUnitID="{438C70D5-12AF-4BB2-8CDC-5E77B14C627E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

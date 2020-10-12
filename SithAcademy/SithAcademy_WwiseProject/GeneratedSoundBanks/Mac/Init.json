@@ -32,6 +32,14 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Edit_Room_Reverb",
       "GUID": "{779E82F8-E628-481D-B0BF-B704B73A92DD}"
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "882644975",
+      "Name": "asd",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\asd",
+      "GUID": "{1AD7FEB7-2B82-4F3C-8E7C-57F0B41C5390}"
+     }
     ]
    }
   ]

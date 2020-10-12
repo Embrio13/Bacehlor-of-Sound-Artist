@@ -5,41 +5,27 @@
 			<ChildrenList>
 				<Folder Name="Edit Area" ID="{8A40CA36-CCFB-4353-8AEE-75ED91D966EE}" ShortID="400113414">
 					<ChildrenList>
-						<Event Name="SFX_Env_Edit_Area_Play" ID="{D83D9E54-6D0F-4826-B97D-C0BA4716EF75}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="10"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
+						<Event Name="ComputerKeys_Single" ID="{6C1254BD-CE78-4530-9728-E1D8EA46E630}">
 							<ChildrenList>
-								<Action Name="" ID="{4E828293-30F5-4C20-B54B-CD0372AD1EB1}" ShortID="392256053">
-									<PropertyList>
-										<Property Name="FadeTime" Type="Real64" Value="3.8"/>
-									</PropertyList>
+								<Action Name="" ID="{0529FC77-F715-494E-8168-CB677146792D}" ShortID="280165796">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915" ID="{716737A3-DF31-4424-8579-864E4970C8EC}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{BD1113E3-F4ED-4240-B834-C0A7CE7FB8C2}" ShortID="78883655">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SCHOOL-STAIRWELL_6EXT8-11179" ID="{DA3A1940-1A63-4966-B4D8-20F3A8F36BD9}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
+											<ObjectRef Name="Computerkeys_Single" ID="{272FD6E5-F59E-42E7-8C82-BD4BC2F4B503}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="SFX_Env_Edit_Area_Stop" ID="{630BD29A-B370-48BD-9689-A8B9326A0906}">
+						<Event Name="Env_Edit_Area_backround" ID="{3D9ADEDA-164A-4BC1-9125-F11B40F787AB}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
-								<Action Name="" ID="{05A2E4DF-5B1B-4D37-A2A8-856BDA5FD3DC}" ShortID="272172123">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
-										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
-									</PropertyList>
+								<Action Name="" ID="{9DF68C75-9884-4419-B33D-8892D2C9230A}" ShortID="435159971">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915" ID="{716737A3-DF31-4424-8579-864E4970C8EC}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
+											<ObjectRef Name="Edit Area_hole" ID="{915965F0-884B-45CF-BB9C-3E855D744624}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

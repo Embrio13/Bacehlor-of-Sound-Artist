@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="Enviroment" ID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}" PersistMode="Reference"/>
 				<WorkUnit Name="Effects" ID="{438C70D5-12AF-4BB2-8CDC-5E77B14C627E}" PersistMode="Reference"/>
+				<WorkUnit Name="Voice" ID="{742737FA-9621-43F8-9AAF-21394553068A}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

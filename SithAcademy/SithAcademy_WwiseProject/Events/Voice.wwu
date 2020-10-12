@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{75085EA9-0054-445E-A636-BD60F9ABB005}" SchemaVersion="97" RootDocumentID="{BFE5B461-40D7-44E3-AA49-ACABE52FFC5C}">
+	<Events>
+		<WorkUnit Name="Voice" ID="{75085EA9-0054-445E-A636-BD60F9ABB005}" OwnerID="{BFE5B461-40D7-44E3-AA49-ACABE52FFC5C}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Voice_Lord_vader_breath" ID="{AF3549DE-964A-4CD3-A9D5-9EDE06FE03DE}">
+					<ChildrenList>
+						<Action Name="" ID="{131A3473-7C9D-4EA5-BD1E-1BD9ECE1C032}" ShortID="439647893">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Breath Lard vader" ID="{ACBF037B-D2AD-4C5F-9B4F-1103041C5737}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

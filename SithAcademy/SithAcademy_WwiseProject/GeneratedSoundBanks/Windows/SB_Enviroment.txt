@@ -1,13 +1,23 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2270413482	SFX_Env_Edit_Area_Stop			\Default Work Unit\Enviroment\Edit Area\SFX_Env_Edit_Area_Stop	
+	262157433	Env_Edit_Area_backround			\Default Work Unit\Enviroment\Edit Area\Env_Edit_Area_backround	
+	1453124757	ComputerKeys_Single			\Default Work Unit\Enviroment\Edit Area\ComputerKeys_Single	
+	2727318990	Test_2			\Default Work Unit\Enviroment\Edit Area\Test_2	
+	3157003241	TEST			\Default Work Unit\Enviroment\Edit Area\TEST	
 	3657717754	SFX_Env_Hole_AREA_Wind			\Default Work Unit\Enviroment\Complett\SFX_Env_Hole_AREA_Wind	
-	4192933464	SFX_Env_Edit_Area_Play			\Default Work Unit\Enviroment\Edit Area\SFX_Env_Edit_Area_Play	
-
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	3671138082	New_Game_Parameter			\Default Work Unit\New_Game_Parameter	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	79291524	SCHOOL-STAIRWELL_6EXT8-11179	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\voice\SCHOOL-STAIRWELL_6EXT8-11179		13424704
-	325209315	GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915_A8E94B62.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\voice\GYM-WEIGHT-ROOM-SCHOOL_6EXT8-10915		16097408
-	994237321	03 Wind C	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\03 Wind C_6BB0A68C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Complete Building\ENV_Wind\03 Wind C		1418516
+	5734421	ComputerKeyboard2 6028_39_2	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\ComputerKeyboard2 6028_39_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\ComputerKeyboard2 6028_39_2		47168
+	79291524	SCHOOL-STAIRWELL_6EXT8-11179	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Edit Area_hole\SCHOOL-STAIRWELL_6EXT8-11179		13424704
+	192927855	CLS_90_G_Drone_Army	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\CLS_90_G_Drone_Army_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Edit Area_hole\CLS_90_G_Drone_Army		3763264
+	201592619	SciFiComputer 6039_27_2	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\SciFiComputer 6039_27_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\SciFiComputer 6039_27_2		38976
+	225746224	ComputerMouse 6028_42_2	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\ComputerMouse 6028_42_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\ComputerMouse 6028_42_2		36928
+	496948702	ComputerKeyboard2 6028_39_1	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\ComputerKeyboard2 6028_39_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\ComputerKeyboard2 6028_39_1		38976
+	503601271	ComputerKeyboard1 6028_38_2	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\ComputerKeyboard1 6028_38_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\ComputerKeyboard1 6028_38_2		249920
+	510177819	SciFiComputer 6039_28_1	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\SciFiComputer 6039_28_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\SciFiComputer 6039_28_1		100416
+	586589159	ComputerKeyboard1 6028_37_6	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\ComputerKeyboard1 6028_37_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\ComputerKeyboard1 6028_37_6		41024
+	683090482	ComputerMouse 6028_42_3	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\ComputerMouse 6028_42_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\ComputerMouse 6028_42_3		77888
+	755337426	ComputerKeyboard1 6028_38_4	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\ComputerKeyboard1 6028_38_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\ComputerKeyboard1 6028_38_4		5277760
+	972962753	SciFiComputer 6039_27_4	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\SciFiComputer 6039_27_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\SciFiComputer 6039_27_4		100416
+	994237321	03 Wind C	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\03 Wind C_B5420CCB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Complete Building\ENV_Wind\03 Wind C		1418516
+	1054974401	ComputerKeyboard1 6028_38_3	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\ComputerKeyboard1 6028_38_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\ComputerKeyboard1 6028_38_3		2023488
 

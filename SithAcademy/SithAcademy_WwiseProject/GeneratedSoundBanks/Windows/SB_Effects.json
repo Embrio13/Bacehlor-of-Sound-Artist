@@ -41,7 +41,7 @@
       "Name": "Play_Zielsound_Point_1",
       "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_Zielsound_Point_1",
       "GUID": "{6945A9BE-A1DF-4F5C-9D67-4F195EE99C26}",
-      "MaxAttenuation": "800.000000",
+      "MaxAttenuation": "900.000000",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {

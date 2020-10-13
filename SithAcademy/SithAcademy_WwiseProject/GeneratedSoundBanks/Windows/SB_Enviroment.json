@@ -99,10 +99,25 @@
       ]
      },
      {
-      "Id": "2461146017",
-      "Name": "ENv_lsad",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\ENv_lsad",
-      "GUID": "{0E1CDD7B-0771-4FF4-BE62-1BE0FF17E87E}",
+      "Id": "3657717754",
+      "Name": "SFX_Env_Hole_AREA_Wind",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Complett\\SFX_Env_Hole_AREA_Wind",
+      "GUID": "{B57A45D8-8A4E-4B3B-8EB2-9A5535CDCF83}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "994237321",
+        "Language": "SFX",
+        "ShortName": "03 Wind C.wav",
+        "Path": "SFX\\03 Wind C_B5420CCB.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3157003241",
+      "Name": "Test",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\Test",
+      "GUID": "{6A12EDA6-F525-4AB9-9725-FA4800472365}",
       "MaxAttenuation": "2000.000000",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
@@ -117,21 +132,6 @@
         "Language": "SFX",
         "ShortName": "CLS_90_G_Drone_Army.wav",
         "Path": "SFX\\CLS_90_G_Drone_Army_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3657717754",
-      "Name": "SFX_Env_Hole_AREA_Wind",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Complett\\SFX_Env_Hole_AREA_Wind",
-      "GUID": "{B57A45D8-8A4E-4B3B-8EB2-9A5535CDCF83}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "994237321",
-        "Language": "SFX",
-        "ShortName": "03 Wind C.wav",
-        "Path": "SFX\\03 Wind C_B5420CCB.wem"
        }
       ]
      }

@@ -6,11 +6,26 @@
 				<Folder Name="Edit Area" ID="{8A40CA36-CCFB-4353-8AEE-75ED91D966EE}" ShortID="400113414">
 					<ChildrenList>
 						<Event Name="Env_Computer_Keys" ID="{A49DEA96-926F-4AAF-B0CA-14E5F043368D}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{5C0BBAF1-13C7-46C9-9D9F-2B026FB22EAB}" ShortID="399184034">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Computerkeys_Single" ID="{272FD6E5-F59E-42E7-8C82-BD4BC2F4B503}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Env_Edit_Area_Backround" ID="{6A12EDA6-F525-4AB9-9725-FA4800472365}">
+							<ChildrenList>
+								<Action Name="" ID="{983E6C8D-96DE-4ED0-8E4D-CD673A0DF696}" ShortID="145232769">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Edit- Area_backround_01" ID="{2A56940B-799A-4D0F-BAB6-14B42F6F61FF}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

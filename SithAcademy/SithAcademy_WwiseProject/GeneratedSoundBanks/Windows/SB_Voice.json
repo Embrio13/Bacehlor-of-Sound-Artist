@@ -25,7 +25,7 @@
       "Name": "Voice_Lord_vader_breath",
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Voice_Lord_vader_breath",
       "GUID": "{AF3549DE-964A-4CD3-A9D5-9EDE06FE03DE}",
-      "MaxAttenuation": "800.000000",
+      "MaxAttenuation": "900.000000",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {

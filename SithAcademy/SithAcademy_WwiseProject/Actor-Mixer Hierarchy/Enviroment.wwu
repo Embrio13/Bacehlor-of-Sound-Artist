@@ -9,36 +9,6 @@
 			<ChildrenList>
 				<Folder Name="Edit Area" ID="{5066040D-5BB1-4F93-BFA5-F2396EB375AD}" ShortID="942813065">
 					<ChildrenList>
-						<BlendContainer Name="Edit Area_hole" ID="{915965F0-884B-45CF-BB9C-3E855D744624}" ShortID="556053940">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="ReflectionsVolume" Type="Real64">
-									<ValueList>
-										<Value>-11</Value>
-									</ValueList>
-								</Property>
-								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>3</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="ATT_Env_Edit Area" ID="{41BDA241-AD77-440F-8374-D51AF14E449D}" WorkUnitID="{C1B5EEE0-2D34-47DA-8190-5F70573C8787}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
-								</Reference>
-								<Reference Name="ReflectionsAuxSend">
-									<ObjectRef Name="Edit_Room_Reverb" ID="{779E82F8-E628-481D-B0BF-B704B73A92DD}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
-								</Reference>
-							</ReferenceList>
-						</BlendContainer>
 						<BlendContainer Name="Computerkeys_Single" ID="{272FD6E5-F59E-42E7-8C82-BD4BC2F4B503}" ShortID="1023890970">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
@@ -1257,6 +1227,143 @@
 								</Sound>
 							</ChildrenList>
 						</BlendContainer>
+						<BlendContainer Name="Edit- Area_backround_01" ID="{2A56940B-799A-4D0F-BAB6-14B42F6F61FF}" ShortID="1014115872">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="ReflectionsVolume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_Env_Edit Area" ID="{41BDA241-AD77-440F-8374-D51AF14E449D}" WorkUnitID="{C1B5EEE0-2D34-47DA-8190-5F70573C8787}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+								</Reference>
+								<Reference Name="ReflectionsAuxSend">
+									<ObjectRef Name="Edit_Room_Reverb" ID="{779E82F8-E628-481D-B0BF-B704B73A92DD}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="CLS_90_G_Drone_Army" ID="{9E8B6EFD-EC74-4936-8F8B-BA1BD34D1497}" ShortID="480862714">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>23</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>14</Value>
+											</ValueList>
+										</Property>
+										<Property Name="ReflectionsVolume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-25</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_Env_Edit Area" ID="{41BDA241-AD77-440F-8374-D51AF14E449D}" WorkUnitID="{C1B5EEE0-2D34-47DA-8190-5F70573C8787}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Edit_Room_Reverb" ID="{779E82F8-E628-481D-B0BF-B704B73A92DD}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CLS_90_G_Drone_Army" ID="{C10D9911-80A5-48AC-9506-A46780B7A06F}">
+											<PropertyList>
+												<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.149701579258098"/>
+												<Property Name="FadeInShape" Type="int16" Value="4"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.124751316048414"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0998010528387318"/>
+												<Property Name="TrimEnd" Type="Real64" Value="21.1586814908656"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>CLS_90_G_Drone_Army.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="994246731"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CLS_90_G_Drone_Army" ID="{C10D9911-80A5-48AC-9506-A46780B7A06F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SCHOOL-STAIRWELL_6EXT8-11179" ID="{BDB02381-FFA3-40E3-BACA-518A6348B955}" ShortID="796036300">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>31</Value>
+											</ValueList>
+										</Property>
+										<Property Name="ReflectionsVolume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_Env_Edit Area" ID="{41BDA241-AD77-440F-8374-D51AF14E449D}" WorkUnitID="{C1B5EEE0-2D34-47DA-8190-5F70573C8787}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Edit_Room_Reverb" ID="{779E82F8-E628-481D-B0BF-B704B73A92DD}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SCHOOL-STAIRWELL_6EXT8-11179" ID="{E8F648C9-C1BE-4950-A320-EFA8BAC57EC3}">
+											<Language>SFX</Language>
+											<AudioFile>SCHOOL-STAIRWELL_6EXT8-11179.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="79291524"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SCHOOL-STAIRWELL_6EXT8-11179" ID="{E8F648C9-C1BE-4950-A320-EFA8BAC57EC3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Complete Building" ID="{D86B1D61-AA9A-4A20-BC87-D305A9BF4355}" ShortID="947872851">
@@ -1272,7 +1379,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

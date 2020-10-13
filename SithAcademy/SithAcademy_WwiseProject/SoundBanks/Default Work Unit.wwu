@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Enviroment" ID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Env_Computer_Keys" ID="{A49DEA96-926F-4AAF-B0CA-14E5F043368D}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Env_Edit_Area_Backround" ID="{6A12EDA6-F525-4AB9-9725-FA4800472365}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_Env_Hole_AREA_Wind" ID="{B57A45D8-8A4E-4B3B-8EB2-9A5535CDCF83}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

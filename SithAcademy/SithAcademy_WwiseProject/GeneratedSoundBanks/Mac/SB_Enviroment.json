@@ -21,11 +21,11 @@
     "Path": "SB_Enviroment.bnk",
     "IncludedEvents": [
      {
-      "Id": "1453124757",
-      "Name": "ComputerKeys_Single",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\ComputerKeys_Single",
-      "GUID": "{6C1254BD-CE78-4530-9728-E1D8EA46E630}",
-      "MaxAttenuation": "1500.000000",
+      "Id": "1885315473",
+      "Name": "Env_Computer_Keys",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\Env_Computer_Keys",
+      "GUID": "{A49DEA96-926F-4AAF-B0CA-14E5F043368D}",
+      "MaxAttenuation": "500.000000",
       "DurationType": "OneShot",
       "DurationMin": "41.834671",
       "DurationMax": "41.834671",
@@ -99,11 +99,11 @@
       ]
      },
      {
-      "Id": "262157433",
-      "Name": "Env_Edit_Area_backround",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\Env_Edit_Area_backround",
-      "GUID": "{3D9ADEDA-164A-4BC1-9125-F11B40F787AB}",
-      "MaxAttenuation": "1500.000000",
+      "Id": "2461146017",
+      "Name": "ENv_lsad",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\ENv_lsad",
+      "GUID": "{0E1CDD7B-0771-4FF4-BE62-1BE0FF17E87E}",
+      "MaxAttenuation": "2000.000000",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -132,44 +132,6 @@
         "Language": "SFX",
         "ShortName": "03 Wind C.wav",
         "Path": "SFX\\03 Wind C_B5420CCB.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3157003241",
-      "Name": "TEST",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\TEST",
-      "GUID": "{1C49E7C2-F07D-4F58-947D-78074ED2C8A0}",
-      "MaxAttenuation": "1500.000000",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "79291524",
-        "Language": "SFX",
-        "ShortName": "SCHOOL-STAIRWELL_6EXT8-11179.wav",
-        "Path": "SFX\\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem"
-       },
-       {
-        "Id": "192927855",
-        "Language": "SFX",
-        "ShortName": "CLS_90_G_Drone_Army.wav",
-        "Path": "SFX\\CLS_90_G_Drone_Army_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2727318990",
-      "Name": "Test_2",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\Test_2",
-      "GUID": "{DC5439F2-D5E7-4CDB-B9C6-E4E32A30EB91}",
-      "MaxAttenuation": "1500.000000",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "79291524",
-        "Language": "SFX",
-        "ShortName": "SCHOOL-STAIRWELL_6EXT8-11179.wav",
-        "Path": "SFX\\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem"
        }
       ]
      }

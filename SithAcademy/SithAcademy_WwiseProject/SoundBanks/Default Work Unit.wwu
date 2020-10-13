@@ -6,9 +6,8 @@
 				<SoundBank Name="SB_Enviroment" ID="{9118A443-DCAB-418C-9E9F-83F3D4C6EFC7}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Enviroment" ID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="ComputerKeys_Single" ID="{6C1254BD-CE78-4530-9728-E1D8EA46E630}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Env_Computer_Keys" ID="{A49DEA96-926F-4AAF-B0CA-14E5F043368D}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_Env_Hole_AREA_Wind" ID="{B57A45D8-8A4E-4B3B-8EB2-9A5535CDCF83}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Env_Edit_Area_backround" ID="{3D9ADEDA-164A-4BC1-9125-F11B40F787AB}" WorkUnitID="{FA46F12C-A0AF-42BA-9105-AD5289199A6A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -5,27 +5,12 @@
 			<ChildrenList>
 				<Folder Name="Edit Area" ID="{8A40CA36-CCFB-4353-8AEE-75ED91D966EE}" ShortID="400113414">
 					<ChildrenList>
-						<Event Name="ComputerKeys_Single" ID="{6C1254BD-CE78-4530-9728-E1D8EA46E630}">
+						<Event Name="Env_Computer_Keys" ID="{A49DEA96-926F-4AAF-B0CA-14E5F043368D}">
 							<ChildrenList>
-								<Action Name="" ID="{0529FC77-F715-494E-8168-CB677146792D}" ShortID="280165796">
+								<Action Name="" ID="{5C0BBAF1-13C7-46C9-9D9F-2B026FB22EAB}" ShortID="399184034">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Computerkeys_Single" ID="{272FD6E5-F59E-42E7-8C82-BD4BC2F4B503}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Env_Edit_Area_backround" ID="{3D9ADEDA-164A-4BC1-9125-F11B40F787AB}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="10"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-							<ChildrenList>
-								<Action Name="" ID="{9DF68C75-9884-4419-B33D-8892D2C9230A}" ShortID="435159971">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Edit Area_hole" ID="{915965F0-884B-45CF-BB9C-3E855D744624}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

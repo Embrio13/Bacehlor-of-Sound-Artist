@@ -1,14 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
-	262157433	Env_Edit_Area_backround			\Default Work Unit\Enviroment\Edit Area\Env_Edit_Area_backround	
-	1453124757	ComputerKeys_Single			\Default Work Unit\Enviroment\Edit Area\ComputerKeys_Single	
-	2727318990	Test_2			\Default Work Unit\Enviroment\Edit Area\Test_2	
-	3157003241	TEST			\Default Work Unit\Enviroment\Edit Area\TEST	
+	1885315473	Env_Computer_Keys			\Default Work Unit\Enviroment\Edit Area\Env_Computer_Keys	
+	2461146017	ENv_lsad			\Default Work Unit\Enviroment\Edit Area\ENv_lsad	
 	3657717754	SFX_Env_Hole_AREA_Wind			\Default Work Unit\Enviroment\Complett\SFX_Env_Hole_AREA_Wind	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5734421	ComputerKeyboard2 6028_39_2	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\ComputerKeyboard2 6028_39_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\ComputerKeyboard2 6028_39_2		47168
-	79291524	SCHOOL-STAIRWELL_6EXT8-11179	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Edit Area_hole\SCHOOL-STAIRWELL_6EXT8-11179		13424704
-	192927855	CLS_90_G_Drone_Army	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\CLS_90_G_Drone_Army_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Edit Area_hole\CLS_90_G_Drone_Army		3763264
+	79291524	SCHOOL-STAIRWELL_6EXT8-11179	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Edit- Area_backround\SCHOOL-STAIRWELL_6EXT8-11179		13424704
+	192927855	CLS_90_G_Drone_Army	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\CLS_90_G_Drone_Army_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Edit- Area_backround\CLS_90_G_Drone_Army		3763264
 	201592619	SciFiComputer 6039_27_2	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\SciFiComputer 6039_27_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\SciFiComputer 6039_27_2		38976
 	225746224	ComputerMouse 6028_42_2	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\ComputerMouse 6028_42_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\ComputerMouse 6028_42_2		36928
 	496948702	ComputerKeyboard2 6028_39_1	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\ComputerKeyboard2 6028_39_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Edit Area\Computerkeys_Single\Computer\ComputerKeyboard2 6028_39_1		38976

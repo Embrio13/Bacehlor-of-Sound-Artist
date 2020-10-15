@@ -62,65 +62,79 @@
 						<ActiveSource Name="Bass Follo-G3" ID="{BBD06964-F292-4174-8E03-DFD56C22899A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Bass Follo-E4" ID="{C3637C0B-A8CE-4EE8-B597-C1A6DE34AF59}" ShortID="219661557">
+				<Sound Name="DoorKnock 6048_29_4" ID="{21D4D3D7-10CC-43E2-9A08-917BEC88DE55}" ShortID="897261582">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="Highpass" Type="int16">
 							<ValueList>
-								<Value>10</Value>
+								<Value>21</Value>
 							</ValueList>
 						</Property>
-						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Pitch" Type="int32">
-							<ValueList>
-								<Value>-30</Value>
-							</ValueList>
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{81C74666-704D-4AE1-B063-87F51EAE8AAF}"/>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-1</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Zielsound Middle" ID="{C0DC03C7-75D6-432E-951B-A74163D56F7C}" WorkUnitID="{6816AF6B-0280-4AA0-8C64-D7719E2F5DAE}"/>
-						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 						</Reference>
-						<Reference Name="ReflectionsAuxSend">
-							<ObjectRef Name="Reflect" ID="{D4E2DDAA-E905-4D58-B713-A15143AF7442}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
-						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Bass Follo-E4" ID="{759E68E4-D18D-4D9A-B44F-F577B4C41F25}">
-							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="0.565068493150685"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.226027397260274"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="0.236301369863014"/>
-								<Property Name="TrimEnd" Type="Real64" Value="1.27397260273973"/>
-							</PropertyList>
+						<AudioFileSource Name="DoorKnock 6048_29_4" ID="{F3888C52-2505-4DA4-8B05-E8BA42AE0733}">
 							<Language>SFX</Language>
-							<AudioFile>Bass Follo-E4.wav</AudioFile>
+							<AudioFile>DoorKnock 6048_29_4.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="398765256"/>
+								<MediaID ID="196436097"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="Bass Follo-E4" ID="{759E68E4-D18D-4D9A-B44F-F577B4C41F25}" Platform="Linked"/>
+						<ActiveSource Name="DoorKnock 6048_29_4" ID="{F3888C52-2505-4DA4-8B05-E8BA42AE0733}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SciFiDoor 6039_24_2" ID="{346C8189-EDA5-4195-A930-4C2BF5224F74}" ShortID="243233493">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>19</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>350</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SciFiDoor 6039_24_2" ID="{EA5D2C79-63E1-40C5-ACFC-6B6A901E73AE}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.249698630136986"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.41786301369863"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.132493150684932"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.54794520547945"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SciFiDoor 6039_24_2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1015249336"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SciFiDoor 6039_24_2" ID="{EA5D2C79-63E1-40C5-ACFC-6B6A901E73AE}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

@@ -21,18 +21,19 @@
     "Path": "SB_Effects.bnk",
     "IncludedEvents": [
      {
-      "Id": "1078018052",
-      "Name": "Play_Zielsound_2",
-      "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_Zielsound_2",
-      "GUID": "{761FF259-D802-4377-A951-AA30B320C686}",
-      "MaxAttenuation": "1400.000000",
-      "DurationType": "Infinite",
+      "Id": "1658578607",
+      "Name": "Play_SciFiDoor_6039_24_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\Play_SciFiDoor_6039_24_2",
+      "GUID": "{A0CA68A2-0A37-46CC-895A-DABC1803E385}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.973322",
+      "DurationMax": "1.973322",
       "IncludedMemoryFiles": [
        {
-        "Id": "398765256",
+        "Id": "1015249336",
         "Language": "SFX",
-        "ShortName": "Bass Follo-E4.wav",
-        "Path": "SFX\\Bass Follo-E4_4B6623F4.wem"
+        "ShortName": "SciFiDoor 6039_24_2.wav",
+        "Path": "SFX\\SciFiDoor 6039_24_2_B7FE9E31.wem"
        }
       ]
      },

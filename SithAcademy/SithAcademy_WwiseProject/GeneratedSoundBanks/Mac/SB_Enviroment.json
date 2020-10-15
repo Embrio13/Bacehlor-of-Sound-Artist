@@ -99,6 +99,55 @@
       ]
      },
      {
+      "Id": "262157433",
+      "Name": "ENV_Edit_Area_backround",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\ENV_Edit_Area_backround",
+      "GUID": "{51F7CFEA-0B58-4C69-8B86-0127D80A05BF}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "192927855",
+        "Language": "SFX",
+        "ShortName": "CLS_90_G_Drone_Army.wav",
+        "Path": "SFX\\CLS_90_G_Drone_Army_F6FE9062.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1970772232",
+      "Name": "Play_DoorKnock_6048_29_4",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\Play_DoorKnock_6048_29_4",
+      "GUID": "{70B34443-2835-4652-A508-F6051B3C8622}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.226667",
+      "DurationMax": "1.226667",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "196436097",
+        "Language": "SFX",
+        "ShortName": "DoorKnock 6048_29_4.wav",
+        "Path": "SFX\\DoorKnock 6048_29_4_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "632995716",
+      "Name": "Play_Zielsound_Point_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_Zielsound_Point_1",
+      "GUID": "{6945A9BE-A1DF-4F5C-9D67-4F195EE99C26}",
+      "MaxAttenuation": "900.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "360503914",
+        "Language": "SFX",
+        "ShortName": "Bass Follo-G3.wav",
+        "Path": "SFX\\Bass Follo-G3_90DC9546.wem"
+       }
+      ]
+     },
+     {
       "Id": "3657717754",
       "Name": "SFX_Env_Hole_AREA_Wind",
       "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Complett\\SFX_Env_Hole_AREA_Wind",
@@ -110,28 +159,6 @@
         "Language": "SFX",
         "ShortName": "03 Wind C.wav",
         "Path": "SFX\\03 Wind C_B5420CCB.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3157003241",
-      "Name": "Test",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\Test",
-      "GUID": "{6A12EDA6-F525-4AB9-9725-FA4800472365}",
-      "MaxAttenuation": "2000.000000",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "79291524",
-        "Language": "SFX",
-        "ShortName": "SCHOOL-STAIRWELL_6EXT8-11179.wav",
-        "Path": "SFX\\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem"
-       },
-       {
-        "Id": "192927855",
-        "Language": "SFX",
-        "ShortName": "CLS_90_G_Drone_Army.wav",
-        "Path": "SFX\\CLS_90_G_Drone_Army_10C4C929.wem"
        }
       ]
      }

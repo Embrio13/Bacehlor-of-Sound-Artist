@@ -20,12 +20,23 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Env_Edit_Area_Backround" ID="{6A12EDA6-F525-4AB9-9725-FA4800472365}">
+						<Event Name="ENV_Edit_Area_backround" ID="{51F7CFEA-0B58-4C69-8B86-0127D80A05BF}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
-								<Action Name="" ID="{983E6C8D-96DE-4ED0-8E4D-CD673A0DF696}" ShortID="145232769">
+								<Action Name="" ID="{C28F5779-0474-4BF2-9C0B-24A70710F273}" ShortID="497849727">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Edit- Area_backround_01" ID="{2A56940B-799A-4D0F-BAB6-14B42F6F61FF}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
+											<ObjectRef Name="CLS_90_G_Drone_Army" ID="{04F40FE9-0444-410E-A43E-DEBA87852F53}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F141D008-4FB4-469B-9710-A7C5500E6237}" ShortID="552978797">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SCHOOL-STAIRWELL_6EXT8-11179" ID="{28FEDF40-6A55-472F-B647-8B0364B9953A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -96,16 +96,53 @@
 						<ActiveSource Name="DoorKnock 6048_29_4" ID="{F3888C52-2505-4DA4-8B05-E8BA42AE0733}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="SciFiDoor 6039_24_2" ID="{346C8189-EDA5-4195-A930-4C2BF5224F74}" ShortID="243233493">
+				<Sound Name="doors" ID="{346C8189-EDA5-4195-A930-4C2BF5224F74}" ShortID="243233493">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
 								<Value>19</Value>
 							</ValueList>
 						</Property>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{598D900F-BB6F-49ED-B996-6CBD6B65C8DE}" ShortID="83943412">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Door" ID="{032B9BA5-2775-47A5-A321-ADA446C7C79D}" WorkUnitID="{40320E9D-4010-4BCC-AC1C-E23A32C3FE96}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F9512E70-BA7B-4AE4-A3CE-FBD4B77C5BCC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
 								<Value>350</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -133,6 +170,23 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{FCE97B39-1F96-47D0-B72D-FE583A7A9BD3}"/>
+						<Position Name="" ID="{0D0E7E2A-6741-4695-8DE7-7FC69587910F}">
+							<ChildrenList>
+								<Path2D Name="SciFiDoor 6039_24_2_Path" ID="{4D9D3612-580D-4515-B6F3-B26A0ECFC617}">
+									<PointList>
+										<Point>
+											<XPos>8.22785</XPos>
+											<YPos>-42.99363</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="SciFiDoor 6039_24_2" ID="{EA5D2C79-63E1-40C5-ACFC-6B6A901E73AE}" Platform="Linked"/>
 					</ActiveSourceList>

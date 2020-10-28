@@ -21,9 +21,26 @@
     "Path": "SB_Effects.bnk",
     "IncludedEvents": [
      {
+      "Id": "3655372345",
+      "Name": "Play_doors",
+      "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_doors",
+      "GUID": "{FB7BB307-6D76-423C-8769-20A84A9E8A44}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.973322",
+      "DurationMax": "1.973322",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1015249336",
+        "Language": "SFX",
+        "ShortName": "SciFiDoor 6039_24_2.wav",
+        "Path": "SFX\\SciFiDoor 6039_24_2_13D0DECE.wem"
+       }
+      ]
+     },
+     {
       "Id": "1658578607",
       "Name": "Play_SciFiDoor_6039_24_2",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\Play_SciFiDoor_6039_24_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_SciFiDoor_6039_24_2",
       "GUID": "{A0CA68A2-0A37-46CC-895A-DABC1803E385}",
       "DurationType": "OneShot",
       "DurationMin": "1.973322",
@@ -33,7 +50,7 @@
         "Id": "1015249336",
         "Language": "SFX",
         "ShortName": "SciFiDoor 6039_24_2.wav",
-        "Path": "SFX\\SciFiDoor 6039_24_2_B7FE9E31.wem"
+        "Path": "SFX\\SciFiDoor 6039_24_2_13D0DECE.wem"
        }
       ]
      },
@@ -52,6 +69,14 @@
         "Path": "SFX\\Bass Follo-G3_90DC9546.wem"
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1877847629",
+      "Name": "Door",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Door",
+      "GUID": "{032B9BA5-2775-47A5-A321-ADA446C7C79D}"
      }
     ]
    }

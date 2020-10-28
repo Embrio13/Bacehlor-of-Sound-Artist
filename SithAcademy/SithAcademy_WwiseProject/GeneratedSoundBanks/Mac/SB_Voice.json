@@ -21,6 +21,23 @@
     "Path": "SB_Voice.bnk",
     "IncludedEvents": [
      {
+      "Id": "3150831388",
+      "Name": "Play_Wilkommen_Sch_ler",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Wilkommen_Sch_ler",
+      "GUID": "{FE9E6F9B-4A75-429B-AED6-5584F2FB4089}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.595918",
+      "DurationMax": "5.595918",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "702280882",
+        "Language": "SFX",
+        "ShortName": "Wilkommen Schüler.wav",
+        "Path": "SFX\\Wilkommen Schüler_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "2396658741",
       "Name": "Voice_Lord_vader_breath",
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Voice_Lord_vader_breath",
@@ -35,6 +52,23 @@
         "Path": "SFX\\Breath Lard vader_40BD1440.wem"
        }
       ]
+     },
+     {
+      "Id": "2951850132",
+      "Name": "Zielansage_Mitarbeiter_im_Flur",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Zielansage_Mitarbeiter_im_Flur",
+      "GUID": "{227296AE-A8A5-40C7-858C-5EB1385748D3}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.416327",
+      "DurationMax": "6.416327"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "47873714",
+      "Language": "SFX",
+      "ShortName": "Lord Vader Ziel.wav",
+      "Path": "SFX\\Lord Vader Ziel_10C4C929.wem"
      }
     ]
    }

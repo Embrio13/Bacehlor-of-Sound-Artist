@@ -14,6 +14,32 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Zielansage_Mitarbeiter_im_Flur" ID="{227296AE-A8A5-40C7-858C-5EB1385748D3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{96E44CE7-A2F1-4E87-8551-0B1362A0D916}" ShortID="30758617">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lord Vader Ziel" ID="{3FD20F65-3B36-430F-B1F8-DB4CAB883958}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wilkommen_Sch_ler" ID="{FE9E6F9B-4A75-429B-AED6-5584F2FB4089}">
+					<ChildrenList>
+						<Action Name="" ID="{42319A6C-34D4-4490-8F8A-CABDB5CFA826}" ShortID="318654347">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wilkommen Schüler" ID="{F6946119-DBB4-465B-8549-5D2CBC953A2F}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

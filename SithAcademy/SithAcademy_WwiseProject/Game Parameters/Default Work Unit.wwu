@@ -22,6 +22,7 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Door" ID="{032B9BA5-2775-47A5-A321-ADA446C7C79D}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

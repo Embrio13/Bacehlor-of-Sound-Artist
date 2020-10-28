@@ -17,6 +17,7 @@
 										<Value>-9</Value>
 									</ValueList>
 								</Property>
+								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 								<Property Name="ReflectionsVolume" Type="Real64">
 									<ValueList>
 										<Value>-11</Value>

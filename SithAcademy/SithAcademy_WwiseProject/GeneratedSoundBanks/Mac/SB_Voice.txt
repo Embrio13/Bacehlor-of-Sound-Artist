@@ -1,6 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2396658741	Voice_Lord_vader_breath			\Default Work Unit\Voice\Voice_Lord_vader_breath	
+	2951850132	Zielansage_Mitarbeiter_im_Flur			\Default Work Unit\Voice\Zielansage_Mitarbeiter_im_Flur	
+	3150831388	Play_Wilkommen_Sch_ler			\Default Work Unit\Voice\Play_Wilkommen_Sch_ler	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	47873714	Lord Vader Ziel	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Lord Vader Ziel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Lord Vader Ziel		1131904
 	58346666	Breath Lard vader	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Breath Lard vader_40BD1440.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Breath Lard vader		1658060
+	702280882	Wilkommen Schüler	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Wilkommen Schüler_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Wilkommen Schüler		987184
 

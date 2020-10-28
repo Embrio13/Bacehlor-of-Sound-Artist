@@ -8,6 +8,9 @@
 			</PropertyList>
 			<ChildrenList>
 				<Sound Name="Lord Vader Ziel" ID="{3FD20F65-3B36-430F-B1F8-DB4CAB883958}" ShortID="43738692">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
@@ -75,6 +78,31 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Breath Lard vader" ID="{BC3176AC-A921-46ED-88EC-2F5426D01511}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wilkommen Schüler" ID="{F6946119-DBB4-465B-8549-5D2CBC953A2F}" ShortID="1040995314">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wilkommen Schüler" ID="{7400929F-587F-49EB-BADA-81C3DA1ACC5C}">
+							<Language>SFX</Language>
+							<AudioFile>Wilkommen Schüler.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="702280882"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wilkommen Schüler" ID="{7400929F-587F-49EB-BADA-81C3DA1ACC5C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

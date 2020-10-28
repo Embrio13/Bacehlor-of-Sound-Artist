@@ -27,7 +27,7 @@
 						<Action Name="" ID="{A8D1F64E-4198-4470-A1E3-7A57D98D1EB2}" ShortID="947735465">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SciFiDoor 6039_24_2" ID="{346C8189-EDA5-4195-A930-4C2BF5224F74}" WorkUnitID="{438C70D5-12AF-4BB2-8CDC-5E77B14C627E}"/>
+									<ObjectRef Name="doors" ID="{346C8189-EDA5-4195-A930-4C2BF5224F74}" WorkUnitID="{438C70D5-12AF-4BB2-8CDC-5E77B14C627E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -43,6 +43,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="DoorKnock 6048_29_4" ID="{21D4D3D7-10CC-43E2-9A08-917BEC88DE55}" WorkUnitID="{438C70D5-12AF-4BB2-8CDC-5E77B14C627E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_doors" ID="{FB7BB307-6D76-423C-8769-20A84A9E8A44}">
+					<ChildrenList>
+						<Action Name="" ID="{C3580A54-8B1A-49DA-BA78-FC7ACC08B1CF}" ShortID="964276153">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="doors" ID="{346C8189-EDA5-4195-A930-4C2BF5224F74}" WorkUnitID="{438C70D5-12AF-4BB2-8CDC-5E77B14C627E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

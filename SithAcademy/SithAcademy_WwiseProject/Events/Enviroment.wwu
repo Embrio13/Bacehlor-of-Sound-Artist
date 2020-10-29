@@ -21,6 +21,10 @@
 							</ChildrenList>
 						</Event>
 						<Event Name="Hintergund_Machinen_edit_Area" ID="{58B0967E-595D-4C89-A71D-1DF64BEA23F2}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
 								<Action Name="" ID="{E60117DE-7118-4DE9-8A76-0BAF3C66B340}" ShortID="677739561">
 									<ReferenceList>

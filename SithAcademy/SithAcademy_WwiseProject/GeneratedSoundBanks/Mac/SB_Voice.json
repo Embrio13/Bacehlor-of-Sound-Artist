@@ -21,10 +21,27 @@
     "Path": "SB_Voice.bnk",
     "IncludedEvents": [
      {
+      "Id": "1528012251",
+      "Name": "Darth_Vader_Wilkommen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Darth_Vader_Wilkommen",
+      "GUID": "{ADC3E3A6-1946-4308-A6BC-251019C4685D}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.595918",
+      "DurationMax": "5.595918",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "702280882",
+        "Language": "SFX",
+        "ShortName": "Wilkommen Schüler.wav",
+        "Path": "SFX\\Wilkommen Schüler_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "3150831388",
       "Name": "Play_Wilkommen_Sch_ler",
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Wilkommen_Sch_ler",
-      "GUID": "{FE9E6F9B-4A75-429B-AED6-5584F2FB4089}",
+      "GUID": "{E79DBE01-ECDE-419C-87FC-FAF3997FF5FA}",
       "DurationType": "OneShot",
       "DurationMin": "5.595918",
       "DurationMax": "5.595918",

@@ -17,6 +17,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_doors" ID="{FB7BB307-6D76-423C-8769-20A84A9E8A44}" WorkUnitID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SciFiDoor_6039_24_2" ID="{A0CA68A2-0A37-46CC-895A-DABC1803E385}" WorkUnitID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Hits_on_Sae" ID="{69C719BF-CFE1-4A39-A645-D6223B7CFE94}" WorkUnitID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Zielsound_Point_1" ID="{6945A9BE-A1DF-4F5C-9D67-4F195EE99C26}" WorkUnitID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -24,7 +25,7 @@
 				</SoundBank>
 				<SoundBank Name="SB_Voice" ID="{6B518147-0B61-4ABE-9444-C76C72EF9DAE}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Wilkommen_Sch_ler" ID="{FE9E6F9B-4A75-429B-AED6-5584F2FB4089}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Darth_Vader_Wilkommen" ID="{ADC3E3A6-1946-4308-A6BC-251019C4685D}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Lord Vader Ziel" ID="{3FD20F65-3B36-430F-B1F8-DB4CAB883958}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Voice_Lord_vader_breath" ID="{AF3549DE-964A-4CD3-A9D5-9EDE06FE03DE}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

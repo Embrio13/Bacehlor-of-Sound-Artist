@@ -21,6 +21,27 @@
     "Path": "SB_Effects.bnk",
     "IncludedEvents": [
      {
+      "Id": "3580284353",
+      "Name": "Hits_on_Sae",
+      "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Hits_on_Sae",
+      "GUID": "{69C719BF-CFE1-4A39-A645-D6223B7CFE94}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "675950869",
+        "Language": "SFX",
+        "ShortName": "07 Under Hit.wav",
+        "Path": "SFX\\07 Under Hit_10C4C929.wem"
+       },
+       {
+        "Id": "687483114",
+        "Language": "SFX",
+        "ShortName": "01 Deep Hit A.wav",
+        "Path": "SFX\\01 Deep Hit A_440673ED.wem"
+       }
+      ]
+     },
+     {
       "Id": "3655372345",
       "Name": "Play_doors",
       "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_doors",

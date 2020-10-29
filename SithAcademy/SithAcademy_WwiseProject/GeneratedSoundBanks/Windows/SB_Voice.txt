@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1528012251	Darth_Vader_Wilkommen			\Default Work Unit\Voice\Darth_Vader_Wilkommen	
 	2396658741	Voice_Lord_vader_breath			\Default Work Unit\Voice\Voice_Lord_vader_breath	
 	2951850132	Zielansage_Mitarbeiter_im_Flur			\Default Work Unit\Voice\Zielansage_Mitarbeiter_im_Flur	
 	3150831388	Play_Wilkommen_Sch_ler			\Default Work Unit\Voice\Play_Wilkommen_Sch_ler	

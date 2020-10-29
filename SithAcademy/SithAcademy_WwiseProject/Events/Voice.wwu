@@ -4,6 +4,10 @@
 		<WorkUnit Name="Voice" ID="{75085EA9-0054-445E-A636-BD60F9ABB005}" OwnerID="{BFE5B461-40D7-44E3-AA49-ACABE52FFC5C}" PersistMode="Nested">
 			<ChildrenList>
 				<Event Name="Voice_Lord_vader_breath" ID="{AF3549DE-964A-4CD3-A9D5-9EDE06FE03DE}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{131A3473-7C9D-4EA5-BD1E-1BD9ECE1C032}" ShortID="439647893">
 							<ReferenceList>
@@ -29,12 +33,16 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Wilkommen_Sch_ler" ID="{FE9E6F9B-4A75-429B-AED6-5584F2FB4089}">
+				<Event Name="Darth_Vader_Wilkommen" ID="{ADC3E3A6-1946-4308-A6BC-251019C4685D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{42319A6C-34D4-4490-8F8A-CABDB5CFA826}" ShortID="318654347">
+						<Action Name="" ID="{CC5656DD-89FA-4D81-AF6A-CCE72506D338}" ShortID="641616892">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wilkommen Schüler" ID="{F6946119-DBB4-465B-8549-5D2CBC953A2F}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+									<ObjectRef Name="Wilkommen Schüler" ID="{2297EEA5-7279-4912-A2BF-452AF4CEF0E2}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

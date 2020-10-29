@@ -33,16 +33,16 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Darth_Vader_Wilkommen" ID="{ADC3E3A6-1946-4308-A6BC-251019C4685D}">
+				<Event Name="Darth_Vadere_wilkommen" ID="{C76E0522-48BC-4F08-B5F1-125DA79B6B38}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="13"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{CC5656DD-89FA-4D81-AF6A-CCE72506D338}" ShortID="641616892">
+						<Action Name="" ID="{EB12A8BF-0731-4BDB-9EA2-3BBFEBFF4528}" ShortID="187578234">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wilkommen Schüler" ID="{2297EEA5-7279-4912-A2BF-452AF4CEF0E2}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+									<ObjectRef Name="Wilkommensgruß Darth Vader" ID="{FE6FD57D-8129-44A2-B74B-CB0F182CDD9A}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

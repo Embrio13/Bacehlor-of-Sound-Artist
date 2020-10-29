@@ -82,7 +82,7 @@
 						<ActiveSource Name="Breath Lard vader" ID="{BC3176AC-A921-46ED-88EC-2F5426D01511}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Wilkommen Schüler" ID="{2297EEA5-7279-4912-A2BF-452AF4CEF0E2}" ShortID="158582416">
+				<Sound Name="Breathing and Voice" ID="{BB5704A6-1A90-4610-A8FA-CCEB27635B29}" ShortID="342569773">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
@@ -92,16 +92,41 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Wilkommen Schüler" ID="{DD514B0E-CEBF-4B60-AE25-F0308FFC7E5D}">
+						<AudioFileSource Name="Breathing and Voice" ID="{076B88F5-2899-4FCC-8860-71D6DD896D83}">
 							<Language>SFX</Language>
-							<AudioFile>Wilkommen Schüler.wav</AudioFile>
+							<AudioFile>Breathing and Voice.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="702280882"/>
+								<MediaID ID="917329997"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="Wilkommen Schüler" ID="{DD514B0E-CEBF-4B60-AE25-F0308FFC7E5D}" Platform="Linked"/>
+						<ActiveSource Name="Breathing and Voice" ID="{076B88F5-2899-4FCC-8860-71D6DD896D83}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Wilkommensgruß Darth Vader" ID="{FE6FD57D-8129-44A2-B74B-CB0F182CDD9A}" ShortID="634351576">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Testo" ID="{9BCB01AE-25BB-4170-AA1C-5E8651AA756A}">
+							<Language>SFX</Language>
+							<AudioFile>Testo.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="738280550"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Testo" ID="{9BCB01AE-25BB-4170-AA1C-5E8651AA756A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

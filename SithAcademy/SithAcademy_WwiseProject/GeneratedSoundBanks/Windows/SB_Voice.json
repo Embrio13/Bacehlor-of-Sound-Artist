@@ -21,36 +21,19 @@
     "Path": "SB_Voice.bnk",
     "IncludedEvents": [
      {
-      "Id": "1528012251",
-      "Name": "Darth_Vader_Wilkommen",
-      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Darth_Vader_Wilkommen",
-      "GUID": "{ADC3E3A6-1946-4308-A6BC-251019C4685D}",
+      "Id": "1239085876",
+      "Name": "Darth_Vadere_wilkommen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Darth_Vadere_wilkommen",
+      "GUID": "{C76E0522-48BC-4F08-B5F1-125DA79B6B38}",
       "DurationType": "OneShot",
       "DurationMin": "5.595918",
       "DurationMax": "5.595918",
       "IncludedMemoryFiles": [
        {
-        "Id": "702280882",
+        "Id": "738280550",
         "Language": "SFX",
-        "ShortName": "Wilkommen Schüler.wav",
-        "Path": "SFX\\Wilkommen Schüler_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3150831388",
-      "Name": "Play_Wilkommen_Sch_ler",
-      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Wilkommen_Sch_ler",
-      "GUID": "{E79DBE01-ECDE-419C-87FC-FAF3997FF5FA}",
-      "DurationType": "OneShot",
-      "DurationMin": "5.595918",
-      "DurationMax": "5.595918",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "702280882",
-        "Language": "SFX",
-        "ShortName": "Wilkommen Schüler.wav",
-        "Path": "SFX\\Wilkommen Schüler_10C4C929.wem"
+        "ShortName": "Testo.wav",
+        "Path": "SFX\\Testo_10C4C929.wem"
        }
       ]
      },

@@ -21,6 +21,23 @@
     "Path": "SB_Effects.bnk",
     "IncludedEvents": [
      {
+      "Id": "78576861",
+      "Name": "Epic_Riser_Darth_Vader",
+      "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Epic_Riser_Darth_Vader",
+      "GUID": "{2583CA91-32D7-47EF-9B43-866C5B743072}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.414921",
+      "DurationMax": "7.414921",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "940010639",
+        "Language": "SFX",
+        "ShortName": "01 Epic Riser.wav",
+        "Path": "SFX\\01 Epic Riser_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "3580284353",
       "Name": "Hits_on_Sae",
       "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Hits_on_Sae",
@@ -37,7 +54,7 @@
         "Id": "687483114",
         "Language": "SFX",
         "ShortName": "01 Deep Hit A.wav",
-        "Path": "SFX\\01 Deep Hit A_440673ED.wem"
+        "Path": "SFX\\01 Deep Hit A_06F80325.wem"
        }
       ]
      },

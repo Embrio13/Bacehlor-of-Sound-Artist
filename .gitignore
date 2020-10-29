@@ -170,5 +170,5 @@ $RECYCLE.BIN/
 ########
 
 # generatedenerated at each capture
-.prof
-.validationcache
+*.prof
+*.validationcache

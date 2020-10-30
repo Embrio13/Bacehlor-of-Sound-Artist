@@ -18,11 +18,6 @@
 									</ValueList>
 								</Property>
 								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
-								<Property Name="ReflectionsVolume" Type="Real64">
-									<ValueList>
-										<Value>-11</Value>
-									</ValueList>
-								</Property>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -1136,9 +1131,6 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
-								</Reference>
-								<Reference Name="ReflectionsAuxSend">
-									<ObjectRef Name="Edit_Room_Reverb" ID="{779E82F8-E628-481D-B0BF-B704B73A92DD}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

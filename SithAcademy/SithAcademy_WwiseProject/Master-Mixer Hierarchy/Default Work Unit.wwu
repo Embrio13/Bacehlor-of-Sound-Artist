@@ -58,6 +58,7 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
+								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 								<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -72,13 +73,30 @@
 								<Position Name="" ID="{ED12FBC0-905C-447E-84B3-BD0F5FDE9415}"/>
 							</PositioningInfo>
 						</AuxBus>
-						<AuxBus Name="Hall" ID="{C5A95C63-BD04-4E9C-AFDB-7F5D1A268DC2}">
-							<ReferenceList>
-								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-									<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-								</Reference>
-							</ReferenceList>
-						</AuxBus>
+						<Bus Name="Enviroment" ID="{FA1F7228-661B-4735-88A7-592F9429EAB7}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="Soundtrack" ID="{B232DAEF-B35A-4052-80F5-21BDBA998749}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="Effects" ID="{DC3E06AD-6124-4D04-9EEA-44F031BA7069}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="Voice" ID="{8548CB6D-7683-42B2-BCA9-1EE2B5149DA4}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="11"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

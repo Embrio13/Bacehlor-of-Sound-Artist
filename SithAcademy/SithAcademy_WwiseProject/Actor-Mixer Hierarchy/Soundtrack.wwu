@@ -8,6 +8,14 @@
 			</PropertyList>
 			<ChildrenList>
 				<Sound Name="Start_Wars_Alike Vers_ 2" ID="{B7A6EF50-8F01-4DC9-9885-2CD1C5A92BAF}" ShortID="431975838">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-17</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
@@ -18,6 +26,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Start_Wars_Alike Vers_ 2" ID="{EBA54CC0-BE5E-47CB-A67C-DC203B35D0BB}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="5.23"/>
+								<Property Name="LoopBegin" Type="Real64" Value="4.16095890410959"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Start_Wars_Alike Vers. 2.wav</AudioFile>
 							<MediaIDList>

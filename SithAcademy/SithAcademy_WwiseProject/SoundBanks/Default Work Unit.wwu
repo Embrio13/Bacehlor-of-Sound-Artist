@@ -32,6 +32,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Soundtrack" ID="{B1D838EF-E366-4A00-85DE-FB22F39E35E0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Soundtrack" ID="{AB2CF45C-1EB8-4D33-A9A7-07FDC568DA68}" WorkUnitID="{D837D49F-D0EF-48A4-8EF1-2637ABD34C1B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

@@ -40,7 +40,9 @@
 				</Sound>
 				<Sound Name="Breath Lard vader" ID="{ACBF037B-D2AD-4C5F-9B4F-1103041C5737}" ShortID="811270407">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="3DPosition" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
@@ -56,7 +58,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Zielsound Small" ID="{8B24398F-D90B-4CEA-97E1-029F47D2E960}" WorkUnitID="{6816AF6B-0280-4AA0-8C64-D7719E2F5DAE}"/>
+							<ObjectRef Name="Darth Vader" ID="{20C2EC27-0DB3-42ED-AC6E-4A22AFB16B3B}" WorkUnitID="{6816AF6B-0280-4AA0-8C64-D7719E2F5DAE}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
@@ -83,6 +85,9 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{88DE7E35-803D-43C5-9BEB-74DFAFB6EE5D}"/>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="Breath Lard vader" ID="{BC3176AC-A921-46ED-88EC-2F5426D01511}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -102,6 +107,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Voice" ID="{8548CB6D-7683-42B2-BCA9-1EE2B5149DA4}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+						<Reference Name="ReflectionsAuxSend">
+							<ObjectRef Name="Reflect" ID="{D4E2DDAA-E905-4D58-B713-A15143AF7442}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

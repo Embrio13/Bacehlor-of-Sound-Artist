@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{98212059-8BA5-4DF2-98C5-2B2D39D4AE6E}" PersistMode="Standalone">
 			<ChildrenList>
 				<ModulatorTime Name="New Modulator Time" ID="{FD4A57A6-0B43-471D-8210-BA6BDF640FA5}" ShortID="330341863"/>
+				<ModulatorLfo Name="New Modulator LFO" ID="{81C3EB11-FF7A-4F66-AACF-3B1EA3214797}" ShortID="676823458"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Modulators>

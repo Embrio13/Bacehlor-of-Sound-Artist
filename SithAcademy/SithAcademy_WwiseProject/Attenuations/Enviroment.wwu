@@ -9,7 +9,7 @@
 			<ChildrenList>
 				<Attenuation Name="ATT_Env_Edit Area" ID="{41BDA241-AD77-440F-8374-D51AF14E449D}" ShortID="853957792">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="2000"/>
+						<Property Name="RadiusMax" Type="Real64" Value="1500"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -25,31 +25,37 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>72.10032</XPos>
+											<XPos>54.07524</XPos>
 											<YPos>-0.28956</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1134.79624</XPos>
-											<YPos>-6.34528</YPos>
+											<XPos>961.597592307692</XPos>
+											<YPos>-7.28078</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1617.55619</XPos>
-											<YPos>-13.04265</YPos>
-											<Flags>0</Flags>
-											<SegmentShape>Exp1</SegmentShape>
-										</Point>
-										<Point>
-											<XPos>1824.45141333333</XPos>
-											<YPos>-30.24199</YPos>
+											<XPos>992.163011538461</XPos>
+											<YPos>-13.86132</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>2000</XPos>
+											<XPos>1083.8568</XPos>
+											<YPos>-36.40594</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>1377.74295</XPos>
+											<YPos>-200</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>1500</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -70,31 +76,31 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>72.10032</XPos>
+											<XPos>54.07524</XPos>
 											<YPos>-0.28956</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1134.79624</XPos>
+											<XPos>851.09718</XPos>
 											<YPos>-6.34528</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1617.55619</XPos>
+											<XPos>1213.1671425</XPos>
 											<YPos>-13.04265</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1824.45141333333</XPos>
+											<XPos>1368.33856</XPos>
 											<YPos>-30.24199</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>2000</XPos>
+											<XPos>1500</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -115,31 +121,31 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>72.10032</XPos>
+											<XPos>54.07524</XPos>
 											<YPos>-0.28956</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1134.79624</XPos>
+											<XPos>851.09718</XPos>
 											<YPos>-6.34528</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1617.55619</XPos>
+											<XPos>1213.1671425</XPos>
 											<YPos>-13.04265</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1824.45141333333</XPos>
+											<XPos>1368.33856</XPos>
 											<YPos>-30.24199</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>2000</XPos>
+											<XPos>1500</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -160,13 +166,13 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>1287.44828</XPos>
-											<YPos>12</YPos>
+											<XPos>681.10344</XPos>
+											<YPos>1</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>2000</XPos>
-											<YPos>43</YPos>
+											<XPos>1500</XPos>
+											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -186,12 +192,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>1166.1442</XPos>
+											<XPos>874.60815</XPos>
 											<YPos>33</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>2000</XPos>
+											<XPos>1500</XPos>
 											<YPos>21</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -212,7 +218,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>2000</XPos>
+											<XPos>1500</XPos>
 											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>

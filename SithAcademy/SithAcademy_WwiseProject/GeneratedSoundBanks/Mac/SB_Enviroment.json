@@ -99,6 +99,38 @@
       ]
      },
      {
+      "Id": "1227698858",
+      "Name": "Hintergund_Machinen_edit_Area",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\Hintergund_Machinen_edit_Area",
+      "GUID": "{58B0967E-595D-4C89-A71D-1DF64BEA23F2}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "192927855",
+        "Language": "SFX",
+        "ShortName": "CLS_90_G_Drone_Army.wav",
+        "Path": "SFX\\CLS_90_G_Drone_Army_C55E1FB2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "632995716",
+      "Name": "Play_Zielsound_Point_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_Zielsound_Point_1",
+      "GUID": "{6945A9BE-A1DF-4F5C-9D67-4F195EE99C26}",
+      "MaxAttenuation": "900.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "360503914",
+        "Language": "SFX",
+        "ShortName": "Bass Follo-G3.wav",
+        "Path": "SFX\\Bass Follo-G3_90DC9546.wem"
+       }
+      ]
+     },
+     {
       "Id": "3657717754",
       "Name": "SFX_Env_Hole_AREA_Wind",
       "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Complett\\SFX_Env_Hole_AREA_Wind",
@@ -110,28 +142,6 @@
         "Language": "SFX",
         "ShortName": "03 Wind C.wav",
         "Path": "SFX\\03 Wind C_B5420CCB.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3157003241",
-      "Name": "Test",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\Test",
-      "GUID": "{6A12EDA6-F525-4AB9-9725-FA4800472365}",
-      "MaxAttenuation": "2000.000000",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "79291524",
-        "Language": "SFX",
-        "ShortName": "SCHOOL-STAIRWELL_6EXT8-11179.wav",
-        "Path": "SFX\\SCHOOL-STAIRWELL_6EXT8-11179_D79FB2B7.wem"
-       },
-       {
-        "Id": "192927855",
-        "Language": "SFX",
-        "ShortName": "CLS_90_G_Drone_Army.wav",
-        "Path": "SFX\\CLS_90_G_Drone_Army_10C4C929.wem"
        }
       ]
      }

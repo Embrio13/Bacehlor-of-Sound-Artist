@@ -1,3 +1,9 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2012657067	New_State_Group			\Default Work Unit\New_State_Group	
+
+State	ID	Name	State Group			Notes
+	748895195	None	New_State_Group			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Reflect Acoustic Textures\Textures\Mountain	
@@ -21,9 +27,11 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	243379636	Reflect			\Default Work Unit\Master Audio Bus\Reflect	
 	747019164	Edit_Room_Reverb			\Default Work Unit\Master Audio Bus\Edit_Room_Reverb	
+	3633416828	Hall			\Default Work Unit\Master Audio Bus\Hall	
 
 Effect plug-ins	ID	Name	Type				Notes
 	1990128658	Room_Medium	Wwise RoomVerb			
+	2513915904	Hall_Large	Wwise RoomVerb			
 	2545004126	Wwise_Reflect	Wwise Reflect			
 
 Audio Devices	ID	Name	Type				Notes

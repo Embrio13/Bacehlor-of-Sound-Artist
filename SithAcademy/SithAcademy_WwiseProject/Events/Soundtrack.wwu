@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D837D49F-D0EF-48A4-8EF1-2637ABD34C1B}" SchemaVersion="97" RootDocumentID="{BFE5B461-40D7-44E3-AA49-ACABE52FFC5C}">
+	<Events>
+		<WorkUnit Name="Soundtrack" ID="{D837D49F-D0EF-48A4-8EF1-2637ABD34C1B}" OwnerID="{BFE5B461-40D7-44E3-AA49-ACABE52FFC5C}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Soundtrack" ID="{AB2CF45C-1EB8-4D33-A9A7-07FDC568DA68}">
+					<ChildrenList>
+						<Action Name="" ID="{4B1BBB72-7F01-46B0-BA88-0244368DFCDA}" ShortID="665264806">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Start_Wars_Alike Vers_ 2" ID="{B7A6EF50-8F01-4DC9-9885-2CD1C5A92BAF}" WorkUnitID="{E85FDFFC-E605-4FF5-BC4A-3E2EF197F0D3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

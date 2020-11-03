@@ -36,7 +36,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+							<ObjectRef Name="Effects" ID="{DC3E06AD-6124-4D04-9EEA-44F031BA7069}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 						</Reference>
 						<Reference Name="ReflectionsAuxSend">
 							<ObjectRef Name="Reflect" ID="{D4E2DDAA-E905-4D58-B713-A15143AF7442}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
@@ -62,65 +62,99 @@
 						<ActiveSource Name="Bass Follo-G3" ID="{BBD06964-F292-4174-8E03-DFD56C22899A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Bass Follo-E4" ID="{C3637C0B-A8CE-4EE8-B597-C1A6DE34AF59}" ShortID="219661557">
+				<Sound Name="doors" ID="{346C8189-EDA5-4195-A930-4C2BF5224F74}" ShortID="243233493">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-						<Property Name="Highpass" Type="int16">
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
 							<ValueList>
-								<Value>10</Value>
+								<Value>19</Value>
 							</ValueList>
 						</Property>
-						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{598D900F-BB6F-49ED-B996-6CBD6B65C8DE}" ShortID="83943412">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Door" ID="{032B9BA5-2775-47A5-A321-ADA446C7C79D}" WorkUnitID="{40320E9D-4010-4BCC-AC1C-E23A32C3FE96}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F9512E70-BA7B-4AE4-A3CE-FBD4B77C5BCC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ValueList>
-								<Value>-30</Value>
+								<Value>350</Value>
 							</ValueList>
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{81C74666-704D-4AE1-B063-87F51EAE8AAF}"/>
-								</ModifierInfo>
-							</ModifierList>
 						</Property>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-1</Value>
+								<Value>-8</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Zielsound Middle" ID="{C0DC03C7-75D6-432E-951B-A74163D56F7C}" WorkUnitID="{6816AF6B-0280-4AA0-8C64-D7719E2F5DAE}"/>
-						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
-						</Reference>
-						<Reference Name="ReflectionsAuxSend">
-							<ObjectRef Name="Reflect" ID="{D4E2DDAA-E905-4D58-B713-A15143AF7442}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+							<ObjectRef Name="Effects" ID="{DC3E06AD-6124-4D04-9EEA-44F031BA7069}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Bass Follo-E4" ID="{759E68E4-D18D-4D9A-B44F-F577B4C41F25}">
+						<AudioFileSource Name="SciFiDoor 6039_24_2" ID="{EA5D2C79-63E1-40C5-ACFC-6B6A901E73AE}">
 							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="0.565068493150685"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.226027397260274"/>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.249698630136986"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.41786301369863"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="0.236301369863014"/>
-								<Property Name="TrimEnd" Type="Real64" Value="1.27397260273973"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.132493150684932"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.54794520547945"/>
 							</PropertyList>
 							<Language>SFX</Language>
-							<AudioFile>Bass Follo-E4.wav</AudioFile>
+							<AudioFile>SciFiDoor 6039_24_2.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="398765256"/>
+								<MediaID ID="1015249336"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{FCE97B39-1F96-47D0-B72D-FE583A7A9BD3}"/>
+						<Position Name="" ID="{0D0E7E2A-6741-4695-8DE7-7FC69587910F}">
+							<ChildrenList>
+								<Path2D Name="SciFiDoor 6039_24_2_Path" ID="{4D9D3612-580D-4515-B6F3-B26A0ECFC617}">
+									<PointList>
+										<Point>
+											<XPos>8.22785</XPos>
+											<YPos>-42.99363</YPos>
+											<Flags>12</Flags>
+											<Time>0</Time>
+										</Point>
+									</PointList>
+								</Path2D>
+							</ChildrenList>
+						</Position>
+					</PositioningInfo>
 					<ActiveSourceList>
-						<ActiveSource Name="Bass Follo-E4" ID="{759E68E4-D18D-4D9A-B44F-F577B4C41F25}" Platform="Linked"/>
+						<ActiveSource Name="SciFiDoor 6039_24_2" ID="{EA5D2C79-63E1-40C5-ACFC-6B6A901E73AE}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

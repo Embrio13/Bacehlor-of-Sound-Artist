@@ -18,16 +18,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Zielsound_2" ID="{761FF259-D802-4377-A951-AA30B320C686}">
+				<Event Name="Play_SciFiDoor_6039_24_2" ID="{A0CA68A2-0A37-46CC-895A-DABC1803E385}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{A77E19AD-7284-4A11-AE19-A470609936D3}" ShortID="316804206">
+						<Action Name="" ID="{A8D1F64E-4198-4470-A1E3-7A57D98D1EB2}" ShortID="947735465">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Bass Follo-E4" ID="{C3637C0B-A8CE-4EE8-B597-C1A6DE34AF59}" WorkUnitID="{438C70D5-12AF-4BB2-8CDC-5E77B14C627E}"/>
+									<ObjectRef Name="doors" ID="{346C8189-EDA5-4195-A930-4C2BF5224F74}" WorkUnitID="{438C70D5-12AF-4BB2-8CDC-5E77B14C627E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DoorKnock_6048_29_4" ID="{70B34443-2835-4652-A508-F6051B3C8622}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{3D9F55DB-524A-4E59-A7B2-BB9B567064AD}" ShortID="275720703">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DoorKnock 6048_29_4" ID="{21D4D3D7-10CC-43E2-9A08-917BEC88DE55}" WorkUnitID="{438C70D5-12AF-4BB2-8CDC-5E77B14C627E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_doors" ID="{FB7BB307-6D76-423C-8769-20A84A9E8A44}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{C3580A54-8B1A-49DA-BA78-FC7ACC08B1CF}" ShortID="964276153">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="doors" ID="{346C8189-EDA5-4195-A930-4C2BF5224F74}" WorkUnitID="{438C70D5-12AF-4BB2-8CDC-5E77B14C627E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Hits_on_Sae" ID="{69C719BF-CFE1-4A39-A645-D6223B7CFE94}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{604D7E78-80B1-4A88-B6C9-91FEBF78D43C}" ShortID="288947587">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits on SAE" ID="{D6AD13E7-1165-46DC-A7DA-C49C07138F87}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

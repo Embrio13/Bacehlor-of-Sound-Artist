@@ -20,12 +20,16 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Env_Edit_Area_Backround" ID="{6A12EDA6-F525-4AB9-9725-FA4800472365}">
+						<Event Name="Hintergund_Machinen_edit_Area" ID="{58B0967E-595D-4C89-A71D-1DF64BEA23F2}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
-								<Action Name="" ID="{983E6C8D-96DE-4ED0-8E4D-CD673A0DF696}" ShortID="145232769">
+								<Action Name="" ID="{E60117DE-7118-4DE9-8A76-0BAF3C66B340}" ShortID="677739561">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Edit- Area_backround_01" ID="{2A56940B-799A-4D0F-BAB6-14B42F6F61FF}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
+											<ObjectRef Name="CLS_90_G_Drone_Army" ID="{04F40FE9-0444-410E-A43E-DEBA87852F53}" WorkUnitID="{1218D7BB-E10F-4CB1-AB72-CB7CA5445926}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

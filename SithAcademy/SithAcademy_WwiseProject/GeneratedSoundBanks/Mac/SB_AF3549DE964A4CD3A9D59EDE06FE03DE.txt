@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2396658741	Voice_Lord_vader_breath			\Default Work Unit\Voice\Voice_Lord_vader_breath	
+

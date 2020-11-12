@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "10327893",
+    "GUID": "{009D9755-9755-1755-5555-555555555555}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_69C719BFCFE14A39A645D6223B7CFE94",
+    "ShortName": "SB_69C719BFCFE14A39A645D6223B7CFE94",
+    "Path": "SB_69C719BFCFE14A39A645D6223B7CFE94.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3580284353",
+      "Name": "Hits_on_Sae",
+      "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Hits_on_Sae",
+      "GUID": "{69C719BF-CFE1-4A39-A645-D6223B7CFE94}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "675950869",
+        "Language": "SFX",
+        "ShortName": "07 Under Hit.wav",
+        "Path": "SFX\\07 Under Hit_10C4C929.wem"
+       },
+       {
+        "Id": "687483114",
+        "Language": "SFX",
+        "ShortName": "01 Deep Hit A.wav",
+        "Path": "SFX\\01 Deep Hit A_06F80325.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

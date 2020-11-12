@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2951850132	Zielansage_Mitarbeiter_im_Flur			\Default Work Unit\Voice\Zielansage_Mitarbeiter_im_Flur	
+

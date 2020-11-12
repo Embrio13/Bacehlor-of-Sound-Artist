@@ -126,7 +126,18 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Begrüßung" ID="{257F9DFC-60B7-4746-8AE8-ABE77ACB62BA}" ShortID="451263192">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="ReflectionsVolume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Locator Punk1" ID="{E991FF17-15F6-42AD-AFD8-B099F9EFA37C}" WorkUnitID="{D8FB71A9-1B53-411D-8370-7863CA90FB1B}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
 						</Reference>
@@ -145,6 +156,169 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Begrüßung" ID="{906E084A-A51C-4047-9B4E-2495D132D151}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Start" ID="{7F164D05-66EA-47D4-BE80-FDC9D248FE86}" ShortID="554671688">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Locator Punk 2" ID="{08C18E11-ADD9-4E0C-A796-4392DE089321}" WorkUnitID="{D8FB71A9-1B53-411D-8370-7863CA90FB1B}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Start" ID="{1618B330-20A9-4FC7-9A09-3E859928AE42}">
+							<Language>SFX</Language>
+							<AudioFile>Start.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="319587836"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Start" ID="{1618B330-20A9-4FC7-9A09-3E859928AE42}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Edit Area" ID="{C1E619BD-F99B-497E-A01F-3A4ABAD4EF71}" ShortID="454507443">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Edit Area" ID="{331331EE-75C8-4432-9109-24DF291A1C23}">
+							<Language>SFX</Language>
+							<AudioFile>Edit Area.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="521211196"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Edit Area" ID="{331331EE-75C8-4432-9109-24DF291A1C23}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Empfang" ID="{56263030-FE64-450D-9694-761BA49B3556}" ShortID="97893497">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Empfang" ID="{C953ABB8-B2C8-40BA-AE9C-BB8F417266DA}">
+							<Language>SFX</Language>
+							<AudioFile>Empfang.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1041355181"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Empfang" ID="{C953ABB8-B2C8-40BA-AE9C-BB8F417266DA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="L_Seite_SEM_1" ID="{96D139B0-71D1-4EC9-AA97-63E83ADF69ED}" ShortID="1060865921">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Locator Punk 6" ID="{BED7713E-FC06-45B9-9175-2ED32D9483C0}" WorkUnitID="{D8FB71A9-1B53-411D-8370-7863CA90FB1B}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="L_Seite_SEM_1" ID="{1B674685-0873-49E3-8EEA-E18D8CDAF8CE}">
+							<Language>SFX</Language>
+							<AudioFile>L_Seite_SEM_1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="122921629"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="L_Seite_SEM_1" ID="{1B674685-0873-49E3-8EEA-E18D8CDAF8CE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Vor dir Auditorium" ID="{783F6F1E-45C1-4219-83E9-E40DCDF4AF0E}" ShortID="793920477">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Loactor Punkt 6B" ID="{B9862DC9-BE50-49B9-934E-427E710C33EE}" WorkUnitID="{D8FB71A9-1B53-411D-8370-7863CA90FB1B}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Vor dir Auditorium" ID="{025CC33A-1490-4EEF-8C13-0F5A9BD1C003}">
+							<Language>SFX</Language>
+							<AudioFile>Vor dir Auditorium.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="949323110"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Vor dir Auditorium" ID="{025CC33A-1490-4EEF-8C13-0F5A9BD1C003}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Stimme folgen_ Hier bin ich" ID="{201AB52A-A498-4F0C-8E7D-3A208FCE1EC0}" ShortID="296960950">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Locator Punkt 6c" ID="{9CD2C0D9-06C6-49DC-82D7-99149307AFE7}" WorkUnitID="{D8FB71A9-1B53-411D-8370-7863CA90FB1B}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Stimme folgen_ Hier bin ich" ID="{2882AA6B-8A4F-4937-B0A7-4DED4A248B2A}">
+							<Language>SFX</Language>
+							<AudioFile>Stimme folgen_ Hier bin ich.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="859325306"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Stimme folgen_ Hier bin ich" ID="{2882AA6B-8A4F-4937-B0A7-4DED4A248B2A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2279101029",
+    "GUID": "{87D85265-5265-1265-6565-656565656565}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_70B3444328354652A508F6051B3C8622",
+    "ShortName": "SB_70B3444328354652A508F6051B3C8622",
+    "Path": "SB_70B3444328354652A508F6051B3C8622.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1970772232",
+      "Name": "Play_DoorKnock_6048_29_4",
+      "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_DoorKnock_6048_29_4",
+      "GUID": "{70B34443-2835-4652-A508-F6051B3C8622}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

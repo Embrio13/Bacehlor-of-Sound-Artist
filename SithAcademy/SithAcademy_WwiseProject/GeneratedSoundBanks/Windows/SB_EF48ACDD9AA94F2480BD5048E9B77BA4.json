@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2730111994",
+    "GUID": "{A2BA33FA-33FA-13FA-FAFA-FAFAFAFAFAFA}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_EF48ACDD9AA94F2480BD5048E9B77BA4",
+    "ShortName": "SB_EF48ACDD9AA94F2480BD5048E9B77BA4",
+    "Path": "SB_EF48ACDD9AA94F2480BD5048E9B77BA4.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "971334379",
+      "Name": "locater_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\locater_1",
+      "GUID": "{EF48ACDD-9AA9-4F24-80BD-5048E9B77BA4}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.192019",
+      "DurationMax": "11.192019",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "546805623",
+        "Language": "SFX",
+        "ShortName": "Begrüßung.wav",
+        "Path": "SFX\\Begrüßung_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

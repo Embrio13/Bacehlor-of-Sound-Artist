@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3657717754	SFX_Env_Hole_AREA_Wind			\Default Work Unit\Enviroment\Complett\SFX_Env_Hole_AREA_Wind	
+

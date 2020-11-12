@@ -31,12 +31,6 @@
       "Name": "Edit_Room_Reverb",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Edit_Room_Reverb",
       "GUID": "{779E82F8-E628-481D-B0BF-B704B73A92DD}"
-     },
-     {
-      "Id": "3633416828",
-      "Name": "Hall",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Hall",
-      "GUID": "{C5A95C63-BD04-4E9C-AFDB-7F5D1A268DC2}"
      }
     ],
     "GameParameters": [

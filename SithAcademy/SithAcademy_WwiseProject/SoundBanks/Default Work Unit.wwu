@@ -25,10 +25,16 @@
 				</SoundBank>
 				<SoundBank Name="SB_Voice" ID="{6B518147-0B61-4ABE-9444-C76C72EF9DAE}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Start" ID="{24879BFF-2B2D-411B-8182-49DF6F77270A}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Begr__ung" ID="{42B79F13-7E69-421E-BB25-4D3D75171471}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Lord Vader Ziel" ID="{3FD20F65-3B36-430F-B1F8-DB4CAB883958}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stimme_folgen__Hier_bin_ich" ID="{EDD4C754-6EE5-459C-A5E5-0E3A3A7C3DC6}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Empfang" ID="{F60BAB5F-7EAD-483C-B03E-02A6C581B0F2}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Edit_Area" ID="{66F02FE4-CE73-4B7C-8333-2344CD3F01FA}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_L_Seite_SEM_1" ID="{B1129FFA-5087-4C2D-AB84-615C5011D10C}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Voice_Lord_vader_breath" ID="{AF3549DE-964A-4CD3-A9D5-9EDE06FE03DE}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Vor_dir_Auditorium" ID="{FBEEA4B1-556C-4D0D-805C-DAB071168F7D}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Darth_Vadere_wilkommen" ID="{C76E0522-48BC-4F08-B5F1-125DA79B6B38}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="locater_1" ID="{EF48ACDD-9AA9-4F24-80BD-5048E9B77BA4}" WorkUnitID="{BFE5B461-40D7-44E3-AA49-ACABE52FFC5C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

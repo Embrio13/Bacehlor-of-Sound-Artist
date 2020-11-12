@@ -1,12 +1,24 @@
 Event	ID	Name			Wwise Object Path	Notes
-	971334379	locater_1			\Default Work Unit\locater_1	
+	182181830	Play_Empfang			\Default Work Unit\Voice\Play_Empfang	
+	798618475	Play_L_Seite_SEM_1			\Default Work Unit\Voice\Play_L_Seite_SEM_1	
+	810796444	Play_Begr__ung			\Default Work Unit\Voice\Play_Begr__ung	
+	1068911600	Play_Stimme_folgen__Hier_bin_ich			\Default Work Unit\Voice\Play_Stimme_folgen__Hier_bin_ich	
+	1227870719	Play_Vor_dir_Auditorium			\Default Work Unit\Voice\Play_Vor_dir_Auditorium	
 	1239085876	Darth_Vadere_wilkommen			\Default Work Unit\Voice\Darth_Vadere_wilkommen	
+	2230670290	Play_Start			\Default Work Unit\Voice\Play_Start	
 	2396658741	Voice_Lord_vader_breath			\Default Work Unit\Voice\Voice_Lord_vader_breath	
 	2951850132	Zielansage_Mitarbeiter_im_Flur			\Default Work Unit\Voice\Zielansage_Mitarbeiter_im_Flur	
+	4075905398	Play_Edit_Area			\Default Work Unit\Voice\Play_Edit_Area	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	47873714	Lord Vader Ziel	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Lord Vader Ziel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Lord Vader Ziel		1131904
 	58346666	Breath Lard vader	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Breath Lard vader_40BD1440.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Breath Lard vader		1658060
+	122921629	L_Seite_SEM_1	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\L_Seite_SEM_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\L_Seite_SEM_1		540736
+	319587836	Start	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Start		518464
+	521211196	Edit Area	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Edit Area_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Edit Area		983104
 	546805623	Begrüßung	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Begrüßung_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Begrüßung		1974336
 	738280550	Wilkommensgruß Darth Vader	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Testo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Wilkommensgruß Darth Vader		987184
+	859325306	Stimme folgen_ Hier bin ich	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Stimme folgen_ Hier bin ich_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Stimme folgen_ Hier bin ich		499776
+	949323110	Vor dir Auditorium	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Vor dir Auditorium_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Vor dir Auditorium		544384
+	1041355181	Empfang	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Empfang_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Empfang		1083056
 

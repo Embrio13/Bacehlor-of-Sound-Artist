@@ -1,0 +1,41 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3391895178",
+    "GUID": "{CA2C368A-368A-168A-8A8A-8A8A8A8A8A8A}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_779E82F8E628481DB0BFB704B73A92DD",
+    "ShortName": "SB_779E82F8E628481DB0BFB704B73A92DD",
+    "Path": "SB_779E82F8E628481DB0BFB704B73A92DD.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "747019164",
+      "Name": "Edit_Room_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Edit_Room_Reverb",
+      "GUID": "{779E82F8-E628-481D-B0BF-B704B73A92DD}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "882644975",
+      "Name": "asd",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\asd",
+      "GUID": "{1AD7FEB7-2B82-4F3C-8E7C-57F0B41C5390}"
+     }
+    ]
+   }
+  ]
+ }
+}

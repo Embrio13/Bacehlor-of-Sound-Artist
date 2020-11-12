@@ -38,11 +38,28 @@
       ]
      },
      {
+      "Id": "810796444",
+      "Name": "Play_Begr__ung",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Begr__ung",
+      "GUID": "{42B79F13-7E69-421E-BB25-4D3D75171471}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.192019",
+      "DurationMax": "11.192019",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "546805623",
+        "Language": "SFX",
+        "ShortName": "Begrüßung.wav",
+        "Path": "SFX\\Begrüßung_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "2396658741",
       "Name": "Voice_Lord_vader_breath",
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Voice_Lord_vader_breath",
       "GUID": "{AF3549DE-964A-4CD3-A9D5-9EDE06FE03DE}",
-      "MaxAttenuation": "900.000000",
+      "MaxAttenuation": "1200.000000",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {

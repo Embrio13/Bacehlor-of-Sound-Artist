@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3874733915",
+    "GUID": "{E6F3BF5B-BF5B-1F5B-5B5B-5B5B5B5B5B5B}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_227296AEA8A540C7858C5EB1385748D3",
+    "ShortName": "SB_227296AEA8A540C7858C5EB1385748D3",
+    "Path": "SB_227296AEA8A540C7858C5EB1385748D3.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2951850132",
+      "Name": "Zielansage_Mitarbeiter_im_Flur",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Zielansage_Mitarbeiter_im_Flur",
+      "GUID": "{227296AE-A8A5-40C7-858C-5EB1385748D3}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.416327",
+      "DurationMax": "6.416327",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "47873714",
+        "Language": "SFX",
+        "ShortName": "Lord Vader Ziel.wav",
+        "Path": "SFX\\Lord Vader Ziel_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

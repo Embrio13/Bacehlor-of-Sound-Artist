@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3580284353	Hits_on_Sae			\Default Work Unit\Effects\Hits_on_Sae	
+

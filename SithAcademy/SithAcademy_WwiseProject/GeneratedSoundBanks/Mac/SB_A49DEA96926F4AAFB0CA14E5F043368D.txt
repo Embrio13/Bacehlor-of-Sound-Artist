@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1885315473	Env_Computer_Keys			\Default Work Unit\Enviroment\Edit Area\Env_Computer_Keys	
+

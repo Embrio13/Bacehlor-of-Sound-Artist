@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3655372345	Play_doors			\Default Work Unit\Effects\Play_doors	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1877847629	Door			\Default Work Unit\Door	
+

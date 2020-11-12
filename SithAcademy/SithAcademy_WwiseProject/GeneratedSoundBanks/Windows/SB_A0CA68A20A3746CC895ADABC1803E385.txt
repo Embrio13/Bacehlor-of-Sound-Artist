@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1658578607	Play_SciFiDoor_6039_24_2			\Default Work Unit\Effects\Play_SciFiDoor_6039_24_2	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1877847629	Door			\Default Work Unit\Door	
+

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	971334379	locater_1			\Default Work Unit\locater_1	
+

@@ -1,0 +1,105 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3011350018",
+    "GUID": "{B37D8E02-8E02-1E02-0202-020202020202}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_A49DEA96926F4AAFB0CA14E5F043368D",
+    "ShortName": "SB_A49DEA96926F4AAFB0CA14E5F043368D",
+    "Path": "SB_A49DEA96926F4AAFB0CA14E5F043368D.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1885315473",
+      "Name": "Env_Computer_Keys",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enviroment\\Edit Area\\Env_Computer_Keys",
+      "GUID": "{A49DEA96-926F-4AAF-B0CA-14E5F043368D}",
+      "MaxAttenuation": "500.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "41.834671",
+      "DurationMax": "41.834671",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "5734421",
+        "Language": "SFX",
+        "ShortName": "ComputerKeyboard2 6028_39_2.wav",
+        "Path": "SFX\\ComputerKeyboard2 6028_39_2_10C4C929.wem"
+       },
+       {
+        "Id": "201592619",
+        "Language": "SFX",
+        "ShortName": "SciFiComputer 6039_27_2.wav",
+        "Path": "SFX\\SciFiComputer 6039_27_2_10C4C929.wem"
+       },
+       {
+        "Id": "225746224",
+        "Language": "SFX",
+        "ShortName": "ComputerMouse 6028_42_2.wav",
+        "Path": "SFX\\ComputerMouse 6028_42_2_10C4C929.wem"
+       },
+       {
+        "Id": "496948702",
+        "Language": "SFX",
+        "ShortName": "ComputerKeyboard2 6028_39_1.wav",
+        "Path": "SFX\\ComputerKeyboard2 6028_39_1_10C4C929.wem"
+       },
+       {
+        "Id": "503601271",
+        "Language": "SFX",
+        "ShortName": "ComputerKeyboard1 6028_38_2.wav",
+        "Path": "SFX\\ComputerKeyboard1 6028_38_2_10C4C929.wem"
+       },
+       {
+        "Id": "510177819",
+        "Language": "SFX",
+        "ShortName": "SciFiComputer 6039_28_1.wav",
+        "Path": "SFX\\SciFiComputer 6039_28_1_10C4C929.wem"
+       },
+       {
+        "Id": "586589159",
+        "Language": "SFX",
+        "ShortName": "ComputerKeyboard1 6028_37_6.wav",
+        "Path": "SFX\\ComputerKeyboard1 6028_37_6_10C4C929.wem"
+       },
+       {
+        "Id": "683090482",
+        "Language": "SFX",
+        "ShortName": "ComputerMouse 6028_42_3.wav",
+        "Path": "SFX\\ComputerMouse 6028_42_3_10C4C929.wem"
+       },
+       {
+        "Id": "755337426",
+        "Language": "SFX",
+        "ShortName": "ComputerKeyboard1 6028_38_4.wav",
+        "Path": "SFX\\ComputerKeyboard1 6028_38_4_10C4C929.wem"
+       },
+       {
+        "Id": "972962753",
+        "Language": "SFX",
+        "ShortName": "SciFiComputer 6039_27_4.wav",
+        "Path": "SFX\\SciFiComputer 6039_27_4_10C4C929.wem"
+       },
+       {
+        "Id": "1054974401",
+        "Language": "SFX",
+        "ShortName": "ComputerKeyboard1 6028_38_3.wav",
+        "Path": "SFX\\ComputerKeyboard1 6028_38_3_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

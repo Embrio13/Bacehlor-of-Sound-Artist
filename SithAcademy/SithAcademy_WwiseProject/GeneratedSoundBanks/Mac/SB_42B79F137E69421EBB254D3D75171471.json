@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1475504037",
+    "GUID": "{57F267A5-67A5-17A5-A5A5-A5A5A5A5A5A5}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_42B79F137E69421EBB254D3D75171471",
+    "ShortName": "SB_42B79F137E69421EBB254D3D75171471",
+    "Path": "SB_42B79F137E69421EBB254D3D75171471.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "810796444",
+      "Name": "Play_Begr__ung",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Begr__ung",
+      "GUID": "{42B79F13-7E69-421E-BB25-4D3D75171471}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.192019",
+      "DurationMax": "11.192019",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "546805623",
+        "Language": "SFX",
+        "ShortName": "Begrüßung.wav",
+        "Path": "SFX\\Begrüßung_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

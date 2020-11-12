@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1227698858	Hintergund_Machinen_edit_Area			\Default Work Unit\Enviroment\Edit Area\Hintergund_Machinen_edit_Area	
+

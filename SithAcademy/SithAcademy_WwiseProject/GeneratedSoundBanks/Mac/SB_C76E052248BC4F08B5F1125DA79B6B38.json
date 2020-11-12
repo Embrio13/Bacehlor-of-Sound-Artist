@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "382648184",
+    "GUID": "{16CEBF78-BF78-1F78-7878-787878787878}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_C76E052248BC4F08B5F1125DA79B6B38",
+    "ShortName": "SB_C76E052248BC4F08B5F1125DA79B6B38",
+    "Path": "SB_C76E052248BC4F08B5F1125DA79B6B38.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1239085876",
+      "Name": "Darth_Vadere_wilkommen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Darth_Vadere_wilkommen",
+      "GUID": "{C76E0522-48BC-4F08-B5F1-125DA79B6B38}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.595918",
+      "DurationMax": "5.595918",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "738280550",
+        "Language": "SFX",
+        "ShortName": "Testo.wav",
+        "Path": "SFX\\Testo_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -9,7 +9,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	360503914	SFX_Zielsound_Point_1	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Bass Follo-G3_90DC9546.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effects\SFX_Zielsound_Point_1		242696
-	675950869	07 Under Hit	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\07 Under Hit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effects\Hits on SAE\07 Under Hit		1310784
-	687483114	01 Deep Hit A	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\01 Deep Hit A_06F80325.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effects\Hits on SAE\01 Deep Hit A		628036
+	675950869	07 Under Hit	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\07 Under Hit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Complete Building\Hits on SAE\07 Under Hit		1310784
+	687483114	01 Deep Hit A	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\01 Deep Hit A_06F80325.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Complete Building\Hits on SAE\01 Deep Hit A		628036
 	1015249336	doors	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\SciFiDoor 6039_24_2_13D0DECE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effects\doors		463828
 

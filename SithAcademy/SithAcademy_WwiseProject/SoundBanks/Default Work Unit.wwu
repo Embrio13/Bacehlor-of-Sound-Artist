@@ -28,6 +28,7 @@
 						<ObjectRef Name="Lord Vader Ziel" ID="{3FD20F65-3B36-430F-B1F8-DB4CAB883958}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Voice_Lord_vader_breath" ID="{AF3549DE-964A-4CD3-A9D5-9EDE06FE03DE}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Darth_Vadere_wilkommen" ID="{C76E0522-48BC-4F08-B5F1-125DA79B6B38}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="locater_1" ID="{EF48ACDD-9AA9-4F24-80BD-5048E9B77BA4}" WorkUnitID="{BFE5B461-40D7-44E3-AA49-ACABE52FFC5C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

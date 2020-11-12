@@ -7,6 +7,17 @@
 				<WorkUnit Name="Effects" ID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" PersistMode="Reference"/>
 				<WorkUnit Name="Voice" ID="{75085EA9-0054-445E-A636-BD60F9ABB005}" PersistMode="Reference"/>
 				<WorkUnit Name="Soundtrack" ID="{D837D49F-D0EF-48A4-8EF1-2637ABD34C1B}" PersistMode="Reference"/>
+				<Event Name="locater_1" ID="{EF48ACDD-9AA9-4F24-80BD-5048E9B77BA4}">
+					<ChildrenList>
+						<Action Name="" ID="{CDD8563B-6ACC-47E3-8504-CF317691D9EB}" ShortID="626459659">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Begrüßung" ID="{257F9DFC-60B7-4746-8AE8-ABE77ACB62BA}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

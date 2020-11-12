@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	3884404148	Play_Soundtrack			\Default Work Unit\Soundtrack\Play_Soundtrack	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	830937292	Start_Wars_Alike Vers_ 2	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Start_Wars_Alike Vers. 2_97687960.wem		\Actor-Mixer Hierarchy\Default Work Unit\Soundtrack\Start_Wars_Alike Vers_ 2		23814208
+	830937292	Start_Wars_Alike Vers_ 2	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Start_Wars_Alike Vers. 2_78D10521.wem		\Actor-Mixer Hierarchy\Default Work Unit\Soundtrack\Start_Wars_Alike Vers_ 2		23814208
 

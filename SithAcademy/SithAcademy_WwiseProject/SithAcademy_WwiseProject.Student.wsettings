@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{654B3DDF-D8E4-44E5-938C-CCE1C92E34D2}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Florian Kardos\Sounds\Soundtrack\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Florian Kardos\Sounds\Sprache\"/>
 				<Property Name="Event Action List\{062D999C-575D-4493-9832-355C8EF3F1DA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0B28D887-3916-4999-B53B-A2D9622CBDFB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0E1CDD7B-0771-4FF4-BE62-1BE0FF17E87E}\x64_Expand States" Type="string" Value=""/>
@@ -76,6 +76,7 @@
 				<Property Name="Event Action List\{E768B636-1BEC-4E35-A64D-9648021EB8B6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E78A915E-E201-4031-B3BC-FB1DD564E3A3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E79DBE01-ECDE-419C-87FC-FAF3997FF5FA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EF48ACDD-9AA9-4F24-80BD-5048E9B77BA4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FB7BB307-6D76-423C-8769-20A84A9E8A44}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FB87E552-F398-4F50-AE76-378F363DEE70}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{FE08463A-ACF3-441B-B73A-7A57C94B3FBF}\x64_Expand States" Type="string" Value=""/>
@@ -102,7 +103,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="Bap6khj3Z0CYI765RSdNsA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="uKn9WR5cJ06MjP+IWDDGqUOkGJGr3IxBnp+D89TG78dHgVFrYQu+SpREx2xy752u7zjYsWbjAEqF3vsi85414A=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="C4DdZqoWhUC1RJqcxw4UewGAwZX/////ikkuZ4pdok6AbkkAZeICqgGAwZX/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="C4DdZqoWhUC1RJqcxw4UewGAy3v/////ikkuZ4pdok6AbkkAZeICqgGAy3v/////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -112,7 +113,7 @@
 				<Property Name="Mixing Desk\GroupCollapse\x64_{CB34B546-15A8-4B83-BEF7-7F8B352D0A93}" Type="string" Value="AgAAAAAAAAAAAAAAAAAAAAAAAAA="/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{CB34B546-15A8-4B83-BEF7-7F8B352D0A93}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
-				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value="AAAAAABzZHNhAB9DBwgAADBNXRqMAgAAQMAUQ4wCAAAwTV0ajAIAADB/6SOMAgAAIAuGGIwCAAAg1NJGjAIAACAr7D6MAgAAkfsfQ/5/AAAwTV0ajAIAADB/6SOMAgAAIAuGGIwCAAAg1NJGjAIAAIDCFUOMAgAAkfsfQ/5/AAAgK+w+jAIAAA=="/>
+				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value="AAAAAABzZHNhAMko8gEAAPBAJbT+AQAAkJjozP4BAADwQCW0/gEAAHCRob3+AQAA4MQnsv4BAABgC9LM/gEAAHDEW8X+AQAAkfvJKPl/AADwQCW0/gEAAHCRob3+AQAA4MQnsv4BAABgC9LM/gEAAGDX6Mz+AQAAkfvJKPl/AABwxFvF/gEAAA=="/>
 				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>

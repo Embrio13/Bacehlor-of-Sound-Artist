@@ -125,6 +125,28 @@
 						<ActiveSource Name="Testo" ID="{9BCB01AE-25BB-4170-AA1C-5E8651AA756A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Begrüßung" ID="{257F9DFC-60B7-4746-8AE8-ABE77ACB62BA}" ShortID="451263192">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Begrüßung" ID="{906E084A-A51C-4047-9B4E-2495D132D151}">
+							<Language>SFX</Language>
+							<AudioFile>Begrüßung.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="546805623"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Begrüßung" ID="{906E084A-A51C-4047-9B4E-2495D132D151}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

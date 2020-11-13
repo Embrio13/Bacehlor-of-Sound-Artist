@@ -157,6 +157,32 @@
 						<ActiveSource Name="SciFiDoor 6039_24_2" ID="{EA5D2C79-63E1-40C5-ACFC-6B6A901E73AE}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Treppe" ID="{CD5D0B0B-45C2-47BF-BB1D-91FEFB7DC233}" ShortID="675912328">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Treppe" ID="{80A375FF-89FE-417E-A095-D6B869ACB391}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="0.988602739726028"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Treppe.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="811326156"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Treppe" ID="{80A375FF-89FE-417E-A095-D6B869ACB391}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

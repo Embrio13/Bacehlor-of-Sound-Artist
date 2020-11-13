@@ -63,6 +63,21 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Treppe" ID="{F4A28093-19AA-4305-B1D0-A3BE26DCFCD2}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{0FBE9A56-2500-4CD4-B12E-662E077DA630}" ShortID="172568538">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Treppe" ID="{CD5D0B0B-45C2-47BF-BB1D-91FEFB7DC233}" WorkUnitID="{438C70D5-12AF-4BB2-8CDC-5E77B14C627E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

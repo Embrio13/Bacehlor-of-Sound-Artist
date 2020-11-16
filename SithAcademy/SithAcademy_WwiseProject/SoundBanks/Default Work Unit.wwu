@@ -17,6 +17,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_doors" ID="{FB7BB307-6D76-423C-8769-20A84A9E8A44}" WorkUnitID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Treppe" ID="{F4A28093-19AA-4305-B1D0-A3BE26DCFCD2}" WorkUnitID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Steps" ID="{4EE2CF94-F6DB-46C1-A0FF-C7DEC399EDC5}" WorkUnitID="{3B380F35-C60A-4929-806D-4819C846586A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SciFiDoor_6039_24_2" ID="{A0CA68A2-0A37-46CC-895A-DABC1803E385}" WorkUnitID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Hits_on_Sae" ID="{69C719BF-CFE1-4A39-A645-D6223B7CFE94}" WorkUnitID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Zielsound_Point_1" ID="{6945A9BE-A1DF-4F5C-9D67-4F195EE99C26}" WorkUnitID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" Origin="Manual" Filter="7"/>

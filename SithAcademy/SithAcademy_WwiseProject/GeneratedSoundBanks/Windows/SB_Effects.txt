@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	422952694	Play_Treppe			\Default Work Unit\Effects\Play_Treppe	
 	632995716	Play_Zielsound_Point_1			\Default Work Unit\Effects\Play_Zielsound_Point_1	
 	1658578607	Play_SciFiDoor_6039_24_2			\Default Work Unit\Effects\Play_SciFiDoor_6039_24_2	
+	2600469463	Play_Steps			\Default Work Unit\Play_Steps	
 	3580284353	Hits_on_Sae			\Default Work Unit\Effects\Hits_on_Sae	
 	3655372345	Play_doors			\Default Work Unit\Effects\Play_doors	
 
@@ -9,9 +10,11 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1877847629	Door			\Default Work Unit\Door	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	33292796	FootstepsConcrete 6016_01_4	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\FootstepsConcrete 6016_01_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Steps\FootstepsConcrete 6016_01_4		211008
+	347285602	FootstepsConcrete 6016_01_3	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\FootstepsConcrete 6016_01_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Steps\FootstepsConcrete 6016_01_3		235584
 	360503914	SFX_Zielsound_Point_1	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Bass Follo-G3_90DC9546.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effects\SFX_Zielsound_Point_1		242696
 	675950869	07 Under Hit	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\07 Under Hit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Complete Building\Hits on SAE\07 Under Hit		1310784
 	687483114	01 Deep Hit A	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\01 Deep Hit A_06F80325.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enviroment\Complete Building\Hits on SAE\01 Deep Hit A		628036
-	811326156	Treppe	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Treppe_56EBD0E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effects\Treppe		189876
+	811326156	Treppe	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Treppe_669D5003.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effects\Treppe		189876
 	1015249336	doors	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\SciFiDoor 6039_24_2_13D0DECE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Effects\doors		463828
 

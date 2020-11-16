@@ -7,6 +7,7 @@
 				<WorkUnit Name="Effects" ID="{74AFC975-156B-4630-B4BD-22BA5B64E7DB}" PersistMode="Reference"/>
 				<WorkUnit Name="Voice" ID="{75085EA9-0054-445E-A636-BD60F9ABB005}" PersistMode="Reference"/>
 				<WorkUnit Name="Soundtrack" ID="{D837D49F-D0EF-48A4-8EF1-2637ABD34C1B}" PersistMode="Reference"/>
+				<WorkUnit Name="Footssteps" ID="{3B380F35-C60A-4929-806D-4819C846586A}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

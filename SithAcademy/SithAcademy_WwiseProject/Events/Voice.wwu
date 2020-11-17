@@ -49,6 +49,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Begr__ung" ID="{42B79F13-7E69-421E-BB25-4D3D75171471}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{F7396A9C-0483-4CC6-8AB1-B5F85F04E5B4}" ShortID="284375103">
 							<ReferenceList>
@@ -60,6 +64,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Start" ID="{24879BFF-2B2D-411B-8182-49DF6F77270A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{E4D87577-CF7B-476F-BCC8-36323CA0DEBF}" ShortID="14584812">
 							<ReferenceList>
@@ -71,6 +79,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Empfang" ID="{F60BAB5F-7EAD-483C-B03E-02A6C581B0F2}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{4963776D-6F29-48E8-86BA-7ADA51CA25AD}" ShortID="292293506">
 							<ReferenceList>
@@ -82,6 +94,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Edit_Area" ID="{66F02FE4-CE73-4B7C-8333-2344CD3F01FA}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{FBA8721C-3FF5-4839-9080-1D3882279A84}" ShortID="173795384">
 							<ReferenceList>
@@ -93,6 +109,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Vor_dir_Auditorium" ID="{FBEEA4B1-556C-4D0D-805C-DAB071168F7D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{A133042B-2253-401A-ADF0-96F978BF9BF4}" ShortID="662157828">
 							<ReferenceList>
@@ -104,6 +124,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_L_Seite_SEM_1" ID="{B1129FFA-5087-4C2D-AB84-615C5011D10C}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{030E01A0-183A-4EEC-994C-8125FC33CDBF}" ShortID="463192232">
 							<ReferenceList>
@@ -115,6 +139,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Stimme_folgen__Hier_bin_ich" ID="{EDD4C754-6EE5-459C-A5E5-0E3A3A7C3DC6}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{84B7D87D-4710-4B8F-A5D1-A044F1273730}" ShortID="848682583">
 							<ReferenceList>
@@ -126,11 +154,60 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Stimme_folgen__Hier_bin_ich_01" ID="{011C2F44-85DE-4D80-BC79-2C5D228C7021}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{9A6E87D3-6131-40F6-9542-8287ABB3ECAD}" ShortID="524801793">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Stimme folgen_ Hier bin ich" ID="{201AB52A-A498-4F0C-8E7D-3A208FCE1EC0}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Falscher_Weg" ID="{BD86B987-A761-47C9-ADA2-5028141E3F16}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{B84B24E5-D8C7-40F7-AE9E-7BE7792E1C07}" ShortID="998588748">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Falscher Weg" ID="{26C32B1A-8E69-4837-88B0-E17CB20F00CB}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Komm_zu_rck_2" ID="{7931006E-F379-437F-80EF-902FD46AE01D}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{3F4F6B58-31A0-4A8D-9394-2D518ACF7F64}" ShortID="30141636">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Komm zuürck_2" ID="{AE20A326-9643-40ED-B57B-CA7E187816D8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Richtiger_Weg" ID="{8C562A5C-775C-47D7-B17A-DA06AC6B0C84}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{8E708BF7-77A3-4CA0-B59C-41A4B659B58A}" ShortID="399907241">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Richtiger Weg" ID="{1530B6F8-A4EC-4380-9DCB-C5234A1BC875}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

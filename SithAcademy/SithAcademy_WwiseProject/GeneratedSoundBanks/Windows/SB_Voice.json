@@ -90,6 +90,33 @@
       ]
      },
      {
+      "Id": "3128058808",
+      "Name": "Play_Falscher_Weg",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Falscher_Weg",
+      "GUID": "{BD86B987-A761-47C9-ADA2-5028141E3F16}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.098322",
+      "DurationMax": "4.098322",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "549928684",
+        "Language": "SFX",
+        "ShortName": "Falscher Weg.wav",
+        "Path": "SFX\\Falscher Weg_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1002098596",
+      "Name": "Play_Komm_zu_rck_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Komm_zu_rck_2",
+      "GUID": "{7931006E-F379-437F-80EF-902FD46AE01D}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
       "Id": "798618475",
       "Name": "Play_L_Seite_SEM_1",
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_L_Seite_SEM_1",
@@ -104,6 +131,23 @@
         "Language": "SFX",
         "ShortName": "L_Seite_SEM_1.wav",
         "Path": "SFX\\L_Seite_SEM_1_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3910943811",
+      "Name": "Play_Richtiger_Weg",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Richtiger_Weg",
+      "GUID": "{8C562A5C-775C-47D7-B17A-DA06AC6B0C84}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.183673",
+      "DurationMax": "3.183673",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "501957311",
+        "Language": "SFX",
+        "ShortName": "Richtiger Weg.wav",
+        "Path": "SFX\\Richtiger Weg_10C4C929.wem"
        }
       ]
      },

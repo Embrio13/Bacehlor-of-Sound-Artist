@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{D837D49F-D0EF-48A4-8EF1-2637ABD34C1B}" SchemaVersion="97" RootDocumentID="{BFE5B461-40D7-44E3-AA49-ACABE52FFC5C}">
 	<Events>
 		<WorkUnit Name="Soundtrack" ID="{D837D49F-D0EF-48A4-8EF1-2637ABD34C1B}" OwnerID="{BFE5B461-40D7-44E3-AA49-ACABE52FFC5C}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Event Name="Play_Soundtrack" ID="{AB2CF45C-1EB8-4D33-A9A7-07FDC568DA68}">
 					<ChildrenList>

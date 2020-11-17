@@ -78,8 +78,9 @@
      {
       "Id": "2600469463",
       "Name": "Play_Steps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Steps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footssteps\\Play_Steps",
       "GUID": "{4EE2CF94-F6DB-46C1-A0FF-C7DEC399EDC5}",
+      "MaxAttenuation": "1200.000000",
       "DurationType": "OneShot",
       "DurationMin": "1.098667",
       "DurationMax": "1.226667",

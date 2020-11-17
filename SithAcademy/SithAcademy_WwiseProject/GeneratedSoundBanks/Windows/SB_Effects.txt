@@ -2,7 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	422952694	Play_Treppe			\Default Work Unit\Effects\Play_Treppe	
 	632995716	Play_Zielsound_Point_1			\Default Work Unit\Effects\Play_Zielsound_Point_1	
 	1658578607	Play_SciFiDoor_6039_24_2			\Default Work Unit\Effects\Play_SciFiDoor_6039_24_2	
-	2600469463	Play_Steps			\Default Work Unit\Play_Steps	
+	2600469463	Play_Steps			\Default Work Unit\Footssteps\Play_Steps	
 	3580284353	Hits_on_Sae			\Default Work Unit\Effects\Hits_on_Sae	
 	3655372345	Play_doors			\Default Work Unit\Effects\Play_doors	
 

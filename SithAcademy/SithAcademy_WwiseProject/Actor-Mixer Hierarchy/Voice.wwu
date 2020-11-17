@@ -337,7 +337,7 @@
 								<Value>11</Value>
 							</ValueList>
 						</Property>
-						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-7</Value>
@@ -346,7 +346,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
-							<ObjectRef Name="Locator Punkt 6c" ID="{9CD2C0D9-06C6-49DC-82D7-99149307AFE7}" WorkUnitID="{D8FB71A9-1B53-411D-8370-7863CA90FB1B}"/>
+							<ObjectRef Name="ATT_Env_Big" ID="{9A4B77FD-7979-4A41-A55F-CDA613D943E0}" WorkUnitID="{C1B5EEE0-2D34-47DA-8190-5F70573C8787}"/>
 						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
@@ -371,6 +371,59 @@
 						<ActiveSource Name="Stimme folgen_ Hier bin ich" ID="{2882AA6B-8A4F-4937-B0A7-4DED4A248B2A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="Hinweise" ID="{B430770C-51E8-414A-A2F4-1100C3A177D1}" ShortID="299941747">
+					<ChildrenList>
+						<Sound Name="Falscher Weg" ID="{26C32B1A-8E69-4837-88B0-E17CB20F00CB}" ShortID="686935561">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Falscher Weg" ID="{37D6AF1D-AE77-46E1-A8B0-7B82E1F00762}">
+									<Language>SFX</Language>
+									<AudioFile>Falscher Weg.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="549928684"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Falscher Weg" ID="{37D6AF1D-AE77-46E1-A8B0-7B82E1F00762}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Richtiger Weg" ID="{1530B6F8-A4EC-4380-9DCB-C5234A1BC875}" ShortID="549601081">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Richtiger Weg" ID="{C8F91ED6-5009-4B0E-8A08-6D3FF61143E6}">
+									<Language>SFX</Language>
+									<AudioFile>Richtiger Weg.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="501957311"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Richtiger Weg" ID="{C8F91ED6-5009-4B0E-8A08-6D3FF61143E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

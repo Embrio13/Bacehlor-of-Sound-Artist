@@ -76,6 +76,47 @@
       ]
      },
      {
+      "Id": "2600469463",
+      "Name": "Play_Steps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footssteps\\Play_Steps",
+      "GUID": "{4EE2CF94-F6DB-46C1-A0FF-C7DEC399EDC5}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.098667",
+      "DurationMax": "1.226667",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "33292796",
+        "Language": "SFX",
+        "ShortName": "FootstepsConcrete 6016_01_4.wav",
+        "Path": "SFX\\FootstepsConcrete 6016_01_4_10C4C929.wem"
+       },
+       {
+        "Id": "347285602",
+        "Language": "SFX",
+        "ShortName": "FootstepsConcrete 6016_01_3.wav",
+        "Path": "SFX\\FootstepsConcrete 6016_01_3_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "422952694",
+      "Name": "Play_Treppe",
+      "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_Treppe",
+      "GUID": "{F4A28093-19AA-4305-B1D0-A3BE26DCFCD2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.988603",
+      "DurationMax": "0.988603",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "811326156",
+        "Language": "SFX",
+        "ShortName": "Treppe.wav",
+        "Path": "SFX\\Treppe_669D5003.wem"
+       }
+      ]
+     },
+     {
       "Id": "632995716",
       "Name": "Play_Zielsound_Point_1",
       "ObjectPath": "\\Events\\Default Work Unit\\Effects\\Play_Zielsound_Point_1",

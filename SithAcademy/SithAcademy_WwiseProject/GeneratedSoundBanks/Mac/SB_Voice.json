@@ -42,6 +42,7 @@
       "Name": "Play_Begr__ung",
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Begr__ung",
       "GUID": "{42B79F13-7E69-421E-BB25-4D3D75171471}",
+      "MaxAttenuation": "700.000000",
       "DurationType": "OneShot",
       "DurationMin": "11.192019",
       "DurationMax": "11.192019",
@@ -51,6 +52,129 @@
         "Language": "SFX",
         "ShortName": "Begrüßung.wav",
         "Path": "SFX\\Begrüßung_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4075905398",
+      "Name": "Play_Edit_Area",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Edit_Area",
+      "GUID": "{66F02FE4-CE73-4B7C-8333-2344CD3F01FA}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.572789",
+      "DurationMax": "5.572789",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "521211196",
+        "Language": "SFX",
+        "ShortName": "Edit Area.wav",
+        "Path": "SFX\\Edit Area_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "182181830",
+      "Name": "Play_Empfang",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Empfang",
+      "GUID": "{F60BAB5F-7EAD-483C-B03E-02A6C581B0F2}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.139410",
+      "DurationMax": "6.139410",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1041355181",
+        "Language": "SFX",
+        "ShortName": "Empfang.wav",
+        "Path": "SFX\\Empfang_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3128058808",
+      "Name": "Play_Falscher_Weg",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Falscher_Weg",
+      "GUID": "{D104DA0A-5DAC-469F-9986-C3E9717570C5}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.877551",
+      "DurationMax": "5.877551",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "859776828",
+        "Language": "SFX",
+        "ShortName": "Komm zuürck_2.wav",
+        "Path": "SFX\\Komm zuürck_2_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "798618475",
+      "Name": "Play_L_Seite_SEM_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_L_Seite_SEM_1",
+      "GUID": "{B1129FFA-5087-4C2D-AB84-615C5011D10C}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.065034",
+      "DurationMax": "3.065034",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "122921629",
+        "Language": "SFX",
+        "ShortName": "L_Seite_SEM_1.wav",
+        "Path": "SFX\\L_Seite_SEM_1_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2230670290",
+      "Name": "Play_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Start",
+      "GUID": "{24879BFF-2B2D-411B-8182-49DF6F77270A}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.938776",
+      "DurationMax": "2.938776",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "319587836",
+        "Language": "SFX",
+        "ShortName": "Start.wav",
+        "Path": "SFX\\Start_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1068911600",
+      "Name": "Play_Stimme_folgen__Hier_bin_ich",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Stimme_folgen__Hier_bin_ich",
+      "GUID": "{EDD4C754-6EE5-459C-A5E5-0E3A3A7C3DC6}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.832834",
+      "DurationMax": "2.832834",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "859325306",
+        "Language": "SFX",
+        "ShortName": "Stimme folgen_ Hier bin ich.wav",
+        "Path": "SFX\\Stimme folgen_ Hier bin ich_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1227870719",
+      "Name": "Play_Vor_dir_Auditorium",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Vor_dir_Auditorium",
+      "GUID": "{FBEEA4B1-556C-4D0D-805C-DAB071168F7D}",
+      "MaxAttenuation": "800.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.085714",
+      "DurationMax": "3.085714",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "949323110",
+        "Language": "SFX",
+        "ShortName": "Vor dir Auditorium.wav",
+        "Path": "SFX\\Vor dir Auditorium_10C4C929.wem"
        }
       ]
      },

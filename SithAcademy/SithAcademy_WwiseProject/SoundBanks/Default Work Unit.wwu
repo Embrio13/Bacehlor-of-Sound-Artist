@@ -31,6 +31,7 @@
 						<ObjectRef Name="Play_Begr__ung" ID="{42B79F13-7E69-421E-BB25-4D3D75171471}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Lord Vader Ziel" ID="{3FD20F65-3B36-430F-B1F8-DB4CAB883958}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Komm_zu_rck_2" ID="{7931006E-F379-437F-80EF-902FD46AE01D}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Achtung_Treppe" ID="{1778555B-15E4-4388-A827-84C0E5043184}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Falscher_Weg_2__Neu_" ID="{BD32F1DA-16D5-4451-BCEF-DE9931CD7F59}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Falscher_Weg_1__Neu_" ID="{824B2136-06D0-44FB-B546-83E7CD9C637E}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Stimme_folgen__Hier_bin_ich" ID="{EDD4C754-6EE5-459C-A5E5-0E3A3A7C3DC6}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>

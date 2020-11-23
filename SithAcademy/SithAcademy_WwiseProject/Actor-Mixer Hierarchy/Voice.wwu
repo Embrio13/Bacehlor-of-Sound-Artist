@@ -537,6 +537,62 @@
 						<ActiveSource Name="Falscher Weg_3( Neu)" ID="{B9C5C2B5-F19C-4352-A0F0-8D343CB8B10E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="achtung Treppe vor dir" ID="{A0E79B3E-B962-41E0-8B18-CA9365ED6501}" ShortID="161721396">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>23</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="achtung Treppe vor dir" ID="{AE6C91E3-FDC4-4C1D-BD45-347D6A7AEA33}">
+							<Language>SFX</Language>
+							<AudioFile>achtung Treppe vor dir.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="41631836"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="achtung Treppe vor dir" ID="{AE6C91E3-FDC4-4C1D-BD45-347D6A7AEA33}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Achtung Treppe, in der Nähe_" ID="{A9E507EE-4219-48A2-AE45-9EF3A74705AA}" ShortID="140569691">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Achtung Treppe, in der Nähe_" ID="{B657DB69-79E7-483B-8FAB-9F78598CA74D}">
+							<Language>SFX</Language>
+							<AudioFile>Achtung Treppe, in der Nähe..wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="311461776"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Achtung Treppe, in der Nähe_" ID="{B657DB69-79E7-483B-8FAB-9F78598CA74D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

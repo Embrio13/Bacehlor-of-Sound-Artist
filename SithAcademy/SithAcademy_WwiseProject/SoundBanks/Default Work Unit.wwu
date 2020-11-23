@@ -31,10 +31,13 @@
 						<ObjectRef Name="Play_Begr__ung" ID="{42B79F13-7E69-421E-BB25-4D3D75171471}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Lord Vader Ziel" ID="{3FD20F65-3B36-430F-B1F8-DB4CAB883958}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Komm_zu_rck_2" ID="{7931006E-F379-437F-80EF-902FD46AE01D}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Falscher_Weg_2__Neu_" ID="{BD32F1DA-16D5-4451-BCEF-DE9931CD7F59}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Falscher_Weg_1__Neu_" ID="{824B2136-06D0-44FB-B546-83E7CD9C637E}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Stimme_folgen__Hier_bin_ich" ID="{EDD4C754-6EE5-459C-A5E5-0E3A3A7C3DC6}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Falscher_Weg" ID="{BD86B987-A761-47C9-ADA2-5028141E3F16}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Richtiger_Weg" ID="{8C562A5C-775C-47D7-B17A-DA06AC6B0C84}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Empfang" ID="{F60BAB5F-7EAD-483C-B03E-02A6C581B0F2}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Falscher_Weg_Neu" ID="{910DE3F2-D014-48FF-BECD-3303508BE8F4}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Edit_Area" ID="{66F02FE4-CE73-4B7C-8333-2344CD3F01FA}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_L_Seite_SEM_1" ID="{B1129FFA-5087-4C2D-AB84-615C5011D10C}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Voice_Lord_vader_breath" ID="{AF3549DE-964A-4CD3-A9D5-9EDE06FE03DE}" WorkUnitID="{75085EA9-0054-445E-A636-BD60F9ABB005}" Origin="Manual" Filter="7"/>

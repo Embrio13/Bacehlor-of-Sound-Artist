@@ -433,6 +433,110 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="Falscher Weg_1( Neu)" ID="{5A27B3A6-2EFE-4233-8187-08084EBD1CE7}" ShortID="365490841">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>19</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-50</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Falscher Weg_1( Neu)" ID="{018EC7CB-CE79-44EC-A993-73D375228979}">
+							<Language>SFX</Language>
+							<AudioFile>Falscher Weg_1( Neu).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1037021774"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Falscher Weg_1( Neu)" ID="{018EC7CB-CE79-44EC-A993-73D375228979}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Falscher Weg_2( Neu)" ID="{EAD7253B-BC1B-4767-947F-DD4C2FD0E84B}" ShortID="1066016858">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>19</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-50</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Falscher Weg_2( Neu)" ID="{E44A96CC-FEED-4B8F-A0C9-4B34A4461C33}">
+							<Language>SFX</Language>
+							<AudioFile>Falscher Weg_2( Neu).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="487190830"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Falscher Weg_2( Neu)" ID="{E44A96CC-FEED-4B8F-A0C9-4B34A4461C33}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Falscher Weg_3( Neu)" ID="{FD90BA1D-A354-45FB-A4C7-1A31FC8C9243}" ShortID="939148689">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>19</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-50</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Falscher Weg_3( Neu)" ID="{B9C5C2B5-F19C-4352-A0F0-8D343CB8B10E}">
+							<Language>SFX</Language>
+							<AudioFile>Falscher Weg_3( Neu).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="911777278"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Falscher Weg_3( Neu)" ID="{B9C5C2B5-F19C-4352-A0F0-8D343CB8B10E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

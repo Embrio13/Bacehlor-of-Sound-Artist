@@ -107,6 +107,57 @@
       ]
      },
      {
+      "Id": "3404386829",
+      "Name": "Play_Falscher_Weg_1__Neu_",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Falscher_Weg_1__Neu_",
+      "GUID": "{824B2136-06D0-44FB-B546-83E7CD9C637E}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.325963",
+      "DurationMax": "4.325963",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1037021774",
+        "Language": "SFX",
+        "ShortName": "Falscher Weg_1( Neu).wav",
+        "Path": "SFX\\Falscher Weg_1( Neu)_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2371986534",
+      "Name": "Play_Falscher_Weg_2__Neu_",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Falscher_Weg_2__Neu_",
+      "GUID": "{BD32F1DA-16D5-4451-BCEF-DE9931CD7F59}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.622313",
+      "DurationMax": "3.622313",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "487190830",
+        "Language": "SFX",
+        "ShortName": "Falscher Weg_2( Neu).wav",
+        "Path": "SFX\\Falscher Weg_2( Neu)_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1538472505",
+      "Name": "Play_Falscher_Weg_Neu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Falscher_Weg_Neu",
+      "GUID": "{910DE3F2-D014-48FF-BECD-3303508BE8F4}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.844142",
+      "DurationMax": "2.844142",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "911777278",
+        "Language": "SFX",
+        "ShortName": "Falscher Weg_3( Neu).wav",
+        "Path": "SFX\\Falscher Weg_3( Neu)_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "1002098596",
       "Name": "Play_Komm_zu_rck_2",
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Komm_zu_rck_2",
@@ -174,7 +225,7 @@
       "Name": "Play_Stimme_folgen__Hier_bin_ich",
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Stimme_folgen__Hier_bin_ich",
       "GUID": "{EDD4C754-6EE5-459C-A5E5-0E3A3A7C3DC6}",
-      "MaxAttenuation": "1200.000000",
+      "MaxAttenuation": "3000.000000",
       "DurationType": "OneShot",
       "DurationMin": "2.832834",
       "DurationMax": "2.832834",

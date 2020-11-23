@@ -213,6 +213,43 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Falscher_Weg_Neu" ID="{910DE3F2-D014-48FF-BECD-3303508BE8F4}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{28ADA466-B245-4283-B885-9C18FDF20C96}" ShortID="114813512">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Falscher Weg_3( Neu)" ID="{FD90BA1D-A354-45FB-A4C7-1A31FC8C9243}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Falscher_Weg_1__Neu_" ID="{824B2136-06D0-44FB-B546-83E7CD9C637E}">
+					<ChildrenList>
+						<Action Name="" ID="{960E3599-CC4F-4F94-A6CD-51957470E4F0}" ShortID="795422217">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Falscher Weg_1( Neu)" ID="{5A27B3A6-2EFE-4233-8187-08084EBD1CE7}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Falscher_Weg_2__Neu_" ID="{BD32F1DA-16D5-4451-BCEF-DE9931CD7F59}">
+					<ChildrenList>
+						<Action Name="" ID="{A2D92DE3-7196-4F67-9C57-A27ED73C6631}" ShortID="178332904">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Falscher Weg_2( Neu)" ID="{EAD7253B-BC1B-4767-947F-DD4C2FD0E84B}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -9,7 +9,7 @@
 			<ChildrenList>
 				<Sound Name="SFX_Zielsound_Point_1" ID="{AB7662B1-C731-4B77-A746-8A029BC91936}" ShortID="418178827">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="GameAuxSendVolume" Type="Real64">
 							<ValueList>
 								<Value>-9</Value>

@@ -272,6 +272,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Seminarraum_1" ID="{EF639D89-940A-4561-942A-F373428B8F4D}">
+					<ChildrenList>
+						<Action Name="" ID="{03EA40DF-2283-46CC-B8D6-D7E27AB6DAA6}" ShortID="428864922">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Seminarraum 1" ID="{6E114A39-9C23-4EFD-B6C4-AA37576D1C95}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Seminarraum_2" ID="{8C353D23-ED56-440F-80E3-918CDDA3F6F0}">
+					<ChildrenList>
+						<Action Name="" ID="{C38937DD-8FD3-4C05-87A7-057822826F54}" ShortID="618918505">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Seminarraum 2" ID="{B6F8BD69-B2B8-4955-9F12-1760CFEE1EFD}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Greenscreen" ID="{2A3F2B37-411D-4E79-AA1B-F696030C6312}">
+					<ChildrenList>
+						<Action Name="" ID="{272C1C54-BAE2-4928-8BC2-9B89F13F7861}" ShortID="229478225">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Greenscreen" ID="{852CFF1B-37BC-4662-9E7E-2785F75C9341}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Folge_dem_Signal" ID="{10EFBAE2-6CC6-4075-B8AC-3D98AD597155}">
+					<ChildrenList>
+						<Action Name="" ID="{BA5D4E3A-A4F0-4002-A7E6-CAC05AA2A5B8}" ShortID="98804594">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Folge dem Signal" ID="{BC2FA748-80F9-45F4-B005-B4A5D40F2BD5}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

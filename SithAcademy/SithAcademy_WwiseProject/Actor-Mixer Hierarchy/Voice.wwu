@@ -209,6 +209,11 @@
 								<Value>-14</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -240,6 +245,11 @@
 						<Property Name="ReflectionsVolume" Type="Real64">
 							<ValueList>
 								<Value>-12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -303,7 +313,7 @@
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-7</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -416,6 +426,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+								</Reference>
+								<Reference Name="ReflectionsAuxSend">
+									<ObjectRef Name="Reflect" ID="{D4E2DDAA-E905-4D58-B713-A15143AF7442}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -540,14 +553,19 @@
 				<Sound Name="achtung Treppe vor dir" ID="{A0E79B3E-B962-41E0-8B18-CA9365ED6501}" ShortID="161721396">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="Lowpass" Type="int16">
+						<Property Name="Highpass" Type="int16">
 							<ValueList>
-								<Value>23</Value>
+								<Value>36</Value>
+							</ValueList>
+						</Property>
+						<Property Name="ReflectionsVolume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-9</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -558,12 +576,15 @@
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 						</Reference>
+						<Reference Name="ReflectionsAuxSend">
+							<ObjectRef Name="Reflect" ID="{D4E2DDAA-E905-4D58-B713-A15143AF7442}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="achtung Treppe vor dir" ID="{AE6C91E3-FDC4-4C1D-BD45-347D6A7AEA33}">
 							<PropertyList>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="1.29263349175287"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.55116019010344"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>achtung Treppe vor dir.wav</AudioFile>
@@ -596,6 +617,101 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Achtung Treppe, in der Nähe_" ID="{B657DB69-79E7-483B-8FAB-9F78598CA74D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Seminarraum 1" ID="{6E114A39-9C23-4EFD-B6C4-AA37576D1C95}" ShortID="466498954">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Seminarraum 1" ID="{60AED10C-CC66-4E55-BEA9-6DA35FF718AF}">
+							<Language>SFX</Language>
+							<AudioFile>Seminarraum 1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="398699897"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Seminarraum 1" ID="{60AED10C-CC66-4E55-BEA9-6DA35FF718AF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Seminarraum 2" ID="{B6F8BD69-B2B8-4955-9F12-1760CFEE1EFD}" ShortID="492702081">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Seminarraum 2" ID="{CC547E3D-2E2F-4276-B31C-032BB3923ADE}">
+							<Language>SFX</Language>
+							<AudioFile>Seminarraum 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="672668941"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Seminarraum 2" ID="{CC547E3D-2E2F-4276-B31C-032BB3923ADE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Folge dem Signal" ID="{BC2FA748-80F9-45F4-B005-B4A5D40F2BD5}" ShortID="602871010">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FOlge dem Signal" ID="{CAF963D2-77DA-4B04-B0AA-C16960870018}">
+							<Language>SFX</Language>
+							<AudioFile>FOlge dem Signal.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="480081167"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FOlge dem Signal" ID="{CAF963D2-77DA-4B04-B0AA-C16960870018}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Greenscreen" ID="{852CFF1B-37BC-4662-9E7E-2785F75C9341}" ShortID="257047229">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Greenscreen" ID="{4B822251-2023-406B-849B-40912F066330}">
+							<Language>SFX</Language>
+							<AudioFile>Greenscreen.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="170207175"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Greenscreen" ID="{4B822251-2023-406B-849B-40912F066330}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

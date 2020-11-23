@@ -149,7 +149,7 @@
 				</Attenuation>
 				<Attenuation Name="Zielsound Small" ID="{8B24398F-D90B-4CEA-97E1-029F47D2E960}" ShortID="629110014">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="900"/>
+						<Property Name="RadiusMax" Type="Real64" Value="1300"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -165,12 +165,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>153.762094285714</XPos>
+											<XPos>222.100802857142</XPos>
 											<YPos>-3.8317</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>900</XPos>
+											<XPos>1300</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -191,12 +191,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>153.762094285714</XPos>
+											<XPos>222.100802857142</XPos>
 											<YPos>-3.8317</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>900</XPos>
+											<XPos>1300</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -226,7 +226,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>900</XPos>
+											<XPos>1300</XPos>
 											<YPos>0</YPos>
 											<Flags>37</Flags>
 										</Point>

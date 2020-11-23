@@ -560,6 +560,11 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="achtung Treppe vor dir" ID="{AE6C91E3-FDC4-4C1D-BD45-347D6A7AEA33}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0.608974000559128"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.608974000559128"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>achtung Treppe vor dir.wav</AudioFile>
 							<MediaIDList>

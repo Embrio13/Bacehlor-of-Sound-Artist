@@ -539,6 +539,7 @@
 				</Sound>
 				<Sound Name="achtung Treppe vor dir" ID="{A0E79B3E-B962-41E0-8B18-CA9365ED6501}" ShortID="161721396">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
 								<Value>23</Value>
@@ -546,7 +547,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-1</Value>
+								<Value>-9</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -561,9 +562,8 @@
 					<ChildrenList>
 						<AudioFileSource Name="achtung Treppe vor dir" ID="{AE6C91E3-FDC4-4C1D-BD45-347D6A7AEA33}">
 							<PropertyList>
-								<Property Name="LoopBegin" Type="Real64" Value="0.608974000559128"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="0.608974000559128"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.29263349175287"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>achtung Treppe vor dir.wav</AudioFile>

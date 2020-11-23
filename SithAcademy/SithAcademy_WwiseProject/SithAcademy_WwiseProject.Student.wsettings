@@ -135,7 +135,7 @@
 				<Property Name="Mixing Desk\GroupCollapse\x64_{CB34B546-15A8-4B83-BEF7-7F8B352D0A93}" Type="string" Value="AgAAAAAAAAAAAAAAAAAAAAAAAAA="/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{CB34B546-15A8-4B83-BEF7-7F8B352D0A93}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
-				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value="AAAAAABzZHNhABd3GwAAAJAzoDWqAQAAAClhTqoBAACQM6A1qgEAAGArfTyqAQAAUK+4M6oBAAAg831FqgEAACC1iUWqAQAAkfsXd/5/AACQM6A1qgEAAGArfTyqAQAAUK+4M6oBAAAg831FqgEAAMAsYU6qAQAAkfsXd/5/AAAgtYlFqgEAAA=="/>
+				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value="AAAAAABzZHNhAJSD/38AAJBgYKFFAQAAQBKWhkUBAAD+/////////wAAAAAAAAAAAAAAAAAAAAD9wPcB/38AAAA5b4hFAQAAAAAAAAAAAAABAAAAAAAAAOBVYKFFAQAAmGBgoUUBAADht/cB/38AAEASloZFAQAAAAAAAAAAAABAEpaGRQEAAA=="/>
 				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>

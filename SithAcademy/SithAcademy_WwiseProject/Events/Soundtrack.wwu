@@ -18,17 +18,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Achtung_Treppe" ID="{0C064D65-E3F7-4390-BCF9-15CFF52D105B}">
-					<ChildrenList>
-						<Action Name="" ID="{BA28CB78-F795-4B24-A8C5-5E77DBFDF1C3}" ShortID="777812787">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Achtung Treppe, in der Nähe_" ID="{A9E507EE-4219-48A2-AE45-9EF3A74705AA}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

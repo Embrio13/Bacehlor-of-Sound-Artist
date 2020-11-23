@@ -250,12 +250,23 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Test" ID="{DAFAD737-2C7D-4A3F-853D-48B1A5A3162C}">
+				<Event Name="Achtung_treppe_vor_dir" ID="{DAFAD737-2C7D-4A3F-853D-48B1A5A3162C}">
 					<ChildrenList>
 						<Action Name="" ID="{AD97EFE9-5860-4F35-81A3-1233B5AB9EED}" ShortID="836250252">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="achtung Treppe vor dir" ID="{A0E79B3E-B962-41E0-8B18-CA9365ED6501}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Achtung_Treppe" ID="{0C064D65-E3F7-4390-BCF9-15CFF52D105B}">
+					<ChildrenList>
+						<Action Name="" ID="{BA28CB78-F795-4B24-A8C5-5E77DBFDF1C3}" ShortID="777812787">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Achtung Treppe, in der Nähe_" ID="{A9E507EE-4219-48A2-AE45-9EF3A74705AA}" WorkUnitID="{742737FA-9621-43F8-9AAF-21394553068A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

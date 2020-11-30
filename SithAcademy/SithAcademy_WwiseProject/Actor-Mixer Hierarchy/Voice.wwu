@@ -420,6 +420,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Richtiger Weg" ID="{1530B6F8-A4EC-4380-9DCB-C5234A1BC875}" ShortID="549601081">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>

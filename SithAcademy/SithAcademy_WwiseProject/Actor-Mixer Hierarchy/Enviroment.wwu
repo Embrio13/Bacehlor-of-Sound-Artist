@@ -1186,6 +1186,7 @@
 												<Value>82</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
 												<Value>-880</Value>

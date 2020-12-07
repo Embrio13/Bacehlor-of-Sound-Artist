@@ -97,6 +97,13 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</Bus>
+						<Bus Name="Rekorder" ID="{3BA0154A-05D5-4136-B944-A2A9E23E2A90}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+									<ObjectRef Name="New_Wwise_Recorder" ID="{47D1BF82-E230-497A-BCE8-E64386541C37}" WorkUnitID="{02BBD323-947D-453C-8F21-AC85A21610C8}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

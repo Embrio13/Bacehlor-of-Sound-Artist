@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{02BBD323-947D-453C-8F21-AC85A21610C8}" SchemaVersion="97">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{02BBD323-947D-453C-8F21-AC85A21610C8}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{02BBD323-947D-453C-8F21-AC85A21610C8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Rekorder" ID="{9631E2DB-6A20-48D9-9E22-912253A5EC3A}" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3"/>
+				<Effect Name="New_Wwise_Recorder" ID="{47D1BF82-E230-497A-BCE8-E64386541C37}" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+					<PropertyList>
+						<Property Name="AuthoringFilename" Type="string" Value="E:\Bachelor\Sounds\Record.wav"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

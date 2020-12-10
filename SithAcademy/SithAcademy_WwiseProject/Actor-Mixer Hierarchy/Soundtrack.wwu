@@ -27,13 +27,11 @@
 					<ChildrenList>
 						<AudioFileSource Name="Start_Wars_Alike Vers_ 2" ID="{EBA54CC0-BE5E-47CB-A67C-DC203B35D0BB}">
 							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="2.11529993408042"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.711931443638747"/>
-								<Property Name="LoopBegin" Type="Real64" Value="4.98352010547133"/>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.1"/>
 								<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="4.36058009228741"/>
-								<Property Name="TrimEnd" Type="Real64" Value="131.796308503626"/>
+								<Property Name="TrimBegin" Type="Real64" Value="6.20775536421032"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Start_Wars_Alike Vers. 2.wav</AudioFile>

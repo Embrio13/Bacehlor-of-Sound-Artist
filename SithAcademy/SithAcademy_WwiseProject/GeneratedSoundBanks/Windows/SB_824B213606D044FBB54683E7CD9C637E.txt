@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3404386829	Play_Falscher_Weg_1__Neu_			\Default Work Unit\Voice\Play_Falscher_Weg_1__Neu_	
+

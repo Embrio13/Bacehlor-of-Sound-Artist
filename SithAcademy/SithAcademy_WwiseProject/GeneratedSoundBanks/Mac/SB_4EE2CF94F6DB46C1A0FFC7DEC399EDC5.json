@@ -1,0 +1,51 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1239172958",
+    "GUID": "{49DC475E-475E-175E-5E5E-5E5E5E5E5E5E}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_4EE2CF94F6DB46C1A0FFC7DEC399EDC5",
+    "ShortName": "SB_4EE2CF94F6DB46C1A0FFC7DEC399EDC5",
+    "Path": "SB_4EE2CF94F6DB46C1A0FFC7DEC399EDC5.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2600469463",
+      "Name": "Play_Steps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footssteps\\Play_Steps",
+      "GUID": "{4EE2CF94-F6DB-46C1-A0FF-C7DEC399EDC5}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.098667",
+      "DurationMax": "1.226667",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "33292796",
+        "Language": "SFX",
+        "ShortName": "FootstepsConcrete 6016_01_4.wav",
+        "Path": "SFX\\FootstepsConcrete 6016_01_4_10C4C929.wem"
+       },
+       {
+        "Id": "347285602",
+        "Language": "SFX",
+        "ShortName": "FootstepsConcrete 6016_01_3.wav",
+        "Path": "SFX\\FootstepsConcrete 6016_01_3_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

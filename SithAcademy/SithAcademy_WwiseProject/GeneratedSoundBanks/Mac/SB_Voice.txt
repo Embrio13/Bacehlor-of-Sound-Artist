@@ -2,25 +2,46 @@ Event	ID	Name			Wwise Object Path	Notes
 	182181830	Play_Empfang			\Default Work Unit\Voice\Play_Empfang	
 	798618475	Play_L_Seite_SEM_1			\Default Work Unit\Voice\Play_L_Seite_SEM_1	
 	810796444	Play_Begr__ung			\Default Work Unit\Voice\Play_Begr__ung	
+	1002098596	Play_Komm_zu_rck_2			\Default Work Unit\Voice\Play_Komm_zu_rck_2	
 	1068911600	Play_Stimme_folgen__Hier_bin_ich			\Default Work Unit\Voice\Play_Stimme_folgen__Hier_bin_ich	
+	1201765175	Play_Greenscreen			\Default Work Unit\Voice\Play_Greenscreen	
 	1227870719	Play_Vor_dir_Auditorium			\Default Work Unit\Voice\Play_Vor_dir_Auditorium	
 	1239085876	Darth_Vadere_wilkommen			\Default Work Unit\Voice\Darth_Vadere_wilkommen	
+	1538472505	Play_Falscher_Weg_Neu			\Default Work Unit\Voice\Play_Falscher_Weg_Neu	
+	1769850433	Play_Folge_dem_Signal			\Default Work Unit\Voice\Play_Folge_dem_Signal	
+	1931915625	Play_Seminarraum_2			\Default Work Unit\Voice\Play_Seminarraum_2	
+	1931915626	Play_Seminarraum_1			\Default Work Unit\Voice\Play_Seminarraum_1	
 	2230670290	Play_Start			\Default Work Unit\Voice\Play_Start	
+	2371986534	Play_Falscher_Weg_2__Neu_			\Default Work Unit\Voice\Play_Falscher_Weg_2__Neu_	
 	2396658741	Voice_Lord_vader_breath			\Default Work Unit\Voice\Voice_Lord_vader_breath	
 	2951850132	Zielansage_Mitarbeiter_im_Flur			\Default Work Unit\Voice\Zielansage_Mitarbeiter_im_Flur	
+	2980557298	Achtung_treppe_vor_dir			\Default Work Unit\Voice\Achtung_treppe_vor_dir	
 	3128058808	Play_Falscher_Weg			\Default Work Unit\Voice\Play_Falscher_Weg	
+	3404386829	Play_Falscher_Weg_1__Neu_			\Default Work Unit\Voice\Play_Falscher_Weg_1__Neu_	
+	3460903189	Play_Achtung_Treppe			\Default Work Unit\Voice\Play_Achtung_Treppe	
+	3910943811	Play_Richtiger_Weg			\Default Work Unit\Voice\Play_Richtiger_Weg	
 	4075905398	Play_Edit_Area			\Default Work Unit\Voice\Play_Edit_Area	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	41631836	achtung Treppe vor dir	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\achtung Treppe vor dir_EE39D092.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\achtung Treppe vor dir		159172
 	47873714	Lord Vader Ziel	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Lord Vader Ziel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Lord Vader Ziel		1131904
 	58346666	Breath Lard vader	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Breath Lard vader_40BD1440.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Breath Lard vader		1658060
 	122921629	L_Seite_SEM_1	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\L_Seite_SEM_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\L_Seite_SEM_1		540736
+	170207175	Greenscreen	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Greenscreen_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Greenscreen		306784
+	311461776	Achtung Treppe, in der Nähe_	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Achtung Treppe, in der Nähe._10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Achtung Treppe, in der Nähe_		302464
 	319587836	Start	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Start		518464
+	398699897	Seminarraum 1	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Seminarraum 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Seminarraum 1		349984
+	480081167	Folge dem Signal	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\FOlge dem Signal_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Folge dem Signal		259264
+	487190830	Falscher Weg_2( Neu)	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Falscher Weg_2( Neu)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Falscher Weg_2( Neu)		319552
+	501957311	Richtiger Weg	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Richtiger Weg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Hinweise\Richtiger Weg		561664
 	521211196	Edit Area	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Edit Area_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Edit Area		983104
 	546805623	Begrüßung	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Begrüßung_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Begrüßung		1974336
+	549928684	Falscher Weg	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Falscher Weg_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Hinweise\Falscher Weg		723008
+	672668941	Seminarraum 2	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Seminarraum 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Seminarraum 2		345664
 	738280550	Wilkommensgruß Darth Vader	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Testo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Wilkommensgruß Darth Vader		987184
 	859325306	Stimme folgen_ Hier bin ich	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Stimme folgen_ Hier bin ich_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Stimme folgen_ Hier bin ich		499776
-	859776828	Flascher Weg	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Komm zuürck_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Hinweise\Flascher Weg		1036864
+	911777278	Falscher Weg_3( Neu)	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Falscher Weg_3( Neu)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Falscher Weg_3( Neu)		243776
 	949323110	Vor dir Auditorium	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Vor dir Auditorium_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Vor dir Auditorium		544384
+	1037021774	Falscher Weg_1( Neu)	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Falscher Weg_1( Neu)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Falscher Weg_1( Neu)		370752
 	1041355181	Empfang	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Mac\SFX\Empfang_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Empfang		1083056
 

@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4060549173",
+    "GUID": "{F2071035-1035-1035-3535-353535353535}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_DAFAD7372C7D4A3F853D48B1A5A3162C",
+    "ShortName": "SB_DAFAD7372C7D4A3F853D48B1A5A3162C",
+    "Path": "SB_DAFAD7372C7D4A3F853D48B1A5A3162C.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2980557298",
+      "Name": "Achtung_treppe_vor_dir",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Achtung_treppe_vor_dir",
+      "GUID": "{DAFAD737-2C7D-4A3F-853D-48B1A5A3162C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.803942",
+      "DurationMax": "1.803942",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "41631836",
+        "Language": "SFX",
+        "ShortName": "achtung Treppe vor dir.wav",
+        "Path": "SFX\\achtung Treppe vor dir_EE39D092.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

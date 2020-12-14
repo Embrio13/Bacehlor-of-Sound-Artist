@@ -10,6 +10,11 @@
     "DLL": "AkRoomVerb"
    },
    {
+    "Name": "Wwise Recorder",
+    "ID": "8650755",
+    "DLL": "AkRecorder"
+   },
+   {
     "Name": "Wwise Reflect",
     "ID": "11206659",
     "DLL": "AkReflect"

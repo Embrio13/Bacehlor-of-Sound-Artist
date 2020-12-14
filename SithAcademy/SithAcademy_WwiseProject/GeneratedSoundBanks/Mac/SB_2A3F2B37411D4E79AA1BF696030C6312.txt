@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1201765175	Play_Greenscreen			\Default Work Unit\Voice\Play_Greenscreen	
+

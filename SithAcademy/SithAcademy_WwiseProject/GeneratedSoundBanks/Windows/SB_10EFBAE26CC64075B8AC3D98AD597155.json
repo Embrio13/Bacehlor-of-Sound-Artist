@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3420742028",
+    "GUID": "{CBE4618C-618C-118C-8C8C-8C8C8C8C8C8C}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_10EFBAE26CC64075B8AC3D98AD597155",
+    "ShortName": "SB_10EFBAE26CC64075B8AC3D98AD597155",
+    "Path": "SB_10EFBAE26CC64075B8AC3D98AD597155.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1769850433",
+      "Name": "Play_Folge_dem_Signal",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Folge_dem_Signal",
+      "GUID": "{10EFBAE2-6CC6-4075-B8AC-3D98AD597155}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.938776",
+      "DurationMax": "2.938776",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "480081167",
+        "Language": "SFX",
+        "ShortName": "FOlge dem Signal.wav",
+        "Path": "SFX\\FOlge dem Signal_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

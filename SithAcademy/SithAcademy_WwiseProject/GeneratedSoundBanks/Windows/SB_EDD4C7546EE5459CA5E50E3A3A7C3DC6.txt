@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1068911600	Play_Stimme_folgen__Hier_bin_ich			\Default Work Unit\Voice\Play_Stimme_folgen__Hier_bin_ich	
+

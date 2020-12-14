@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2376699432",
+    "GUID": "{8DA98E28-8E28-1E28-2828-282828282828}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_F60BAB5F7EAD483CB03E02A6C581B0F2",
+    "ShortName": "SB_F60BAB5F7EAD483CB03E02A6C581B0F2",
+    "Path": "SB_F60BAB5F7EAD483CB03E02A6C581B0F2.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "182181830",
+      "Name": "Play_Empfang",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Empfang",
+      "GUID": "{F60BAB5F-7EAD-483C-B03E-02A6C581B0F2}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.139410",
+      "DurationMax": "6.139410",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "1041355181",
+        "Language": "SFX",
+        "ShortName": "Empfang.wav",
+        "Path": "SFX\\Empfang_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

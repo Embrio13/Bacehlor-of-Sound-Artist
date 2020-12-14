@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1227870719	Play_Vor_dir_Auditorium			\Default Work Unit\Voice\Play_Vor_dir_Auditorium	
+

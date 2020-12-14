@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2548174377",
+    "GUID": "{97E20E29-0E29-1E29-2929-292929292929}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_8C353D23ED56440F80E3918CDDA3F6F0",
+    "ShortName": "SB_8C353D23ED56440F80E3918CDDA3F6F0",
+    "Path": "SB_8C353D23ED56440F80E3918CDDA3F6F0.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1931915625",
+      "Name": "Play_Seminarraum_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Seminarraum_2",
+      "GUID": "{8C353D23-ED56-440F-80E3-918CDDA3F6F0}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.918367",
+      "DurationMax": "3.918367",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "672668941",
+        "Language": "SFX",
+        "ShortName": "Seminarraum 2.wav",
+        "Path": "SFX\\Seminarraum 2_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

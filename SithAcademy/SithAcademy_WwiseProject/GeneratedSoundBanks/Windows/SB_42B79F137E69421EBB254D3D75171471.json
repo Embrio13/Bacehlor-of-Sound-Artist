@@ -25,6 +25,7 @@
       "Name": "Play_Begr__ung",
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Begr__ung",
       "GUID": "{42B79F13-7E69-421E-BB25-4D3D75171471}",
+      "MaxAttenuation": "700.000000",
       "DurationType": "OneShot",
       "DurationMin": "11.192019",
       "DurationMax": "11.192019",

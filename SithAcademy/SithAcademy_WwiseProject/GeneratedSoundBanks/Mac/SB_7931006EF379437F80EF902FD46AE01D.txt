@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1002098596	Play_Komm_zu_rck_2			\Default Work Unit\Voice\Play_Komm_zu_rck_2	
+

@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3455208517",
+    "GUID": "{CDF24C45-4C45-1C45-4545-454545454545}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_8C562A5C775C47D7B17ADA06AC6B0C84",
+    "ShortName": "SB_8C562A5C775C47D7B17ADA06AC6B0C84",
+    "Path": "SB_8C562A5C775C47D7B17ADA06AC6B0C84.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3910943811",
+      "Name": "Play_Richtiger_Weg",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Richtiger_Weg",
+      "GUID": "{8C562A5C-775C-47D7-B17A-DA06AC6B0C84}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.183673",
+      "DurationMax": "3.183673",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "501957311",
+        "Language": "SFX",
+        "ShortName": "Richtiger Weg.wav",
+        "Path": "SFX\\Richtiger Weg_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

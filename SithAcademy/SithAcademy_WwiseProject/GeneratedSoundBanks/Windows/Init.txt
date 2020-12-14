@@ -25,6 +25,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1942696649	Effects			\Default Work Unit\Master Audio Bus\Effects	
 	2082426231	Soundtrack			\Default Work Unit\Master Audio Bus\Soundtrack	
 	3170124113	Voice			\Default Work Unit\Master Audio Bus\Voice	
+	3194974723	Rekorder			\Default Work Unit\Master Audio Bus\Rekorder	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3909959462	Enviroment			\Default Work Unit\Master Audio Bus\Enviroment	
 
@@ -33,6 +34,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	747019164	Edit_Room_Reverb			\Default Work Unit\Master Audio Bus\Edit_Room_Reverb	
 
 Effect plug-ins	ID	Name	Type				Notes
+	419691232	New_Wwise_Recorder	Wwise Recorder			
 	1990128658	Room_Medium	Wwise RoomVerb			
 	2545004126	Wwise_Reflect	Wwise Reflect			
 

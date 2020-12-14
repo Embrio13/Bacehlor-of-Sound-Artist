@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "901854197",
+    "GUID": "{35C133F5-33F5-13F5-F5F5-F5F5F5F5F5F5}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_FBEEA4B1556C4D0D805CDAB071168F7D",
+    "ShortName": "SB_FBEEA4B1556C4D0D805CDAB071168F7D",
+    "Path": "SB_FBEEA4B1556C4D0D805CDAB071168F7D.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1227870719",
+      "Name": "Play_Vor_dir_Auditorium",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Vor_dir_Auditorium",
+      "GUID": "{FBEEA4B1-556C-4D0D-805C-DAB071168F7D}",
+      "MaxAttenuation": "800.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.085714",
+      "DurationMax": "3.085714",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "949323110",
+        "Language": "SFX",
+        "ShortName": "Vor dir Auditorium.wav",
+        "Path": "SFX\\Vor dir Auditorium_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

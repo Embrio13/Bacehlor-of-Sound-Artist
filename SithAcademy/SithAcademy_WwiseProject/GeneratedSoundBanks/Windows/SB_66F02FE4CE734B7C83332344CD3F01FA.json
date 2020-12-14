@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "803392786",
+    "GUID": "{2FE2CD12-CD12-1D12-1212-121212121212}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_66F02FE4CE734B7C83332344CD3F01FA",
+    "ShortName": "SB_66F02FE4CE734B7C83332344CD3F01FA",
+    "Path": "SB_66F02FE4CE734B7C83332344CD3F01FA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4075905398",
+      "Name": "Play_Edit_Area",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Edit_Area",
+      "GUID": "{66F02FE4-CE73-4B7C-8333-2344CD3F01FA}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.572789",
+      "DurationMax": "5.572789",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "521211196",
+        "Language": "SFX",
+        "ShortName": "Edit Area.wav",
+        "Path": "SFX\\Edit Area_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

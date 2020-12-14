@@ -23,7 +23,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4075905398	Play_Edit_Area			\Default Work Unit\Voice\Play_Edit_Area	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	41631836	achtung Treppe vor dir	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\achtung Treppe vor dir_3E21A1C3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\achtung Treppe vor dir		159172
+	41631836	achtung Treppe vor dir	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\achtung Treppe vor dir_EE39D092.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\achtung Treppe vor dir		159172
 	47873714	Lord Vader Ziel	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Lord Vader Ziel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Lord Vader Ziel		1131904
 	58346666	Breath Lard vader	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\Breath Lard vader_40BD1440.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\Breath Lard vader		1658060
 	122921629	L_Seite_SEM_1	D:\Florian Kardos\Bachelor Master Version -VR\SithAcademy\SithAcademy_WwiseProject\.cache\Windows\SFX\L_Seite_SEM_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stormtroopler\Voice\L_Seite_SEM_1		540736

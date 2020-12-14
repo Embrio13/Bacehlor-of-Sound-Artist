@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1179292541",
+    "GUID": "{464A937D-937D-137D-7D7D-7D7D7D7D7D7D}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_B1129FFA50874C2DAB84615C5011D10C",
+    "ShortName": "SB_B1129FFA50874C2DAB84615C5011D10C",
+    "Path": "SB_B1129FFA50874C2DAB84615C5011D10C.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "798618475",
+      "Name": "Play_L_Seite_SEM_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_L_Seite_SEM_1",
+      "GUID": "{B1129FFA-5087-4C2D-AB84-615C5011D10C}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.065034",
+      "DurationMax": "3.065034",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "122921629",
+        "Language": "SFX",
+        "ShortName": "L_Seite_SEM_1.wav",
+        "Path": "SFX\\L_Seite_SEM_1_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

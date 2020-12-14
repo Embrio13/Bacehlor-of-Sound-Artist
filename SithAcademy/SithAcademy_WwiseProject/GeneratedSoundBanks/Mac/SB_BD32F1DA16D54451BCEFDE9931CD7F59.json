@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1209366735",
+    "GUID": "{481578CF-78CF-18CF-CFCF-CFCFCFCFCFCF}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_BD32F1DA16D54451BCEFDE9931CD7F59",
+    "ShortName": "SB_BD32F1DA16D54451BCEFDE9931CD7F59",
+    "Path": "SB_BD32F1DA16D54451BCEFDE9931CD7F59.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2371986534",
+      "Name": "Play_Falscher_Weg_2__Neu_",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Falscher_Weg_2__Neu_",
+      "GUID": "{BD32F1DA-16D5-4451-BCEF-DE9931CD7F59}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.728455",
+      "DurationMax": "3.728455",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "487190830",
+        "Language": "SFX",
+        "ShortName": "Falscher Weg_2( Neu).wav",
+        "Path": "SFX\\Falscher Weg_2( Neu)_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

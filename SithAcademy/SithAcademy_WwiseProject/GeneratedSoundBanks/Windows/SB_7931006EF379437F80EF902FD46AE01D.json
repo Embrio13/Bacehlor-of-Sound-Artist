@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Bachelor Master Version -VR\\SithAcademy\\SithAcademy_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3991301370",
+    "GUID": "{EDE66CFA-6CFA-1CFA-FAFA-FAFAFAFAFAFA}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_7931006EF379437F80EF902FD46AE01D",
+    "ShortName": "SB_7931006EF379437F80EF902FD46AE01D",
+    "Path": "SB_7931006EF379437F80EF902FD46AE01D.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1002098596",
+      "Name": "Play_Komm_zu_rck_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Komm_zu_rck_2",
+      "GUID": "{7931006E-F379-437F-80EF-902FD46AE01D}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -21,6 +21,23 @@
     "Path": "SB_Voice.bnk",
     "IncludedEvents": [
      {
+      "Id": "2980557298",
+      "Name": "Achtung_treppe_vor_dir",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Achtung_treppe_vor_dir",
+      "GUID": "{DAFAD737-2C7D-4A3F-853D-48B1A5A3162C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.803942",
+      "DurationMax": "1.803942",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "41631836",
+        "Language": "SFX",
+        "ShortName": "achtung Treppe vor dir.wav",
+        "Path": "SFX\\achtung Treppe vor dir_EE39D092.wem"
+       }
+      ]
+     },
+     {
       "Id": "1239085876",
       "Name": "Darth_Vadere_wilkommen",
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Darth_Vadere_wilkommen",
@@ -34,6 +51,23 @@
         "Language": "SFX",
         "ShortName": "Testo.wav",
         "Path": "SFX\\Testo_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3460903189",
+      "Name": "Play_Achtung_Treppe",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Achtung_Treppe",
+      "GUID": "{0C064D65-E3F7-4390-BCF9-15CFF52D105B}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.428571",
+      "DurationMax": "3.428571",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "311461776",
+        "Language": "SFX",
+        "ShortName": "Achtung Treppe, in der Nähe..wav",
+        "Path": "SFX\\Achtung Treppe, in der Nähe._10C4C929.wem"
        }
       ]
      },
@@ -93,18 +127,113 @@
       "Id": "3128058808",
       "Name": "Play_Falscher_Weg",
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Falscher_Weg",
-      "GUID": "{D104DA0A-5DAC-469F-9986-C3E9717570C5}",
+      "GUID": "{BD86B987-A761-47C9-ADA2-5028141E3F16}",
       "DurationType": "OneShot",
-      "DurationMin": "5.877551",
-      "DurationMax": "5.877551",
+      "DurationMin": "4.098322",
+      "DurationMax": "4.098322",
       "IncludedMemoryFiles": [
        {
-        "Id": "859776828",
+        "Id": "549928684",
         "Language": "SFX",
-        "ShortName": "Komm zuürck_2.wav",
-        "Path": "SFX\\Komm zuürck_2_10C4C929.wem"
+        "ShortName": "Falscher Weg.wav",
+        "Path": "SFX\\Falscher Weg_10C4C929.wem"
        }
       ]
+     },
+     {
+      "Id": "3404386829",
+      "Name": "Play_Falscher_Weg_1__Neu_",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Falscher_Weg_1__Neu_",
+      "GUID": "{824B2136-06D0-44FB-B546-83E7CD9C637E}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.325963",
+      "DurationMax": "4.325963",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1037021774",
+        "Language": "SFX",
+        "ShortName": "Falscher Weg_1( Neu).wav",
+        "Path": "SFX\\Falscher Weg_1( Neu)_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2371986534",
+      "Name": "Play_Falscher_Weg_2__Neu_",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Falscher_Weg_2__Neu_",
+      "GUID": "{BD32F1DA-16D5-4451-BCEF-DE9931CD7F59}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.728455",
+      "DurationMax": "3.728455",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "487190830",
+        "Language": "SFX",
+        "ShortName": "Falscher Weg_2( Neu).wav",
+        "Path": "SFX\\Falscher Weg_2( Neu)_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1538472505",
+      "Name": "Play_Falscher_Weg_Neu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Falscher_Weg_Neu",
+      "GUID": "{910DE3F2-D014-48FF-BECD-3303508BE8F4}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.844142",
+      "DurationMax": "2.844142",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "911777278",
+        "Language": "SFX",
+        "ShortName": "Falscher Weg_3( Neu).wav",
+        "Path": "SFX\\Falscher Weg_3( Neu)_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1769850433",
+      "Name": "Play_Folge_dem_Signal",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Folge_dem_Signal",
+      "GUID": "{10EFBAE2-6CC6-4075-B8AC-3D98AD597155}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.938776",
+      "DurationMax": "2.938776",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "480081167",
+        "Language": "SFX",
+        "ShortName": "FOlge dem Signal.wav",
+        "Path": "SFX\\FOlge dem Signal_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1201765175",
+      "Name": "Play_Greenscreen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Greenscreen",
+      "GUID": "{2A3F2B37-411D-4E79-AA1B-F696030C6312}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.477551",
+      "DurationMax": "3.477551",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "170207175",
+        "Language": "SFX",
+        "ShortName": "Greenscreen.wav",
+        "Path": "SFX\\Greenscreen_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1002098596",
+      "Name": "Play_Komm_zu_rck_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Komm_zu_rck_2",
+      "GUID": "{7931006E-F379-437F-80EF-902FD46AE01D}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "798618475",
@@ -121,6 +250,57 @@
         "Language": "SFX",
         "ShortName": "L_Seite_SEM_1.wav",
         "Path": "SFX\\L_Seite_SEM_1_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3910943811",
+      "Name": "Play_Richtiger_Weg",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Richtiger_Weg",
+      "GUID": "{8C562A5C-775C-47D7-B17A-DA06AC6B0C84}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.183673",
+      "DurationMax": "3.183673",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "501957311",
+        "Language": "SFX",
+        "ShortName": "Richtiger Weg.wav",
+        "Path": "SFX\\Richtiger Weg_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1931915626",
+      "Name": "Play_Seminarraum_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Seminarraum_1",
+      "GUID": "{EF639D89-940A-4561-942A-F373428B8F4D}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.967347",
+      "DurationMax": "3.967347",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "398699897",
+        "Language": "SFX",
+        "ShortName": "Seminarraum 1.wav",
+        "Path": "SFX\\Seminarraum 1_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1931915625",
+      "Name": "Play_Seminarraum_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Seminarraum_2",
+      "GUID": "{8C353D23-ED56-440F-80E3-918CDDA3F6F0}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.918367",
+      "DurationMax": "3.918367",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "672668941",
+        "Language": "SFX",
+        "ShortName": "Seminarraum 2.wav",
+        "Path": "SFX\\Seminarraum 2_10C4C929.wem"
        }
       ]
      },
@@ -147,7 +327,7 @@
       "Name": "Play_Stimme_folgen__Hier_bin_ich",
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Play_Stimme_folgen__Hier_bin_ich",
       "GUID": "{EDD4C754-6EE5-459C-A5E5-0E3A3A7C3DC6}",
-      "MaxAttenuation": "1200.000000",
+      "MaxAttenuation": "3000.000000",
       "DurationType": "OneShot",
       "DurationMin": "2.832834",
       "DurationMax": "2.832834",

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	422952694	Play_Treppe			\Default Work Unit\Effects\Play_Treppe	
+

@@ -13,7 +13,7 @@
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-4</Value>
+								<Value>-8</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -58,6 +58,11 @@
 							</ValueList>
 						</Property>
 						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -100,7 +105,7 @@
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-4</Value>
+								<Value>-16</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -134,6 +139,11 @@
 						<Property Name="ReflectionsVolume" Type="Real64">
 							<ValueList>
 								<Value>-9</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -171,6 +181,11 @@
 						<Property Name="ReflectionsVolume" Type="Real64">
 							<ValueList>
 								<Value>-10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -211,7 +226,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-2</Value>
+								<Value>-8</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -249,7 +264,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>-11</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -280,6 +295,11 @@
 				<Sound Name="L_Seite_SEM_1" ID="{96D139B0-71D1-4EC9-AA97-63E83ADF69ED}" ShortID="1060865921">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -311,9 +331,14 @@
 				<Sound Name="Vor dir Auditorium" ID="{783F6F1E-45C1-4219-83E9-E40DCDF4AF0E}" ShortID="793920477">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="ReflectionsVolume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -423,7 +448,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -567,12 +592,12 @@
 						</Property>
 						<Property Name="ReflectionsVolume" Type="Real64">
 							<ValueList>
-								<Value>-12</Value>
+								<Value>-15</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-5</Value>
+								<Value>-12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -605,6 +630,9 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Achtung Treppe, in der Nähe_" ID="{A9E507EE-4219-48A2-AE45-9EF3A74705AA}" ShortID="140569691">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
@@ -628,9 +656,10 @@
 				</Sound>
 				<Sound Name="Seminarraum 1" ID="{6E114A39-9C23-4EFD-B6C4-AA37576D1C95}" ShortID="466498954">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-2</Value>
+								<Value>-8</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -640,6 +669,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+						<Reference Name="ReflectionsAuxSend">
+							<ObjectRef Name="Reflect" ID="{D4E2DDAA-E905-4D58-B713-A15143AF7442}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -656,12 +688,28 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Seminarraum 2" ID="{B6F8BD69-B2B8-4955-9F12-1760CFEE1EFD}" ShortID="492702081">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="ReflectionsVolume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+						<Reference Name="ReflectionsAuxSend">
+							<ObjectRef Name="Reflect" ID="{D4E2DDAA-E905-4D58-B713-A15143AF7442}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -678,12 +726,28 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Folge dem Signal" ID="{BC2FA748-80F9-45F4-B005-B4A5D40F2BD5}" ShortID="602871010">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="ReflectionsVolume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+						<Reference Name="ReflectionsAuxSend">
+							<ObjectRef Name="Reflect" ID="{D4E2DDAA-E905-4D58-B713-A15143AF7442}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -700,12 +764,28 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Greenscreen" ID="{852CFF1B-37BC-4662-9E7E-2785F75C9341}" ShortID="257047229">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="ReflectionsVolume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
+						</Reference>
+						<Reference Name="ReflectionsAuxSend">
+							<ObjectRef Name="Reflect" ID="{D4E2DDAA-E905-4D58-B713-A15143AF7442}" WorkUnitID="{ADF5CF11-4E16-4B96-B289-9868A64C97AA}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

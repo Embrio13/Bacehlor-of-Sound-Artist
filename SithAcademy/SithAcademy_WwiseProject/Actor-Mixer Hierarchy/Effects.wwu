@@ -158,6 +158,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Treppe" ID="{CD5D0B0B-45C2-47BF-BB1D-91FEFB7DC233}" ShortID="675912328">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{76031F91-EDCD-4BE0-AA72-6D1EE5D939BE}"/>
@@ -195,7 +202,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-9</Value>
+								<Value>-12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

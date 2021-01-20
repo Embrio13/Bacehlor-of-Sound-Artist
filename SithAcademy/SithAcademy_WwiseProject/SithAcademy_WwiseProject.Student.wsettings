@@ -129,7 +129,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="Bap6khj3Z0CYI765RSdNsA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="uKn9WR5cJ06MjP+IWDDGqUOkGJGr3IxBnp+D89TG78dHgVFrYQu+SpREx2xy752u7zjYsWbjAEqF3vsi85414A=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="C4DdZqoWhUC1RJqcxw4UewGJI8H/////ikkuZ4pdok6AbkkAZeICqgGJI8H/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="C4DdZqoWhUC1RJqcxw4UewGJzA3/////ikkuZ4pdok6AbkkAZeICqgGJzA3/////"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -141,14 +141,14 @@
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{1AA5114F-83E0-4CC0-BEA2-38D4CB0E910C}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
-				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value="AAAAAABzZHNhAAlm2gEAALBemkXaAQAA8JIRUdoBAAAAAIRF2gEAAPCSEVHaAQAAEKSWRdoBAAAw2wxm2gEAAOC+DGbaAQAAIV0u6fx/AACwXppF2gEAAPCSEVHaAQAAEKSWRdoBAAAw2wxm2gEAAGAHCmbaAQAAIV0u6fx/AADgvgxm2gEAAA=="/>
+				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value="AAAAAABzZHNhAG3+1AIAABik0vTUAgAAeE9t/tQCAAAAAIzi1AIAAFiCEu7UAgAAEKTS9NQCAAAhXZy2/38AAAIAAAAAAAAAAACV4tQCAADwQ6Ti1AIAAFCw+u3UAgAAABWe4tQCAACQvAv11AIAAHBPbf7UAgAAIV2ctv9/AABwT23+1AIAAA=="/>
 				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{D6AD13E7-1165-46DC-A7DA-C49C07138F87}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{B7A6EF50-8F01-4DC9-9885-2CD1C5A92BAF}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{AB2CF45C-1EB8-4D33-A9A7-07FDC568DA68}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
